@@ -1,0 +1,1402 @@
+[
+  {
+    "html": "<div class=\"content\">\\(\\subsetneq\\) è meglio di \\(\\subsetneqq\\), non trovi?</div>",
+    "date": "25/08/2018, 13:04",
+    "position": 1
+  },
+  {
+    "html": "<div class=\"content\">Leggi qui <!-- m --><a class=\"postlink\" href=\"https://en.wikipedia.org/wiki/Rank_of_an_abelian_group\">https://en.wikipedia.org/wiki/Rank_of_an_abelian_group</a><!-- m --><br><br>la nozione di rango si usa solitamente per gruppi abeliani finitamente generati, tuttavia con un po' di fantasia la si  può adattare a gruppi non f.g. (per esempio, a $QQ$)</div>",
+    "date": "23/08/2018, 08:22",
+    "position": 2
+  },
+  {
+    "html": "<div class=\"content\">Beh, (ii) è detto in modo molto confuso, non si capisce cosa hai trovato alla fine.</div>",
+    "date": "19/08/2018, 14:51",
+    "position": 3
+  },
+  {
+    "html": "<div class=\"content\">E' una ricorrenza lineare molto semplice: <a href=\"http://nms.lu.lv/wp-content/uploads/2016/04/21-linear-recurrences.pdf\" class=\"postlink\">qui</a> c'è spiegata una procedura per risolverla; devi sostanzialmente trovare le radici di<br>\\[<br>\\lambda^3 -2\\lambda^2 -9\\lambda+18<br>\\] (è facile, questo polinomio si fattorizza come \\((\\lambda-2)(\\lambda-3)(\\lambda+3)\\)) e imporre che una combinazione lineare delle successioni \\(n\\mapsto 2^n, n\\mapsto 3^n, n\\mapsto (-3)^n\\) soddisfi alle condizioni iniziali che ti sono state date.<br> Con questa soluzione, verifichi se le disuguaglianze che ti propongono sono vere o false.</div>",
+    "date": "19/08/2018, 14:29",
+    "position": 4
+  },
+  {
+    "html": "<div class=\"content\">Non ce ne sono.<br><dl class=\"codebox\">\n<dt>Codice:</dt>\n<dd><code>u = set(filter(lambda x: (30 * x)  % 900 == 0, range(900)))<br>v = set(filter(lambda x: (x ** 30) % 900 == 1, range(900)))<br>u.intersection(v)<br>&gt;&gt;&gt; set([])<br></code></dd>\n</dl>\n</div>",
+    "date": "19/08/2018, 14:11",
+    "position": 5
+  },
+  {
+    "html": "<div class=\"content\">Se \\(f : V \\to W\\) è una funzione tra \\(K\\)-spazi vettoriali, essa si dice omogenea di grado \\(d\\) se per ogni \\(\\lambda \\in K\\) si ha \\(f(\\lambda v) = \\lambda^d f(v)\\), per un intero \\(d\\in \\mathbb N\\) che si dice \"grado\" della funzione omogenea.<br><br>Puoi divertirti a dimostrare che se \\(V=W=K[X_0,\\dots, X_n]\\) è un anello di polinomi nelle \\(n+1\\) indeterminate \\(X_0,\\dots, X_n\\) allora l'insieme \\(K[\\underline X]_\\text{h}\\) delle funzioni polinomiali omogenee \\(V \\to K\\) si identifica all'insieme dei polinomi omogenei, ossia di quei polinomi ogni monomio dei quali ha grado esattamente \\(d\\), al variare di \\(d\\in \\mathbb N\\).<br><br>Mostra anche che esiste una coppia di funzioni<br><br>- affineizzazione: \\({\\bf a}: K[\\underline X]_\\text{h} \\to K[T_1,\\dots,T_n]\\) che manda \\(p\\) in \\(p(1,T_1, \\dots, T_n)\\)<br>- omogeneizzazione: \\({\\bf h}:K[T_1,\\dots, T_n]\\to K[\\underline X]_\\text{h}\\) che manda \\(q\\) in \\(X_0^{\\deg q} q\\big(\\frac{X_1}{X_0},\\dots, \\frac{X_n}{X_0}\\big)\\).</div>",
+    "date": "19/08/2018, 13:59",
+    "position": 6
+  },
+  {
+    "html": "<div class=\"content\">E' molto più sensato ed istruttivo che tu posti un esempio di serie che devi studiare, poi si ragiona su quella.</div>",
+    "date": "17/08/2018, 17:19",
+    "position": 7
+  },
+  {
+    "html": "<div class=\"content\">Sì, certo; ora lo preciso.</div>",
+    "date": "17/08/2018, 09:28",
+    "position": 8
+  },
+  {
+    "html": "<div class=\"content\">Siccome c'è un certo interesse a fare esercizi sugli spazi metrici...<br><br>Mostrate che se $(X,d)$ è uno spazio metrico separabile, allora ogni catena<br>\\[<br>U_0 \\subseteq U_1 \\subseteq\\cdots \\subseteq U_\\alpha\\subseteq \\cdots<br>\\] di aperti non vuoti (ossia ogni funzione monotòna $\\gamma \\to Op(X)$, dove $\\gamma$ è un ordinale e $Op(X)$ il poset degli aperti di $X$) ha immagine al più numerabile.</div>",
+    "date": "17/08/2018, 00:31",
+    "position": 9
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote><div>\n<cite>Lèo ha scritto:</cite>Come ci sei arrivato?</div></blockquote>\n<br>Ha chiesto al fantasma di Lebesgue.<br><br>Come vuoi che ci sia arrivato? Hai dei dati, devi far tornare un conto, dài dei calci al problema finché non risponde. <img src=\"./images/smilies/003.gif\" alt=\":-D\" title=\"\"><br><br>Più seriamente: forse una isometria tra $[0,1]$ e $[a,b]$ induce \"in qualche modo\" una isometria tra \\(C([0,1])\\) e \\(C([a,b])\\).</div>",
+    "date": "14/08/2018, 19:55",
+    "position": 10
+  },
+  {
+    "html": "<div class=\"content\">Tu sei il fisico, no? <br><br>Fai tutto fino a IX, lascia perdere la teoria di Galois e la teoria dei campi (non è la stessa teoria dei campi dei fisici, come avrai notato). Anelli e moduli sono molto importanti (è esattamente il tipo d'algebra che vi serve, e che si ostinano a non insegnarvi), ma per impararla c'è tempo.<br><br>Non azzardarti nemmeno per sogno a evitare di imparare la differenza tra la rappresentazione di un gruppo e la _sede_ di quella rappresentazione. Se fai fisica e salti il capitolo sulle azioni, e me ne accorgo, vengo a cercarti a casa e ti metto personalmente le mani in faccia. <img src=\"./images/smilies/icon_syda.gif\" alt=\":heart:\" title=\"Heart\">\n</div>",
+    "date": "14/08/2018, 19:54",
+    "position": 11
+  },
+  {
+    "html": "<div class=\"content\">E' una buona idea familiarizzare con i quozienti, oppure non capirai la nozione di completamento. <br><br>Il completamento metrico di uno spazio metrico \\((X,d)\\) si ottiene da un quoziente dello spazio delle sue successioni di Cauchy su $X$, $Cauchy(X)$. Il quoziente che devi fare è rispetto alla relazione di equivalenza che dice che due successioni \\({\\bf x}, {\\bf y}\\) sono simili, \\({\\bf x} \\approx {\\bf y}\\), se e solo se la successione \\(\\{d(x_n, y_n)\\mid n\\in \\mathbb N\\}\\) è infinitesima.<br><br>$Zero(X)$ è la relazione che ho appena descritto. (chi è, ad esempio, quando $X$ è lo spazio metrico dei razionali?)<br><br>Qui ci sono delle informazioni in più: <!-- m --><a class=\"postlink\" href=\"https://proofwiki.org/wiki/Completion_Theorem_(Metric_Space\">https://proofwiki.org/wiki/Completion_T ... tric_Space</a><!-- m -->)<br><br>In particolare, nota che il completamento di $X$ ha la seguente proprietà universale: ogni volta che $f : X \\to Y$ è una mappa di spazi metrici e $Y$ è completo, esiste un'unica estensione di $f$ ad una mappa di spazi metrici $\\bar f : \\overline X \\to Y$.</div>",
+    "date": "14/08/2018, 19:50",
+    "position": 12
+  },
+  {
+    "html": "<div class=\"content\">Il completamento di $X$ è il quoziente \\(Cauchy(X)/Zero(X)\\); ora, se $X$ è discreto...</div>",
+    "date": "14/08/2018, 15:41",
+    "position": 13
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote><div>\n<cite>Lèo ha scritto:</cite>Ottimo. Mi ero convinto però che nell'ipotesi \\(\\displaystyle x_n, y_n \\) di Cauchy si possa dimostrare che \\(\\displaystyle a_n \\) sia convergente. E' una cosa vera o me la sto sognando?</div></blockquote>\n<br>Beh, \\(a_n\\) converge a \\(d(x,y)\\) quando \\(x_n\\to x, y_n\\to y\\), e le convergenti sono di Cauchy; ma le Cauchy non sono convergenti (devi supporre di stare in uno spazio completo). Quindi può benissimo essere che (ad esempio) \\(x_n, y_n\\) non convergano in \\(X\\), e siano di Cauchy; allora \\(a_n\\) è di Cauchy ma non converge nell'insieme di valori assunti dalla metrica.<br>Penso che il massimo che puoi dire è che <span style=\"font-style: italic\">nel completamento</span> la metrica estesa \\(\\overline d : \\overline{X}\\times\\overline{X}\\to [0,\\infty)\\) è tale che \\(a_n \\xrightarrow{n\\to \\infty} \\overline d(x,y)\\) dove \\(x,y\\) sono i limiti di \\(x_n, y_n\\) che hai aggiunto in \\(\\overline X\\).</div>",
+    "date": "14/08/2018, 13:46",
+    "position": 14
+  },
+  {
+    "html": "<div class=\"content\">Inizia scrivendo a cosa corrisponde \\(W^\\perp\\) e come puoi rappresentarlo equazionalmente. Magari è una buona idea capire chi è questo sottospazio quando $V$ sono le matrici $2\\times 2$, e non $3\\times 3$: forse funziona in maniera simile in ogni dimensione <img src=\"./images/smilies/001.gif\" alt=\":-)\" title=\"Happy\">\n</div>",
+    "date": "14/08/2018, 13:36",
+    "position": 15
+  },
+  {
+    "html": "<div class=\"content\">Sì, c'è qualche modulo qua e là (chi è più grande tra $d_n$ e $d_m$?) ma l'idea è questa.</div>",
+    "date": "13/08/2018, 18:52",
+    "position": 16
+  },
+  {
+    "html": "<div class=\"content\">Per il terzo, il punto è proprio che per ogni $\\epsilon &gt; 0$ un numero finito di elementi della successione stanno fuori da una palla di raggio $\\epsilon$, e tutti gli altri stanno dentro. Allora la successione è tutta dentro l'unione di un numero finito di palle, e puoi prendere $M =$ il diametro di questa unione di palle.</div>",
+    "date": "13/08/2018, 17:16",
+    "position": 17
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote><div>\n<cite>Lèo ha scritto:</cite><span style=\"font-style: italic\">(ii) Se \\(\\displaystyle x_n, y_n \\) sono successioni convergenti nello spazio \\(\\displaystyle (X,d) \\), mostrare che \\(\\displaystyle a_n=\\mathrm{d}(x_n,y_n) \\) converge. Cosa si può dire se invece \\(\\displaystyle x_n, y_n \\) sono di Cauchy?<br></span><br>Supponendo \\(\\displaystyle x_n\\to x, y_n\\to y  \\), considerato che \\(\\displaystyle \\mathrm{d}(x_n,y_n)\\le\\mathrm{d}(x_n,x)+\\mathrm{d}(x,y)+\\mathrm{d}(y,y_n) \\), si ha \\(\\displaystyle \\mathrm{d}(x_n,y_n)-\\mathrm{d}(x,y)\\le \\mathrm{d}(x_n,x)+\\mathrm{d}(y_n,y)\\le \\epsilon \\), che dimostra la convergenza di \\(\\displaystyle a_n \\) a \\(\\displaystyle \\mathrm{d}(x,y) \\). Fin qui non dovrebbero esserci problemi! Il problema invece sorge nella seconda domanda; sono convinto che ci sia ugualmente convergenza ma non riesco a farlo vedere.<br>\n</div></blockquote>\n<br>Guarda: detto $d_n := d(x_n,y_n)$, per la disuguaglianza triangolare si ha<br>\\[<br>d_n \\le d(x_n, x_m) + d_m + d(y_m,y_n)<br>\\] e ora che si fa?</div>",
+    "date": "13/08/2018, 17:05",
+    "position": 18
+  },
+  {
+    "html": "<div class=\"content\">Ho visto che hai postato su MSE questa domanda, hai risolto ora?</div>",
+    "date": "13/08/2018, 16:59",
+    "position": 19
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote class=\"uncited\"><div>conoscendo solo la completezza della retta reale questo ragionamento non si può fare, perché non credo sia tanto banale dedurre la completezza dello spazio euclideo di dimensione arbitraria da quello di dimensione uno.</div></blockquote>\n<br>E', invece, abbastanza banale dimostrare che se \\(\\{(X_i,d_i)\\mid i = 1,..,n\\}\\) è una famiglia finita di spazi metrici completi, completo è anche il prodotto \\(\\prod_{i=1}^n X_i\\) rispetto alla metrica prodotto \\(\\Pi d\\) che manda \\(\\vec x, \\vec y\\) in \\(\\max\\{d_i(x_i, y_i)\\}\\) (\\(\\Pi d\\) non è l'unica scelta per una metrica su \\(\\prod X_i\\), ma le metriche ottenute negli altri modi saranno equivalenti a questa). E non è finita qui! Facendo un po' più di fatica si riesce anche a dimostrare qualcosa nel caso di un prodotto infinito.</div>",
+    "date": "13/08/2018, 16:59",
+    "position": 20
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote class=\"uncited\"><div>E l'insieme dei numeri naturali cos'è?</div></blockquote>\n<br>E' un NNO nel topos dove vivi. <!-- m --><a class=\"postlink\" href=\"https://en.wikipedia.org/wiki/Natural_number_object\">https://en.wikipedia.org/wiki/Natural_number_object</a><!-- m --><br><br>I teoremi si fanno con gli assiomi <img src=\"./images/smilies/001.gif\" alt=\":-)\" title=\"Happy\">\n</div>",
+    "date": "13/08/2018, 12:54",
+    "position": 21
+  },
+  {
+    "html": "<div class=\"content\">In generale puoi fare così: se $X_0$ è un insieme (nel tuo caso $X_0 = \\{e\\}$) definisci<br>\\[<br>X_{n,s} := \\{s(x) \\mid x\\in X_{n-1}\\} \\qquad\\qquad \\overline{X}^s := \\bigcup_{n\\ge 0} X_n<br>\\] ad assicurarti che ora \\(\\overline{X}^s\\) non contenga altro che gli elementi che hai deciso tu è la sua definizione, e il fatto che l'unione di insiemi \\(\\bigcup_{n\\ge 0} A_n\\) soddisfa una proprietà universale: è l'insieme \"più piccolo in assoluto\" che contiene tutti gli elementi che hai prescritto.</div>",
+    "date": "13/08/2018, 11:57",
+    "position": 22
+  },
+  {
+    "html": "<div class=\"content\">Sei familiare col concetto di proprietà universale?</div>",
+    "date": "13/08/2018, 11:52",
+    "position": 23
+  },
+  {
+    "html": "<div class=\"content\">Anche se non l'hai detto, deduco che $C(I)$ ha la norma \\(d(f,g) = \\max_{t\\in I} |f(t) - g(t)|\\). Se è così, il minimo che cerchi al punto ii non esiste, mi sembra, perché chiaramente \\(d(\\cos,\\sin)=1\\), e quindi \\(\\cos \\in B(\\sin, 1+\\alpha[\\) per ogni $\\alpha &gt; 0$.</div>",
+    "date": "12/08/2018, 23:22",
+    "position": 24
+  },
+  {
+    "html": "<div class=\"content\">Non è un suggerimento, ti ho risposto <img src=\"./images/smilies/001.gif\" alt=\":-)\" title=\"Happy\"> <br><br>No, quando scrivi \\(\\text{End}_S(P)\\) non stai necessariamente intendendo \\(\\text{End}({}_SP)\\).<br><br>E' necessario considerare \\(R^\\text{op}\\) perché l'azione destra è controvariante.</div>",
+    "date": "12/08/2018, 18:23",
+    "position": 25
+  },
+  {
+    "html": "<div class=\"content\">$P$ è un $R$-modulo destro se esiste un'azione destra di $R$ su $P$, ovvero un omomorfismo di anelli \\(R^\\text{op}\\to \\text{End}_S(P)\\); quando hai trovato questo, hai finito. Idem per $Q$.</div>",
+    "date": "12/08/2018, 17:12",
+    "position": 26
+  },
+  {
+    "html": "<div class=\"content\">Cosa non capisci di questa dimostrazione? Non riesci a riempire da sola i pezzi mancanti? In effetti non si tratta nemmeno di riempire dei buchi la dimostrazione è proprio quella. Cosa non va?</div>",
+    "date": "12/08/2018, 16:36",
+    "position": 27
+  },
+  {
+    "html": "<div class=\"content\">In effetti il magma vuoto <a href=\"https://proofwiki.org/wiki/Magma_is_Submagma_of_Itself\" class=\"postlink\">è un sottomagma di ogni magma</a>; ma dovrei pensare se \\(\\varnothing\\) è o meno un oggetto iniziale nella categoria dei magmi (il magma libero sull'insieme vuoto deve essere tale oggetto, e mi sembra che questo abbia esattamente un elemento, la parola vuota).</div>",
+    "date": "12/08/2018, 11:40",
+    "position": 28
+  },
+  {
+    "html": "<div class=\"content\">Ciò che dici non è molto chiaro perché non è sicuro cosa significhi \"simmetrizzabile\" e \"regolare\" (per esempio, io sono convinto che simmetrizzabile significhi semplicemente invertibile, e regolare cancellativo da ambo i lati).<br><br>La pagina di wikipedia sui <a href=\"https://en.wikipedia.org/wiki/Semigroup_with_three_elements\" class=\"postlink\">semigruppi con tre elementi</a> lista, comunque, tutte le possibilità per una tale struttura, devi solo guardare quella che conviene a te.</div>",
+    "date": "12/08/2018, 11:21",
+    "position": 29
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote><div>\n<cite>gugo82 ha scritto:</cite>innanzitutto essere gentili con l'utenza;<br>\n</div></blockquote>\n<br>Le parole di lode sono un segno di scarsa stima, nell'apprendimento dello Zen; gli allievi più promettenti sono quelli che il maestro prende più spesso a bastonate.</div>",
+    "date": "12/08/2018, 11:11",
+    "position": 30
+  },
+  {
+    "html": "<div class=\"content\">Sì, ho capito un po' meglio; non so la risposta.</div>",
+    "date": "11/08/2018, 14:59",
+    "position": 31
+  },
+  {
+    "html": "<div class=\"content\">Nella mia testa, l'assioma di regolarità serve ad assicurare che ogni insieme di ordinali che possiede una proprietà $P$ ammette un elemento minimo.<br><br>Detto questo, non ho capito molto bene cosa vuoi fare. L'infinità di costanti che hai aggiunto in (1) è esattamente (l'insieme dei valori del)la funzione che contraddice l'assioma di regolarità.</div>",
+    "date": "11/08/2018, 10:36",
+    "position": 32
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote><div>\n<cite>gmorkk ha scritto:</cite>cosa pensi riguardo al fatto che la Matematica e' pur sempre un oggetto di questo mondo e quindi, in definitiva, deve poter obbedire alle sue leggi?<br><br>Tutto cio' che c'e' in questo universo (fino a prova contraria, certo) deve sottostare a dei principi fisici. Non pensi che, in qualche modo, pure la Matematica essendo un oggetto di questo mondo deve sottostare a queste regole?<br>\n</div></blockquote>\n<br>La lingua italiana è un oggetto di questo mondo: \"sottostà alle regole di questo mondo\"? Nessun senso in cui la risposta è affermativa è definiente della locuzione \"la lingua italiana\", perché la riduzione della lingua a insieme di suoni composti da un apparato fonatorio in una certa sequenza, e non in un'altra, non sta spiegando \"cosa è\" la lingua (in cosa è diversa da altre, che ammetterebbero una definizione simile? Per spiegarlo, certamente si può ricorrere a modelli, che saranno modelli <span style=\"font-style: italic\">prevalentemente o completamente mentali</span>). In poche parole, la grana delle leggi fisiche a cui una lingua è obbligata a rispondere in quanto \"oggetto\" del mondo fisico è troppo larga per lasciar passare la sua sostanza.</div>",
+    "date": "10/08/2018, 19:32",
+    "position": 33
+  },
+  {
+    "html": "<div class=\"content\">Sì ma, come sempre in algebra lineare, esiste un metodo di evitare i conti.<br><br>Pulendo un po' la domanda ti accorgerai che devi trovare quei vettori di $RR^4$ che formano la controimmagine mediante $T$ del vettore $(31,3,-43)$; siccome \\(T : M_{2,2}(\\mathbb R) \\to \\mathbb R_{\\le 2}[t]\\) si rappresenta come una matrice $3\\times 4$, essa non può essere iniettiva (deve avere nucleo non banale per la formula delle dimensioni); lo trovi facilmente, e i vettori che ti interessano sono \\(v + \\ker T\\), dove $v$ è una qualsiasi soluzione particolare del sistema lineare che vai risolvendo (puoi porre, per esempio, $a=0$).</div>",
+    "date": "10/08/2018, 00:17",
+    "position": 34
+  },
+  {
+    "html": "<div class=\"content\">Cos'è $L(A)$?</div>",
+    "date": "09/08/2018, 20:57",
+    "position": 35
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote><div>\n<cite>otta96 ha scritto:</cite>Questo l'ho capito, ma faccio un rilancio:<br>3.bis) Su ogni insieme infinito si può porre una struttura di BA atomica?<br>3.tris) Su ogni insieme infinito si può porre una struttura di BA completa?</div></blockquote>\n<br>E' sufficiente, ma probabilmente non necessario, che sia vero che \\(\\bf AtomBAlg\\) e \\(\\bf CompBAlg\\) sono categorie riflessive di \\(\\bf Set\\). Questo equivale a chiedere: se $X$ è un insieme e $B$ un'algebra di Boole atomica (resp., completa), esiste un'algebra di Boole atomica (resp., completa) che generi una biiezione<br>\\[<br>{\\bf AtomBAlg}(FX,B)\\cong{\\bf Set}(X, |B|)<br>\\] (resp. <br>\\[<br>{\\bf CompBAlg}(FX,B)\\cong{\\bf Set}(X , |B|))<br>\\] che sia naturale in ambo gli argomenti?</div>",
+    "date": "09/08/2018, 19:17",
+    "position": 36
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote class=\"uncited\"><div>Sembra la dimostrazione che conosco io del caso delle BA finite, ma purtroppo quella dimostrazione non riesco a capire se si adatta al caso delle CABA.</div></blockquote>\n<br>Quell'argomento non usa da nessuna parte la cardinalità: ogni algebra di Boole finita è completa, per un motivo banale, ma l'unica proprietà che ti serve a definire la counità $P(\\alpha B)\\to B$ è la completezza di $B$.<br><br><blockquote class=\"uncited\"><div>Mi puoi spiegare questo fatto più in dettaglio?</div></blockquote>\n<br>Il supporto dello spazio di Stone è l'insieme degli ultrafiltri su $B$, mi sembra che si possa dimostrare con questa definizione che ci sono almeno tanti ultrafiltri quanti elementi (a posteriori, siccome $B\\cong PA$, questo è evidente: c'è un ultrafiltro dei sottoinsiemi di $A$ che non contengono $b$.<br><blockquote class=\"uncited\"><div>Nemmeno questo ho capito…</div></blockquote>\n<br>Come è definito lo spazio di Stone di un'algebra di Boole? Come è definita la corrispondenza tra elementi di $B$ e clopen di $SB$?</div>",
+    "date": "09/08/2018, 19:10",
+    "position": 37
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote><div>\n<cite>Giopogip ha scritto:</cite>Si può introdurre qualcosa di reale nella matematica? Per esempio una sedia. A mio parere possiamo farlo sia scomponendo l'oggetto per parti numeriche, sia accettarlo come entità numerica essa stesso.</div></blockquote>\n<br>Ho l'impressione non si possa attaccare questo problema senza un terminologia specifica e una competenza almeno basilare in ciò che è lo stato dell'arte attuale in ontologia e filosofia del linguaggio; l'esito di una tale operazione (che è anche mal definita) sarebbe quello di...?<br><br><blockquote class=\"uncited\"><div>Quindi una seggiola è \"matematizzabile\" tramite le sue coordinate spaziali. Ma come faccio a distinguere univocamente un oggetto dall'altro?</div></blockquote>\n<br>Dipende se <span style=\"font-style: italic\">vuoi</span> farlo (due sedie in istanti diversi sono sedie diverse?), o se ti conviene farlo, o se è coerente con la fenomenologia farlo (quanti elettroni distinti esistono nell'universo?). <br><br>La smettiamo, una buona volta, di cercare di far aderire il linguaggio matematico all'evidenza sensoria? La fisica, le sue regole di condotta, e il modo in cui utilizza la matematica, sono una cosa; tutt'altra cosa è la matematica, spogliata dal suo rapporto coi fenomeni e i suoi campi di applicabilità: la matematica è un evento linguistico, cerebrale, ispirato alla fenomenologia, ma irriducibile alla fenomenologia; e la fenomenologia è un evento materiale, sensorio, ispirato (d)alla dimensione cerebrale ma irriducibile ad esso. <br><br>Pensare il contrario è ridurre la linguistica (lo studio delle regole mediante le quali semantica e sintassi creano significato) alla lingua usata dai parlanti, che è invece un oggetto vivo, per cui abbiamo una precognizione intuitiva. Una dimensione vive grazie all'altra, inestricabilmente, ma la natura del linguaggio è maggiore della somma delle sue componenti. Per usare un'altra metafora pratica, il <a href=\"https://en.wikipedia.org/wiki/Japanese_architecture\" class=\"postlink\">kenchiku</a> si basa su diverse nozioni di geometria elementare; del resto, studiare quelle prima di prendere in mano un nokogiri è una strategia, eufemisticamente, subottimale.<br><br>Trovo anacronistico rimanere ancorati a una concezione del sapere scientifico (e soprattutto del suo statuto ontologico) che è ingenua, seicentesca; farlo anche dopo la crisi dei fondamenti, dopo lo strutturalismo, dopo il post-strutturalismo, è semplicemente imperdonabile. E' passato un secolo, e i paradigmi con cui definiamo le discipline sono cambiati almeno tre volte (con Godel/Russell, con la Meccanica Quantistica, e con Mac Lane). Aggiornàtevi, voi che studiate filosofia; apritelo un libro di algebra.<br><br><blockquote class=\"uncited\"><div>Concorderete con me dicendo che l'idea di io è intuitiva per il semplice fatto che sentiamo di esistere e ci deve essere un io che sente necessariamente.</div></blockquote>\n<br>No; non ho idea di che cosa tu stia parlando. Né ce l'hanno, questa idea, un sacco di culture diverse da quella grecolatina di cui sei imbevuto; per la cosmogonia del buddhismo Mahayana l'io è un fenomeno illusorio atto a perpetrare la samsara, è un costrutto psicologico volto a continuare l'errare tra le rinascite; meno elegantemente, diversi secoli dopo, Pascal (Pensées 455) dice che \"Le moi est haïssable\" (\"l'io è detestabile\"). Non è quindi possibile che, ancora prima della poca fondatezza del ponte che unisce i fenomeni di autocoscienza che chiami \"io\" al linguaggio matematico, sia poco fondata l'esistenza dell'io? Hai considerato la possibilità che non vi sia \"necessità logica\" di una struttura che organizzi la tua sensazione di esistere, e che sovraccaricare l'intelletto di postulazioni sulla sua natura o sull'origine. Non è un'idea nuova: la speculazione sull'autocoscienza è simile, sia per il Mahayana che per la moderna psicologia, a certi fenomeni nevrotici: controllare di avere spento il gas (così come rispondere a gentaglia su un forum di matematica) è un meccanismo ponderato di gestione della realtà finché è fatto a piccole dosi, quando eccede<span class=\"hidden-text hidden-text-active\" title=\"Testo visibile solo ai moderatori e all'autore del post, perchè estraneo all'argomento della discussione oppure inappropriato\"><img class=\"eye\" src=\"https://www.matematicamente.it/forum/styles/style-matheme_se/theme/images/no-eye.png\">Testo visibile solo ai moderatori e all'autore del post</span> diventa una patologia.<br><br><blockquote class=\"uncited\"><div>Che questo sia o non sia manifestazione di processi biologici non ci interessa molto, interessante di più la percezione dell'se. possiamo dire che le percezioni sono rappresentabili in modo matematico?</div></blockquote>\n<br>La \"matematica\" è l'insieme delle regole che permette al linguaggio di esistere; se unisci ciò al fatto che \"i limiti del mondo sono i limiti del linguaggio\", avrai la risposta.</div>",
+    "date": "02/08/2018, 10:16",
+    "position": 38
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote><div>\n<cite>Indrjo Dedej ha scritto:</cite>Allora... onde evitare fraintendimenti, provo a rispiegarmi.</div></blockquote>\n<br>Brevemente: sì, il problema fondamentale di questa conversazione è la (volontaria o involontaria) confusione della matematica come corpo di conoscenze relative al contesto socio-culturale di chi si pone questa domanda, e la natura degli oggetti matematici come dati a priori (stabilire se tale cogenza indipendente dalla raffigurazione esiste, è parte del problema).<br><br>Per me, per ovvi motivi, la matematica si può definire concisamente come la totalità degli asserti che tracciano relazioni tra gli indefiniti di \"numero\", \"forma\" e \"inferenza\". Alla prima classe afferiscono discipline monolettiche come la teoria della misura, l'aritmetica, la combinatoria; alla seconda, la geometria e la topologia; alla terza, le logiche.</div>",
+    "date": "02/08/2018, 09:43",
+    "position": 39
+  },
+  {
+    "html": "<div class=\"content\">Sì; è infatti abbastanza banale (ma piuttosto istruttivo sul concetto di verità vuota) formalizzare il fatto che non esistono funzioni \\(X\\to \\varnothing\\) se $X$ non è vuoto.<br><br>Variazione su questo tema: perché le strutture algebriche sono sempre, per definizione, insiemi non vuoti, e le strutture spaziali (insiemi, spazi topologici, spazi di misura...) no?</div>",
+    "date": "01/08/2018, 21:24",
+    "position": 40
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote><div>\n<cite>gugo82 ha scritto:</cite>@Vulplasir: Ma allora, invece di spararle grosse su argomenti che non conosci minimamente, non sarebbe meglio se non postassi? <img src=\"./images/smilies/icon_wink.gif\" alt=\":wink:\" title=\"Wink\">\n</div></blockquote>\n<br><div class=\"off-topic-switcher\"><span>Testo nascosto, perchè contrassegnato dall'autore come fuori tema. Fai click in quest'area per vederlo.</span></div>\n<div class=\"off-topic\">La stessa cosa che ho detto io (a meno di un'opportuna omotopia tra i due commenti).<br><br><br><br>...Ma quindi aspetta, se metto in ot la risposta, posso offendergli la sorella?</div>\n</div>",
+    "date": "01/08/2018, 21:14",
+    "position": 41
+  },
+  {
+    "html": "<div class=\"content\">Il motivo è che la sintassi tra dollari viene catturata e compilata da una cosa che non è TeX; usare le back-tonda, o meglio ancora la tag [tex], invece, dà il risultato che ti aspetti (la tag [tex] supporta anche il package xy, che disegna diagrammi commutativi; sospetto che tra un po' ti servirà).</div>",
+    "date": "01/08/2018, 21:10",
+    "position": 42
+  },
+  {
+    "html": "<div class=\"content\">Sì.<br><br>La funzione vuota è una funzione onestissima, e, in effetti, l'insieme vuoto ha la proprietà duale: per ogni insieme $X$, esiste un'unica funzione \\(\\varnothing \\to X\\).<br><br>Il motivo è semplice: la definizione di funzione $f : A\\to B$ dice che essa è un sottoinsieme di $A\\times B$ tale che $a\\in A \\Rightarrow \\exists! b\\in B : (a,b)\\in f$. Quando $A$ è vuoto, l'antecedente è falso, e l'implicazione è vera. <br><br>Alternativamente, l'unico sottoinsieme di \\(\\varnothing \\times X = \\varnothing\\) è \\(\\varnothing\\) stesso, e questa relazione è una funzione; del resto questa è una funzione per lo stesso fenomeno di <a href=\"https://en.wikipedia.org/wiki/Vacuous_truth\" class=\"postlink\">verità vuota</a>.</div>",
+    "date": "01/08/2018, 20:49",
+    "position": 43
+  },
+  {
+    "html": "<div class=\"content\"><span class=\"hidden-text hidden-text-active\" title=\"Commento non pertinente alla discussione\"><img class=\"eye\" src=\"https://www.matematicamente.it/forum/styles/style-matheme_se/theme/images/no-eye.png\">Testo visibile solo ai moderatori e all'autore del post</span></div>",
+    "date": "01/08/2018, 17:11",
+    "position": 44
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote><div>\n<cite>gugo82 ha scritto:</cite>Una parola buona per tutti, come al solito... <img src=\"./images/smilies/icon_lol.gif\" alt=\":lol:\" title=\"Laughing\">\n</div></blockquote>\n<br>Mi ha stupito che lo parlasse così male, tutto qui; in fondo, è un matematico giovane e geniale che vive all'estero da molti anni, non ha mica studiato a [¹] per poi rimanerci per sempre <img src=\"./images/smilies/icon_biggrin.gif\" alt=\":D\" title=\"Very Happy\"> <br><br>[¹] Qui metto una wildcard: ognuno avrà la sua città preferita in cui relegare i matematici perdenti.</div>",
+    "date": "01/08/2018, 16:06",
+    "position": 45
+  },
+  {
+    "html": "<div class=\"content\">$Y_{X,P} = PXP^{-1}$ è quell'unica matrice invertibile tale che $PX=YP$. Siccome date $X,P$ puoi sempre trovare $Y$ tale che $PX=YP$ (basta prendere la suddetta $Y_{X,P}$), SL è normale in GL</div>",
+    "date": "01/08/2018, 15:48",
+    "position": 46
+  },
+  {
+    "html": "<div class=\"content\">Scholze telefonatissimo invece &lt;3</div>",
+    "date": "01/08/2018, 15:16",
+    "position": 47
+  },
+  {
+    "html": "<div class=\"content\">Ha un inglese imbarazzante, lol</div>",
+    "date": "01/08/2018, 15:15",
+    "position": 48
+  },
+  {
+    "html": "<div class=\"content\">No, chiaramente è giusto. E allora?</div>",
+    "date": "01/08/2018, 15:06",
+    "position": 49
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote><div>\n<cite>galles90 ha scritto:</cite>dove sbaglio?</div></blockquote>\n<br>Sbagli a non capire cosa vuoi dire. Cosa vuoi dire, quindi?</div>",
+    "date": "01/08/2018, 12:25",
+    "position": 50
+  },
+  {
+    "html": "<div class=\"content\">Perché $a_0$ è messo a parte? E perché l'indeterminata è un pallino?</div>",
+    "date": "01/08/2018, 10:21",
+    "position": 51
+  },
+  {
+    "html": "<div class=\"content\">Se $P$ è a coefficienti reali, le sue radici complesse si presentano a coppie, perché (come conseguenza di quel che enunci) $P(z)=0 \\iff P(\\bar z)=0$. Se i coefficienti di $P$ sono complessi, come dici, $\\bar P(\\bar z)=0\\iff P(z)=0$. Che problema c'è in questo?</div>",
+    "date": "01/08/2018, 09:41",
+    "position": 52
+  },
+  {
+    "html": "<div class=\"content\">E' il testo del problema che, scritto così, non significa niente: cosa vuol dire \"combinazioni degli studenti in 2 gruppi\"? Si sono già seduti o no? Sarebbe stato molto piu chiaro dire \"in quanti modi si possono sedere blah blah blah\"?<br><br>Ma forse sono io che non capisco più il linguaggio naturale e questi esercizi artefatti per partire da un esempio \"concreto\" e applicare la formula \"giusta\" mi fanno venire il prurito.</div>",
+    "date": "31/07/2018, 23:52",
+    "position": 53
+  },
+  {
+    "html": "<div class=\"content\">In una plotone ci sono 15 soldati; 12 sono neri, gli altri sono bianchi. Quante sono le possibili combinazioni di soldati in due gruppi, uno fatto solo da neri e uno fatto solo da bianchi?<br><br>(con le etnie, di questi tempi, ci si capisce meglio)</div>",
+    "date": "31/07/2018, 23:43",
+    "position": 54
+  },
+  {
+    "html": "<div class=\"content\">Il problema è che o parliamo di (e con la) matematica, o questo discorso diventa quel che è per i filosofi del linguaggio: fuffa montata ad arte per sembrare sensata (a tal proposito, ti consiglio di farti due risate con \"Essere ed evento\" di A. Badiou).</div>",
+    "date": "31/07/2018, 18:30",
+    "position": 55
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote><div>\n<cite>marco2132k ha scritto:</cite>Ciò che qui invece non capisco è perché definire la topologia prodotto come quella meno fine tra quelle che rendono continue le \\(p_\\alpha\\), equivalga a dire che i \\(p_\\alpha^{-1}(U_\\alpha)\\) formino una prebase.<br>\n</div></blockquote>\n<br>E' una costruzione generale, che dòta il dominio \\(\\prod X_\\alpha\\) della <a href=\"https://en.wikipedia.org/wiki/Initial_topology\" class=\"postlink\">seguente proprietà universale</a>: comunque data una famiglia di funzioni continue \\(\\{f_\\alpha : X_\\alpha \\to Y\\}\\), con \\(Y\\) spazio topologico, esiste una e una sola funzione continua \\(\\overline f : \\prod_\\alpha X_\\alpha \\to Y\\) tale che \\(p_\\alpha \\circ \\overline f = f_i\\):<br><br><div style=\"text-align: center;\"><img src=\"/forum/latexrender/pictures/574d38cfdf339291a511dd226539b576.png\" title=\"\\xymatrix{\n &amp; \\prod_\\alpha X_\\alpha \\ar[d]^{p_\\alpha} \\\\\nY \\ar@{.&gt;}[ur]^{\\exists! \\overline f}\\ar[r]_{f_\\alpha} &amp; X_\\alpha\n}\" alt=\"\\xymatrix{\n &amp; \\prod_\\alpha X_\\alpha \\ar[d]^{p_\\alpha} \\\\\nY \\ar@{.&gt;}[ur]^{\\exists! \\overline f}\\ar[r]_{f_\\alpha} &amp; X_\\alpha\n}\" align=\"absmiddle\"></div>\n<br>Il motivo per cui le controimmagini \\(p_\\alpha^\\leftarrow U_\\alpha\\) non formano già una topologia è semplicemente che quando \\(A\\) ha almeno due elementi, per rendere continua sia \\(p_{\\alpha_1}\\) che \\(p_{\\alpha_2}\\) con \\(\\alpha_1 \\ne\\alpha_2\\), devono esserci tutti gli insiemi della forma \\(p_1^\\leftarrow(U_1)\\) con \\(U_1\\) aperto di \\(X_{\\alpha_1}\\), e tutti gli insiemi della forma \\(p^\\leftarrow U_2\\) con \\(U_2\\) aperto di \\(X_{\\alpha_2}\\); questa famiglia di insiemi non è mai una topologia, la devi chiudere per intersezioni finite e unioni arbitrarie.</div>",
+    "date": "31/07/2018, 18:17",
+    "position": 56
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote><div>\n<cite>milos144 ha scritto:</cite>Facciamo vedere che per ogni elemento $X di SL(n,R)$, e ogni elemento $P di GL(n,R) $ esiste un $Y in SL(n,R) $ tale che $PX=YP$<br>Ho pensato di fare cosí:<br>[...]<br>\n</div></blockquote>\n<br>Questo approccio si può sintetizzare in \"sono un ingegnere e voglio che piccoli aghi taglino la carne viva sotto le mie unghie mentre un torturatore mi spruzza del succo di limone negli occhi\".<br><br>Devi trovare un $Y in SL(n,R) $ tale che $PX=YP$: che ne dici di prendere $PXP^{-1}$, che ci fa il favore di stare in $SL(n,R)$?</div>",
+    "date": "31/07/2018, 18:06",
+    "position": 57
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote class=\"uncited\"><div>Quindi la domanda sussiste: l'io appartiene o non appartiene a se stesso? <br> il fenomeno dell'io come è rappresentabile matematicamente?</div></blockquote>\n<br>Cos'è l'io? Cos'è la matematica? Hint: non sappiamo nessuna delle due cose.<br><br><blockquote class=\"uncited\"><div>per aver introdotto un linguaggio simbolico.</div></blockquote>\n<br>peccato che questo linguaggio simbolico non abbia molto valore. Uno di voi due sa qualcosa di teoria dei modelli, dove il simbolo \\(\\Vdash\\) ha un significato? Dopo, possiamo parlarne; prima, finiamo solo a fare quello che fanno i filosofi (=parlare di cose di cui ignorano la definizione, ignorando anche il significato della parola \"definizione\").</div>",
+    "date": "31/07/2018, 18:04",
+    "position": 58
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote><div>\n<cite>Vulplasir ha scritto:</cite>L'ho sempre detto che la logica matematica nuoce alla salute<br><div class=\"off-topic-switcher\"><span>Testo nascosto, perchè contrassegnato dall'autore come fuori tema. Fai click in quest'area per vederlo.</span></div>\n<div class=\"off-topic\">la logica matematica è quella roba che, con la quale o senza la quale, tutto resta tale e quale</div>\n<br><br>errata corrige: <br><div class=\"off-topic-switcher\"><span>Testo nascosto, perchè contrassegnato dall'autore come fuori tema. Fai click in quest'area per vederlo.</span></div>\n<div class=\"off-topic\">la logica matematica e la teoria delle categorie è quella roba che, con la quale o senza la quale, tutto resta tale e quale</div>\n</div></blockquote>\n<br><div class=\"off-topic-switcher\"><span>Testo nascosto, perchè contrassegnato dall'autore come fuori tema. Fai click in quest'area per vederlo.</span></div>\n<div class=\"off-topic\">Fai ridere quanto una malattia venerea recidiva, te l'hanno già detto in tanti?</div>\n</div>",
+    "date": "31/07/2018, 17:49",
+    "position": 59
+  },
+  {
+    "html": "<div class=\"content\">Il motivo è semplice, ${p_\\alpha^{-1}(U_alpha): U_alpha \\ \\mbox{aperto di}\\ X_\\alpha}$ non è una topologia. Infatti quei sottoinsiemi sono esattamente tutti e soli quelli della forma \\(U_\\alpha\\times\\prod_{\\beta\\in A\\smallsetminus\\{\\alpha\\}} X_\\beta\\), e in quanto tali non sono chiusi per intersezione finita o per unione arbitraria; formano, però, una <a href=\"https://en.wikipedia.org/wiki/Subbase\" class=\"postlink\">sottobase</a> di \\(X = \\prod X_\\alpha\\).<br><br>Ti consiglio di fare dei disegni quando $A = \\{1,2\\}$, e di vedere a cosa corrisponde questa sottobase; tuttavia, come dicevo sopra, quando $A$ è finito questa sottobase è anche una base, e in effetti genera esattamente la topologia delle scatole. <br><br>Per vedere la differenza tra le due devi, ad esempio, considerare la topologia delle scatole e la prodotto su $RR^\\omega$: nella topologia più fine, meno successioni sono convergenti.</div>",
+    "date": "31/07/2018, 15:00",
+    "position": 60
+  },
+  {
+    "html": "<div class=\"content\">Bene! Ora che, come da programma, è arrivato anche il commento inutile e indesiderato dell'ingegnere, possiamo tornare ad aspettare che (semmai) OP si spieghi.</div>",
+    "date": "31/07/2018, 14:56",
+    "position": 61
+  },
+  {
+    "html": "<div class=\"content\">In generale, dato un prodotto \\(X = \\prod_\\alpha X_\\alpha\\) di spazi topologici, ci sono due possibilità per equipaggiarlo di una topologia: la topologia delle scatole, e la topologia prodotto.<br><br>La topologia delle scatole \\(\\mathfrak X_\\square = (X, \\tau_\\square)\\) ha come base l'insieme dei \\(\\prod_\\alpha U_\\alpha\\) al variare di \\(U_\\alpha\\) aperto di \\(X_\\alpha\\). Divèrtiti a dimostrare che questa è una base.<br><br>Alternativamente, la topologia prodotto è la topologia meno fine tale da rendere tutte le proiezioni \\(p_\\alpha : X \\to X_\\alpha\\) continue. Più esplicitamente, lo spazio \\(\\mathfrak X_\\Pi = (X, \\tau_\\Pi)\\) ha per sottobase di aperti tutti gli insiemi \\(p_\\alpha^\\leftarrow(U_\\alpha)\\), al variare di \\(U_\\alpha\\) aperto di \\(X_\\alpha\\).<br><br>Finché l'insieme di spazi \\(\\{X_\\alpha\\mid \\alpha \\in A\\}\\) è finito, queste due topologie coincidono; quando \\(A\\) è infinito, la topologia delle scatole è più fine.</div>",
+    "date": "31/07/2018, 13:33",
+    "position": 62
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote><div>\n<cite>Indrjo Dedej ha scritto:</cite>Sì, appunto: <span style=\"font-style: italic\">decidi</span>, e questo ti tradisce. Tu <span style=\"font-style: italic\">decidi</span> di ignorare il fatto che ci siano degli esseri pensanti $\\psi$ che <span style=\"font-style: italic\">pensano</span>, per l'appunto, e concepiscono la matematica e i suoi oggetti (ma non solo...). Gli oggetti di una di queste $\\psi$, chiamiamole <span style=\"font-style: italic\">idee</span>, hanno a che fare con la realtà? Può essere. Può non essere. Esistono all'infuori di queste \"scatole\"? Non lo so. Piuttosto, penso che il nostro cervello funzioni così e di conseguenza si concepisce un certo tipo di matematica. Tra i varii esseri pensanti il funzionamento del pensiero è lo stesso, la matematica concepibile (almeno in potenza) è la medesima?</div></blockquote>\n<br>Cosa dovrei rispondere? Finché non la formalizzi, questa frase non significa nulla.</div>",
+    "date": "31/07/2018, 12:39",
+    "position": 63
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote class=\"uncited\"><div>L'insieme di tutti l'insiemi che non appartengono a se stessi non può coincidere forse con l'io?</div></blockquote>\n<br><br>Questa frase non ha senso. Ti sfido a dimostrare, ad esempio, che l'io è un insieme o -molto peggio- a provare o confutare (tertium non datur, giusto?) che \\(\\pi \\in \\text{Io}\\).<br><br><blockquote class=\"uncited\"><div>Qualsiasi assunzione matematica si basa su un parametro chiave: che vi è qualcuno che fa l'assunzione.</div></blockquote>\n<br><br>Non necessariamente; o meglio: finché guardi la realtà esterna di un asserto matematico, e la tratti come fenomeno linguistico, questo è vero ma irrilevante ai fini dell'asserto (una persona diversa da Euclide potrebbe avere enunciato gli stessi asserti che noi oggi attribuiamo al suo nome; ovviamente, questo è accaduto innumerevoli volte nella storia); e non appena decidi di ignorare tale aspetto esteriore (trattando cioè gli asserti della matematica come \"fatti impersonali enunciati a proposito di una dimensione atemporale\"), e vivi unicamente dentro l'universo linguistico che la matematica pone auto-costitutivamente, questo diventa falso per costruzione.<br><br>La matematica è un insieme di regole per descrivere (l'interrelazione che governa) alcuni fenomeni; i fenomeni che descrive non ne fanno parte più di quanto gli ingredienti di un arrosto facciano parte del libro di ricette che ti insegna a prepararlo.</div>",
+    "date": "31/07/2018, 09:46",
+    "position": 64
+  },
+  {
+    "html": "<div class=\"content\">Venendo, ora, a ciò che hai scritto tu,<br><blockquote class=\"uncited\"><div>quindi giustamente la sua definizione rigorosa è \\(\\displaystyle ker(f-\\lambda*id_V) \\) cioè \\(\\displaystyle V_\\lambda=\\{u\\in V: f(u)=u\\} \\) </div></blockquote>\n<br>Forse volevi scrivere \\( V_\\lambda=\\{u\\in V: f(u)=\\lambda u\\} \\).<br><br><blockquote class=\"uncited\"><div>L'autospazio generalizzato dovrebbe essere lo spazio che contiene le stringhe relative a \\(\\displaystyle \\lambda \\)</div></blockquote>\n<br>Cosa sono le \"stringhe relative a $\\lambda$\"?</div>",
+    "date": "31/07/2018, 09:37",
+    "position": 65
+  },
+  {
+    "html": "<div class=\"content\">Come ben sai, ci sono delle situazioni in cui l'ordine di \\(\\lambda\\) come radice del polinomio caratteristico \\(p_f\\) di \\(f\\) è maggiore della dimensione di \\(V_\\lambda\\); per ovviare a questo problema si introduce la nozione di polinomio minimo di \\(f\\), \\(m_f\\), definito come il generatore monico del nucleo della mappa \\(\\Phi_f : K[T] \\to End(V)\\) che manda \\(f\\) in \\(p_f(f) = \\sum_{k=0}^d a_i f^i\\) (il teorema di Hamilton-Cayley afferma che \\(p_f\\) appartiene a \\(\\ker \\Phi_f\\), ovvero che \\(m_f \\mid p_f\\)).<br><br>A questo punto devi osservare due cose:<br><br>1. Esiste la catena di inclusioni \\(\\ker g \\subseteq \\ker g^2 \\subseteq \\ker g^3\\subseteq\\cdots\\)<br>2. Esiste un teorema che dice che<br><img src=\"https://s15.postimg.cc/no27rmkd7/Istantanea_2018-07-31_09-31-05.png\" alt=\"Immagine\"><br>Applicando questo risultato teorema al polinomio caratteristico otteniamo che se \\(p_f(X) = \\prod_i p_i(X)\\) è una sua fattorizzazione in fattori a due a due coprimi (quindi la sua fattorizzazione canonica che mette in luce gli autovalori), allora il dominio \\(V\\) dell'endomorfismo \\(f\\) è la somma diretta dei sottospazi \\(V_{p_i} = \\ker p_i(f)\\), ciascuno dei quali ha dimensione \\(\\deg p_i(X)\\) pari al grado (come polinomio in \\(X\\)) del fattore p_i(X). In particolare, per ogni autovalore \\(\\lambda\\) di molteplicità \\(m_\\lambda\\) si deduce che esso compare nel polinomio minimo con un esponente \\(\\ell\\) che è il minimo intero positivo per cui \\(\\dim  \\ker(f − \\lambda \\cdot 1_V )^l = m\\) (al massimo è proprio m).</div>",
+    "date": "31/07/2018, 09:36",
+    "position": 66
+  },
+  {
+    "html": "<div class=\"content\">\n<a href=\"https://www.matematicamente.it/forum/viewtopic.php?f=37&amp;t=191248\" class=\"postlink\">Sia \\(\\Lambda\\) un reticolo che dà luogo al toro complesso \\(\\mathbb T_\\Lambda\\)</a>; definiamo una funzione<br>\\[<br>\\wp(z) = \\frac{1}{z^2} + \\sum_{\\omega\\in \\Lambda\\setminus\\{0\\}}\\left( \\frac{1}{(z-\\omega)^2} - \\frac{1}{\\omega^2}\\right)<br>\\] avente dominio i punti di \\(\\mathbb C \\setminus \\Lambda\\).<br><br>Mostrare che \\(\\wp\\) è meromorfa su \\(\\mathbb C\\), e i suoi poli di ordine 2 sono tutti i punti di \\(\\Lambda\\) (ossia è olomorfa su \\(\\complement\\lambda\\)), e il residuo in tali poli è nullo.<br><br>Mostrare che la derivata di \\(\\wp\\) è anche lei meromorfa, e<br>\\[<br>\\wp'(z) = -2 \\sum_{\\omega\\in\\Lambda}\\frac{1}{(z-\\omega)^3}<br>\\] per ogni \\(z\\in\\mathbb C \\setminus \\Lambda\\).<br><br>Mostrare che \\(\\wp\\) è una funzione pari, e \\(\\wp'\\) una funzione dispari.<br><br>Mostrare che \\(wp\\) è periodica sul reticolo \\(\\Lambda\\), è suriettiva, e vale \\(\\wp(z)=\\wp(w) \\) se e solo se \\(w \\pm z\\) appartiene al reticolo \\(\\Lambda\\)<br><br>In quali punti si annulla la derivata? Qual è l'immagine di tali punti nel toro?<br><br>Mostrare che la funzione \\(\\wp\\) soddisfa l'equazione differenziale<br>\\[<br>\\left(Y'(z)\\right)^2  = 4 Y(z)^3 - g_2 Y(z) - g_3<br>\\] dove \\(g_2  = 60 \\sum_{\\omega\\neq 0} \\frac{1}{\\omega^4}\\) e \\(g_3 = 140  \\sum_{\\omega\\neq 0} \\frac{1}{\\omega^6}\\) (ovviamente, l'implicita domanda è che queste somme convergano: a che valori?)</div>",
+    "date": "30/07/2018, 09:47",
+    "position": 67
+  },
+  {
+    "html": "<div class=\"content\">Un <span style=\"font-style: italic\">reticolo discreto</span> è il sottogruppo additivo di \\(\\mathbb C\\) generato da due suoi elementi linearmente indipendenti su \\(\\mathbb R\\). Se tali elementi sono \\(\\alpha,\\beta\\), lo denotiamo \\(\\Lambda = \\alpha\\mathbb Z + \\beta\\mathbb Z\\) o con \\(\\langle \\alpha,\\beta\\rangle_{\\mathbb Z}\\).<br><br>Il <span style=\"font-style: italic\">toro</span> \\(\\mathbb T_\\Lambda\\) generato da \\(\\Lambda\\) è il quoziente \\(\\mathbb C/\\Lambda\\), e se consideriamo la mappa di proiezione al quoziente \\(p : \\mathbb C \\to \\mathbb T_\\Lambda\\), essa diventa un omomorfismo (con l'ovvia operazione di gruppo abeliano sul quoziente) e una funzione continua (rispetto alla topologia quoziente sul toro).<br><br>1. Mostrare che \\(\\Lambda\\) come sottoinsieme di \\(\\mathbb C\\) è sempre discreto; dedurne che il quoziente \\(\\mathbb T_\\Lambda\\) è, in quanto superficie reale, diffeomorfa al toro reale \\(S^1\\times S^1\\).<br><br>2. Mostrare che ogni toro complesso ammette un atlante olomorfo fatto da tre carte; ne ha uno con due?<br><br>3. Mostrare che ogni toro complesso \\(\\mathbb T_{\\langle\\alpha,\\beta\\rangle}\\) è olomorfo[1] a un toro della forma \\(\\mathbb T_{\\langle 1,\\tau\\rangle}\\) dove \\(\\tau\\in \\mathbb H = \\{z\\in\\mathbb C\\mid \\Im z &gt; 0\\}\\); tale numero complesso \\(\\tau\\) si chiama <span style=\"font-style: italic\">modulo</span> del toro.<br><br>[1] Due varietà complesse \\(X,Y\\) sono olomorfe, o <span style=\"font-style: italic\">isomorfe in senso complesso</span> se esiste una mappa \\(f : X \\to Y\\) tra loro che sia olomorfa, invertibile e la cui inversa sia una mappa olomorfa. Ciò significa che per ogni punto di \\(X\\) esistono carte \\((U_x, \\phi)\\) di \\(X\\) in \\(x\\) e \\((V_{fx},\\psi)\\) di \\(fx\\) in \\(Y\\) tali che la composizione \\(\\psi \\circ f \\circ \\phi^{-1}\\) sia olomorfa; stessa cosa succede a \\(f^{-1}\\).</div>",
+    "date": "30/07/2018, 09:47",
+    "position": 68
+  },
+  {
+    "html": "<div class=\"content\">Dato un insieme \\(\\Sigma\\) di simboli, il <a href=\"https://it.wikipedia.org/wiki/Star_di_Kleene\" class=\"postlink\">monoide libero</a> su \\(\\Sigma\\) consta dell'insieme delle tuple<br>\\[<br>\\Sigma^\\star = \\coprod_{n\\ge 0} \\Sigma^n = \\{(x_1,\\dots, x_n)\\mid x_i \\in\\Sigma,\\; n\\ge 0\\}<br>\\]con la convenzione che \\(\\Sigma^0=\\{\\varnothing\\}\\), dove \\(\\varnothing\\) è la \"parola vuota\", che fa da elemento neutro per l'operazione di monoide (che è la giustapposizione di tuple: se \\(\\vec x_n = (x_1,\\dots, x_n)\\) e \\(\\vec y_m = (y_1,\\dots, y_m)\\) allora \\(\\vec x_n \\circ \\vec y_m := (x_1,\\dots, x_n,y_1,\\dots, y_m)\\)). Questo insieme soddisfa la seguente proprietà universale: ogni funzione \\(f : \\Sigma \\to M\\), dove \\(M\\) è un monoide, si estende in maniera unica a un omomorfismo di monoidi \\(\\bar f : \\Sigma^\\star \\to M\\).<br><br>Ora, rozzamente, una espressione regolare serve a definire dei pattern per (ad esempio) compiere operazioni di cerca-e-sostituisci a un testo: a seconda del valore semantico di alcune wildcards, come il punto (trova un carattere qualsiasi), il caret (trova qualsiasi cosa diverso dal carattere o dal gruppo che segue), l'asterisco (trova \\([0,\\infty)\\) occorrenze di ciò che precede) e altro, puoi quindi specificare di trovare non tanto \"la parola <span style=\"font-style: italic\">autismo</span> all'interno di un testo\", ma (ad esempio con \"aut.+o\") tutte le parole che iniziano per aut e finiscono per o, tipo aut<span style=\"font-weight: bold\">ism</span>o e aut<span style=\"font-weight: bold\">omobilism</span>o. Ma non troverà \"auto\" perché aver scritto \"aut.+o\" dice trova qualsiasi parola che abbia la struttura aut-[<span style=\"font-style: italic\">almeno un carattere</span>]-o. Per trovare anche auto avrei dovuto scrivere \"aut.*o\" (aut-[<span style=\"font-style: italic\">zero o più caratteri</span>]-o)<br><br>Come si collegano le due cose? Semplice, dato un alfabeto \\(\\Sigma\\), certi elementi di \\(\\Sigma^\\star\\) sono espressioni regolari \"ben formate\" (data la struttura generica di una regex, e in particolare dei modificatori è ovvio che non tutte ti vanno bene), e queste regole per stabilire se una regex è ben formata sono proprio quelle che riporti.<br><br><br><br>PS: Incidentalmente, ho dato in pasto a una regexp il testo che sto scrivendo prima di postarlo: ora non ricordo qual è il dialetto specifico che il mio editor utilizza, ma per groupare le espressioni matematiche tra i simboli backslash-tondaaperta e backslash-tondachiusa la matematica che mentre scrivo è rinchiusa tra dollari uso questa regexp:<br><dl class=\"codebox\">\n<dt>Codice:</dt>\n<dd><code>\\\\((.*?)\\\\) -&gt; \\\\\\(\\1\\\\\\)</code></dd>\n</dl>\n<br>In pratica sto dicendo: trova (<a href=\"https://www.regular-expressions.info/repeat.html\" class=\"postlink\">pigramente</a>) qualsiasi cosa sia contenuto tra simboli di dollaro, e salvalo in un registro: poi chiudi quello che hai salvato tra i delimitatori slash-tondaaperta e slash-tondachiusa che aprono e chiudono un ambiente matematico in TeX.</div>",
+    "date": "29/07/2018, 21:51",
+    "position": 69
+  },
+  {
+    "html": "<div class=\"content\">Woah, finalmente scopro come ti chiami e che faccia hai.</div>",
+    "date": "29/07/2018, 21:29",
+    "position": 70
+  },
+  {
+    "html": "<div class=\"content\">\n<!-- m --><a class=\"postlink\" href=\"https://tinyurl.com/y86yknz7\">https://tinyurl.com/y86yknz7</a><!-- m -->\n</div>",
+    "date": "29/07/2018, 10:16",
+    "position": 71
+  },
+  {
+    "html": "<div class=\"content\">\n<div class=\"off-topic-switcher\"><span>Testo nascosto, perchè contrassegnato dall'autore come fuori tema. Fai click in quest'area per vederlo.</span></div>\n<div class=\"off-topic\">Beh, non vedo che differenze molto superficiali tra abusare di un bambino e fare maggiorazioni con \\(\\epsilon/3\\).<br><br>-<span style=\"font-style: italic\">Ora Timmy, facci vedere su questo de Marco che esercizi ti ha costretto a fare lo zio Jerry.</span>\n</div>\n</div>",
+    "date": "28/07/2018, 16:55",
+    "position": 72
+  },
+  {
+    "html": "<div class=\"content\">E' che prenderemmo anche un drogato pur di non farlo diventare un analista. <img src=\"./images/smilies/icon_syda.gif\" alt=\":heart:\" title=\"Heart\">\n</div>",
+    "date": "28/07/2018, 15:15",
+    "position": 73
+  },
+  {
+    "html": "<div class=\"content\">Beh, no, se vuoi dimostrarlo usando la definizione di sottogruppo normale (e non quella di \"normale gruppo\", qualsiasi cosa sia quest'ultimo), devi far vedere che per ogni elemento $X$ di $SL(n,R)$, e ogni elemento $P$ di $GL(n,R)$ esiste un $Y$ in $SL(n,R)$ tale che $PX=YP$.</div>",
+    "date": "28/07/2018, 15:14",
+    "position": 74
+  },
+  {
+    "html": "<div class=\"content\">E dopo che l'hai fatto, identificare due funzioni le cui derivate parziali coincidono fino al grado $r$<sup class=\"note\"><a href=\"#fnfe5c33264b690f30f0581b010533dae9\" id=\"fnafe5c33264b690f30f0581b010533dae9\" title=\"Vedi nota 1\">1</a></sup> è una relazione di equivalenza che genera inclusioni<br>\\[<br>\\dots \\to J^2(M)\\to J^1(M) \\to M<br>\\]<hr>\n<div class=\"footnotes\">\n<p class=\"footnotes-message\">Note</p>\n<ol><li id=\"fnfe5c33264b690f30f0581b010533dae9\">Il \"grado\" di una derivazione \\(\\frac{\\partial^{|a|}}{\\partial_{a_1}\\dots\\partial_{a_n}}\\) è la somma \\(|a|=\\sum a_i=r\\) <a href=\"#fnafe5c33264b690f30f0581b010533dae9\" title=\"Torna all'articolo\">↑</a>\n</li></ol>\n</div>\n</div>",
+    "date": "28/07/2018, 14:40",
+    "position": 75
+  },
+  {
+    "html": "<div class=\"content\">\n<!-- m --><a class=\"postlink\" href=\"https://it.wikipedia.org/wiki/Nootropo\">https://it.wikipedia.org/wiki/Nootropo</a><!-- m -->\n</div>",
+    "date": "27/07/2018, 13:10",
+    "position": 76
+  },
+  {
+    "html": "<div class=\"content\">Ma cos'è che non capisci? Forse se dici questo è più facile aiutarti.<br><br>Se hai presente come viene costruito lo spazio tangente, poi, l'idea non è molto diversa.</div>",
+    "date": "27/07/2018, 00:21",
+    "position": 77
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote class=\"uncited\"><div>Sarebbe interessante capire se esistono spazi in cui nessuna ccpa è aperta o chiusa</div></blockquote>\n<br>Se \\(\\mathbb R^2 \\to \\mathbb{T}\\) è la mappa che manda \\((x,y)\\in \\mathbb R^2\\) in \\(x + \\mathbb{Z}^2\\) (sto confondendo il toro \\(\\mathbb T^2\\) e \\(\\mathbb R^2/ \\mathbb Z^2\\) nel modo ovvio), allora l'immagine della retta \\(t\\mapsto (t, \\pi t)\\) ha immagine densa in \\(\\mathbb T^2\\) e rompe il toro in infinite ccpa, nessuna delle quali è chiusa o aperta.<br><blockquote class=\"uncited\"><div>Comunque te sai mica per caso se le ccpa sono sempre dei boreliani?</div></blockquote>\n<br>No, non lo so; però mi viene naturale la domanda: quante componenti connesse per archi ha l'insieme di Vitali?</div>",
+    "date": "27/07/2018, 00:09",
+    "position": 78
+  },
+  {
+    "html": "<div class=\"content\">Uno strato di confusione sull'altro, il tutto condito con un certo numero di salti logici e cambi improvvisi di notazione, condizionali aperti (\"dovrebbero essere analoghi\"), casi mancanti (\"ne mancano alcuni\"): l'unico modo di commentare è <br><br><span style=\"font-weight: bold\">NOPE</span>.</div>",
+    "date": "26/07/2018, 13:27",
+    "position": 79
+  },
+  {
+    "html": "<div class=\"content\">Sarà l'ora tarda, ma credo sia vero quando $F$ è algebrico sul suo campo fondamentale $\\mathbb F_p$; in questo caso il Frobenius è un automorfismo e deve mandare una $F$-base di $E$ (perché $n$ è la dimensione di $E$ su $F$, no?) in un'altra $F$-base ($F$-lineari invertibili mandano basi in basi.)<br><br>Quindi, sei sicur* che non stiamo quindi supponendo che $E$ sia perfetto?</div>",
+    "date": "26/07/2018, 01:16",
+    "position": 80
+  },
+  {
+    "html": "<div class=\"content\">Quando \\(X=\\varnothing\\), esiste solo una funzione \\(\\varnothing \\to [0,\\infty)\\) perché l'insieme vuoto è l'<a href=\"https://ncatlab.org/nlab/show/initial+object\" class=\"postlink\">oggetto iniziale</a> della categoria degli insiemi. Che questa funzione verifichi le proprietà di una metrica è una <a href=\"https://en.wikipedia.org/wiki/Vacuous_truth\" class=\"postlink\">verità vuota</a>.<br><br>Quando \\(X\\) ha un elemento, devi determinare tutte le funzioni \\(X\\times X = X \\to [0,\\infty)\\) che soddisfano le proprietà di una metrica. Una tale funzione è determinata da dove manda l'unico elemento di \\(X\\), e quindi la funzione costante in \\(0\\) è l'unica possibile.<br><br>Quando i punti sono 2, grazie alla simmetria della metrica devi definire solo \\(d(x,y)\\); puoi definire questo come un qualsiasi numero reale, e ogni tale metrica è equivalente ad ogni altra mediante un opportuno riscalamento. Quindi le metriche su \\(\\{0,1\\}\\) sono in biiezione con \\([0,\\infty)\\) (la biiezione manda \\(\\alpha\\in[0,\\infty)\\) in \\(d_\\alpha\\), univocamente determinata da \\(d_\\alpha(0,1)=\\alpha\\)), ma c'è solo una classe di equivalenza di metriche (più formalmente, un'opportuna omotetia di \\([0,\\infty)\\) rende isometrici \\((X,d_\\alpha)\\) e \\((X, d_\\beta)\\)).</div>",
+    "date": "25/07/2018, 14:13",
+    "position": 81
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote><div>\n<cite>Untiziosuinternet ha scritto:</cite>Sei un mostro!</div></blockquote>\n<br>Per così poco.<br><br>Ah, aspetta, forse non era un complimento.</div>",
+    "date": "24/07/2018, 08:54",
+    "position": 82
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote><div>\n<cite>pigrecoedition ha scritto:</cite>Scusa, ma se faccio come dici tu della matrice che rappresenta la proiettivita conosco solo la prima colonna</div></blockquote>\n<br>E non puoi conoscere niente di più, finché non precisi dove la proiettività che ti interessa (anzi, la sua duale: quella definita da stella a stella è \\(f^* : \\mathbb P(V^*) \\to \\mathbb P(V^*)\\) per qualche \\(f : \\mathbb P(V)\\to \\mathbb P(V)\\)) manda un riferimento proiettivo.</div>",
+    "date": "24/07/2018, 08:53",
+    "position": 83
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote><div>\n<cite>anto_zoolander ha scritto:</cite>[b]sia \\(\\mathbb Q\\ subseteq \\mathbb R^n\\) un sottoinsieme limitato di \\(\\mathbb R^n\\), diremo che \\(Q\\) è un plurirettangolo se è unione finita di intervalli di \\(\\mathbb R^n\\).</div></blockquote>\n<br>In \\(\\mathbb R^n\\) non ci sono mica gli intervalli. Forse volevi dire che un plurirettangolo è un sottoinsieme della forma \\(\\prod_{i=1}^n E_i\\) dove \\(E_i = [a_i,b_i]\\) è un intervallo di \\(\\mathbb R\\). Una sua suddivisione \\(\\mathcal S\\), ora, è un insieme di plurirettangoli \\(K_\\alpha\\) che copre \\(Q\\) e tale che \\(\\mathring{K}_\\alpha\\cap \\mathring{K}_\\beta = \\varnothing\\) se \\(\\alpha\\neq \\beta\\). Una tale suddivisione si può ottenere da suddivisioni \\(\\{\\mathcal I_1, \\dots, \\mathcal I_n\\}\\) di \\(\\mathbb R\\), ciascuna delle quali suddivide \\(E_i\\), e il \"prodotto\" di suddivisioni da' luogo a una suddivisione di \\(\\mathcal S\\) (questa corrispondenza è biiettiva? Cioè, ogni suddivisione di \\(Q\\) nasce in questo modo?); ora un raffinamento di una suddivisione data consta di un'altra suddivisione che contiene tutti i rettangoli della prima suddivisione.</div>",
+    "date": "23/07/2018, 18:46",
+    "position": 84
+  },
+  {
+    "html": "<div class=\"content\">Allora si fa in quel modo, sì.</div>",
+    "date": "23/07/2018, 16:10",
+    "position": 85
+  },
+  {
+    "html": "<div class=\"content\">Tutti gli esercizi sull'induzione si fanno nello stesso modo. \\(\\binom{2}{1}=2 \\ge 2\\), e la base dell'induzione ce la siamo portata a casa.<br>\\[<br>\\binom{2(n+1)}{n+1} = \\frac{(2n+2)!}{2(n+1)!} = \\frac{(2n+2)(2n+1)(2n)!}{(n+1)2n!} \\ge \\frac{(2n+2)(2n+1)}{(n+1)}2^n \\ge 2 \\cdot 2^n  =2^{n+1}<br>\\]</div>",
+    "date": "23/07/2018, 16:08",
+    "position": 86
+  },
+  {
+    "html": "<div class=\"content\">Se $q$ è una forma quadratica su $V$, $q(\\alpha v)=\\alpha^2 q(v)$ per ogni $\\alpha \\in K^\\times$, cosicché il luogo degli zeri di $q$ è ben definito non solo come insieme di vettori, ma come insieme di punti dello spazio proiettivo $\\mathbb P(V)$ di $V$.</div>",
+    "date": "23/07/2018, 01:09",
+    "position": 87
+  },
+  {
+    "html": "<div class=\"content\">Forse è meglio dare un po' di definizioni: la norma di un quaternione non nullo è la quantità \\(\\sqrt{q\\bar q}\\) oppure solo \\(q\\bar q\\)? A seconda della definizione, hai una formula per \\(N(q+q')\\) (e chiaramente $N$ è moltiplicativa) che ti permette di chiederti chi sia \\(N([x,y])=N(xy-yx)\\). Con questa informazione in mano, probabilmente si può fare un conto diretto a partire da<br>\\[<br>[1+\\bar x,y]=\\bar x y + y\\bar x = x<br>\\]da cui (ad esempio) $\\bar x y \\bar x + y\\bar x\\bar x = 1$.</div>",
+    "date": "23/07/2018, 00:26",
+    "position": 88
+  },
+  {
+    "html": "<div class=\"content\">Devi contare quante coppie di interi formano l'insieme \\(\\{(i,j)\\mid i\\le j, \\; 1\\le i,j\\le n\\}\\); queste sono tante quante gli ingressi che devi specificare in una matrice simmetrica. Persino a Gauss alle elementari era evidente che questi sono \\(n+(n-1)+...+1 = \\binom{n+1}{2}\\).<br><br>Più intrinsecamente, lo spazio delle applicazioni bilineari simmetriche \\(g : V\\times V\\to k\\) ha dimensione \\(\\binom{n+1}{2}\\), perché \\(\\{e_i\\otimes e_j + e_j \\otimes e_i \\} \\subset \\hom(V\\otimes V,k)\\) ne è una base (dimostralo).<br><br>Nota che la formula delle dimensioni ti fa ricavare (se $k$ ha caratteristica diversa da $2$) la dimensione dello spazio delle simmetriche nota quella delle antisimmetriche, e viceversa: siccome \\(S(V)\\oplus A(V)=(V\\otimes V)^\\lor\\), la formua delle dimensioni dice che...</div>",
+    "date": "22/07/2018, 18:59",
+    "position": 89
+  },
+  {
+    "html": "<div class=\"content\">Una volta definite le quadriche nello spazio proiettivo, ciò che prima chiamavi quadriche diventano gli \"scheletri affini\" delle quadriche proiettive. Limitandosi al piano proiettivo, una conica \\(\\mathcal{Q}\\subseteq \\mathbb{P}^2\\) è l'insieme dei vettori isotropi di una forma quadratica, ossia di un polinomio omogeneo nelle coordinate pluckeriane \\([X_0:X_1:X_2]\\), dotato della topologia di sottospazio rispetto a quella di \\(\\mathbb{P}^2\\). Gli scheletri affini di una quadrica sono le intersezioni di tale quadrica con i complementari degli iperpiani \\(\\{X_i=0\\}\\), e la loro equazione nel riferimento proiettivo canonico si ottiene ponendo la variabile $X_i$ uguale ad $1$. Su $CC$ l'unico invariante di classificazione è il rango: tutte le quadriche non degeneri sono equivalenti rispetto alla relazione che ne identifica le matrici se sono coniugate. Su $RR$ invece c'è un invariante più fine, la segnatura; qui le posizioni reciproche tra iperpiano all'infinito e quadrica ne classificano gli scheletri affini (se la quadrica è tangente all'infinito, è una parabola; se non ha intersezioni in punti reali, è un'ellisse, etc.).</div>",
+    "date": "21/07/2018, 17:56",
+    "position": 90
+  },
+  {
+    "html": "<div class=\"content\">\n<div class=\"off-topic-switcher\"><span>Testo nascosto, perchè contrassegnato dall'autore come fuori tema. Fai click in quest'area per vederlo.</span></div>\n<div class=\"off-topic\">Non c'è ragione di essere polemico, ma un punto è una definizione, il secondo ti imbocca a farti dimostrare che un oggetto molto esplicito soddisfa una proprietà, il terzo parte dall'ovvietà che la moltiplicazione per un elemento non nullo fissato è un automorfismo, e quindi definisce un anello di polinomi non commutativi...<br><br>Non è che sono difficili, è che avete visto matematica troppo semplice. Esattamente quello che questi miei post vogliono curare. Incidentalmente, il formalismo degli anelli sghembi è una pietra angolare di <a href=\"https://books.google.it/books?id=0pHfBwAAQBAJ&amp;dq=quantum+groups+kassel&amp;lr=&amp;hl=it&amp;source=gbs_navlinks_s\" class=\"postlink\">certe parti della teoria della rappresentazione</a>.</div>\n</div>",
+    "date": "21/07/2018, 12:07",
+    "position": 91
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote><div>\n<cite>luciagua ha scritto:</cite>Per il resto ho poche idee perchè non riesco a capire come posso fare a considerare quelle funzioni come dei vettori.</div></blockquote>\n<br>Quando capirò cosa c'è di strano nel fatto che delle funzioni siano vettori di uno spazio forse sarò in grado di spiegartelo <img src=\"./images/smilies/icon_smile.gif\" alt=\":)\" title=\"Smile\">\n</div>",
+    "date": "20/07/2018, 20:44",
+    "position": 92
+  },
+  {
+    "html": "<div class=\"content\">E' una cosa davvero semplice, credo, ma siccome solitamente snobbate le domande che pongo <a href=\"https://www.matematicamente.it/forum/viewtopic.php?f=26&amp;t=190905\" class=\"postlink\">anche quando sono facili</a>...<br><br>C'è uno spazio topologico $X$ le cui componenti connesse per archi non sono né tutte chiuse, né tutte aperte (come sottospazi di $X$)?</div>",
+    "date": "20/07/2018, 19:41",
+    "position": 93
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote class=\"uncited\"><div>Rimane da verificare che è soddisfatta anche la seconda, ossia che ogni palla contiene un cubo</div></blockquote>\n<br>Non ho letto tutto, ma la palla di raggio $R$ contiene il cubo di raggio \\(\\frac{\\sqrt{2}}{2}R\\). Fallo in $RR^2$, poi la dimostrazione è la stessa per ogni $n$.</div>",
+    "date": "18/07/2018, 08:48",
+    "position": 94
+  },
+  {
+    "html": "<div class=\"content\">Sia $V$ uno spazio vettoriale, $a,b,c$ 3 suoi vettori. Stessa consegna.<br><br>Ora che hai rimosso le informazioni superflue forse lo sai fare.</div>",
+    "date": "18/07/2018, 08:23",
+    "position": 95
+  },
+  {
+    "html": "<div class=\"content\">Se ho capito cosa intendevi, ti ho risposto, comunque.</div>",
+    "date": "18/07/2018, 01:05",
+    "position": 96
+  },
+  {
+    "html": "<div class=\"content\">Facciamo ordine. Quello che vuoi dimostrare è (qualcosa di meno forte del fatto che) che un operatore normale si diagonalizza mediante un operatore unitario (questo sarebbe il vero teorema spettrale). <br>A te basta vedere che dato un autovalore \\(\\lambda\\) di \\(T : V \\to V\\), che supponi essere normale, il suo autospazio \\(V_\\lambda\\) ha dimensione massima possibile, cioè il massimo \\(m\\) tale che \\((X-\\lambda)\\) divide il polinomio caratteristico \\(p_T(X)\\) di \\(T\\).<br><br>Dimostriamo questo fatto: la <a href=\"https://en.wikipedia.org/wiki/Schur_decomposition\" class=\"postlink\">decomposizione di Schur</a> di \\(T\\) la scrive come prodotto \\(U^\\ast \\Lambda U\\), dove \\(U\\) è una matrice unitaria (cioè vale \\(U^{-1} = U^\\ast\\)) e \\(\\Lambda\\) è una matrice triangolare superiore. A questo punto siccome \\(T\\) è normale lo è pure \\(\\Lambda\\), ciò che implica che \\(\\Lambda\\) deve essere diagonale (<a href=\"https://math.stackexchange.com/questions/1762563/if-a-is-normal-and-upper-triangular-then-it-is-diagonal\" class=\"postlink\">una matrice normale, e triangolare superiore, è diagonale</a>).</div>",
+    "date": "18/07/2018, 01:00",
+    "position": 97
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote class=\"uncited\"><div>cosa fai nella vita</div></blockquote>\n<br><a href=\"https://it.wikipedia.org/wiki/Elena_Ferrante\" class=\"postlink\">Scrivo libri sotto pseudonimo</a>, e faccio arrabbiare i moderatori di questo forum prendendomi gioco della misura puntiforme di alcune loro idee.</div>",
+    "date": "18/07/2018, 00:48",
+    "position": 98
+  },
+  {
+    "html": "<div class=\"content\">Sì, certo, per le applicazioni lineari è vero; ma tu l'hai scritto in una maniera che non parlava di applicazioni lineari. Non è che siccome uno ha visto solo quelli, l'unica struttura che esiste sono gli spazi vettoriali!</div>",
+    "date": "18/07/2018, 00:38",
+    "position": 99
+  },
+  {
+    "html": "<div class=\"content\">\"Come volevasi dimostrare\" non hai compreso la differenza tra <span style=\"font-style: italic\">dimensione</span> e <span style=\"font-style: italic\">cardinalità</span>.<br><br>Anche sorvolando su questo, comunque, la risposta è no: ci sono isomorfismi che non sono \"funzioni biiettive che rispettano la struttura\", vuoi perché non sono funzioni, vuoi perché non sono biiettive.<br><br>Un esempio: prendi uno spazio topologico $X$ e definisci il [url0http://planetmath.org/fundamentalgroupoid]gruppoide fondamentale[/url] di $X$ prendendo come oggetti i punti di $X$ e come frecce $g : x\\to y$ le classi di omotopia di cammini $\\gamma : [0,1] \\to X$ tali che $\\gamma(0)=x, \\gamma(1)=y$. Ognuna di queste frecce è un isomorfismo, ma (quasi) nessuna di queste frecce è una funzione biiettiva. (In effetti, un teorema molto profondo di Freyd dice che queste classi di omotopia non si possono pensare come funzioni).</div>",
+    "date": "17/07/2018, 23:09",
+    "position": 100
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote class=\"uncited\"><div>un isomorfismo è un applicazione biunivoca tra strutture con la stessa cardinalità</div></blockquote>\n<br><img src=\"https://s33.postimg.cc/c6kh35wr3/nope-nope-nope-5a8c2a.jpg\" alt=\"Immagine\">\n</div>",
+    "date": "17/07/2018, 22:04",
+    "position": 101
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote class=\"uncited\"><div>Come può esistere uno spazio vettoriale diverso da k^n? </div></blockquote>\n<br>Lo spazio delle soluzioni dell'equazione differenziale $\\ddot y = -y$ è uno spazio vettoriale, sottospazio dello spazio vettoriale delle funzioni $C^2(RR)$. Il fatto che sia <span style=\"font-style: italic\">isomorfo</span> a $RR^n$ non significa che esso sia <span style=\"font-style: italic\">della forma</span> $RR^n$. Se non altro perché i suoi elementi sono <span style=\"font-style: italic\">funzioni</span>, non liste di numeri. Trovane una base.<br><br>Il campo \\(\\mathbb Q(\\sqrt{7})\\) è uno spazio vettoriale di dimensione $2$ su $QQ$; esso è isomorfo a $QQ^2$, ma è allo stesso tempo un sottoinsieme del campo dei numeri reali $RR$; e lo stesso accade ad $RR$, come sottocampo di $CC=RR(\\sqrt{-1})$.<br><br>Ti è già stato segnalato lo spazio vettoriale degli omomorfismi $F : V\\to W$ tra due spazi vettoriali; tale spazio è isomorfo a $k^{nm}$, se $n,m$ sono le dimensioni di $V,W$ rispettivamente; ma i suoi elementi sono <span style=\"font-style: italic\">funzioni</span>lineari.<br><br>Ti basta, per smettere di vivere nello <a href=\"https://en.wikipedia.org/wiki/Skeleton_(category_theory)\" class=\"postlink\">scheletro</a> della categoria degli spazi vettoriali? <img src=\"./images/smilies/001.gif\" alt=\":-)\" title=\"Happy\">\n</div>",
+    "date": "17/07/2018, 21:46",
+    "position": 102
+  },
+  {
+    "html": "<div class=\"content\">Il differenziale in un punto $p\\in M$ di una funzione differenziabile $f : M\\to N$ tra varietà (per te, superfici) è una vera e propria applicazione lineare $Tf : T_pM\\to T_{fp}N$; sulla varietà non c'è una struttura lineare, quindi non puoi scrivere che \\(\\frac{f(p)-f(p_0)}{p-p_0}\\) va approssimando $df_p$ se $p\\to p_0$. Quello che puoi fare è dire che hai modo di definire (mediante le derivate parziali di $f$) una applicazione lineare piano tangente per piano tangente, la cui azione dipende dal punto in maniera continua (o differenziabile, a seconda della regolarità di $f$).<br><br>E' utile capire cosa intendo incarnando tutto con un esempio: considera la sfera parametrizzata dalla carta delle coordinate sferiche. Considera la mappa di varietà $f : S^2\\to \\mathbb R$ (sto guardando $\\mathbb R$ come varietà nel modo ovvio) che manda $(\\theta,\\varphi)$ in $f(\\theta,\\varphi) = \\sin^2 \\theta \\cos \\theta \\sin \\varphi \\cos \\varphi$. Il suo jacobiano è un covettore che raccoglie le derivate parziali di $f$ rispetto ad $\\theta,\\varphi$:<br>\\[\\begin{pmatrix}<br>\\frac{1}{4}\\sin\\theta(3\\cos 2 \\theta +1)\\sin 2 \\varphi &amp; \\sin^2\\theta\\cos\\theta\\cos 2\\varphi<br>\\end{pmatrix}\\]<br>In determinati punti della sfera, cioè per determinati valori di $(r,\\theta,\\varphi)$, questo piano è un vero e proprio piano geometrico: per esempio, che cosa succede nel punto determinato da $\\theta=\\pi/6, \\varphi=\\pi/3$? Metti dentro a quella matrice questi valori, calcola qualche seno e coseno, ed ecco l'equazione di un piano; questo è esattamente il vettore delle coordinate pluckeriane del piano tangente alla sfera nel punto che corrisponde a $(\\pi/6, \\pi/3)$. (per conoscenza, viene \\(\\Pi : \\frac{5\\sqrt{3}}{32}X-\\frac{\\sqrt{3}}{16}Y=0\\)). Fallo in altri punti, otterrai altri piani tangenti negli altri punti (ovviamente alla condizione che tu stia dentro la carta che hai fissato all'inizio).<br><br>Il differenziale di $f$ nel punto determinato da $(\\pi/6, \\pi/3)$ è ora una applicazione lineare dal piano $\\Pi$ a $RR$: puoi chiederti chi è il suo nucleo, puoi chiederti se essa abbia o non abbia proprietà buone (per esempio: quando $df_p$ è un endomorfismo, perché le varietà hanno la stessa dimensione, è ragionevole chiedersi se è diagonalizzabile!)<br><br>Facciamo quest'ultima cosa con un'altra mappa differenziabile: prendi ancora la carta sferica su $S^2$, ancora il punto $(\\pi/6, \\pi/3)$, ma stavolta prendiamo proprio <span style=\"font-style: italic\">la carta</span> come mappa differenziabile: prendiamo cioè lo jacobiano della mappa $g$ di carta nel punto $(\\pi/6, \\pi/3)$.<br><br>La mappa di carta manda $(\\theta,\\varphi)$ in \\(\\begin{pmatrix}<br>\\sin \\theta \\cos \\varphi \\\\<br>\\sin \\theta \\sin \\varphi \\\\<br>\\cos \\theta <br>\\end{pmatrix}\\); la matrice delle derivate parziali di questa funzione è una matrice 2x3 che ha le derivate parziali di $g$ come righe. Viene<br>\\[\\begin{pmatrix}<br>\\cos \\theta \\cos \\varphi &amp;\\cos \\theta \\sin \\varphi &amp;-\\sin \\theta \\\\<br>-\\sin \\theta \\sin \\varphi &amp;\\cos \\varphi \\sin \\theta &amp;0\\\\<br>\\end{pmatrix}\\]<br>Penso tu sia capace di mettere dentro i numeri e vedere cosa viene fuori:<br>\\[<br>\\begin{pmatrix}<br>\\frac{\\sqrt{3}}{4}&amp;\\frac{3}{4}&amp;-\\frac{1}{2}\\\\<br>-\\frac{\\sqrt{3}}{4}&amp;\\frac{1}{4}&amp;0<br>\\end{pmatrix}\\]<br>Ora: qual è il nucleo di questa matrice? Qual è il suo rango? Su un minore di rango massimo essa è diagonalizzabile? Se sì, qual è il significato geometrico dei suoi autovalori? <img src=\"./images/smilies/001.gif\" alt=\":-)\" title=\"Happy\">\n</div>",
+    "date": "17/07/2018, 21:42",
+    "position": 103
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote class=\"uncited\"><div>un'applicazione lineare può essere un isomorfismo solo se é un endomorfismo</div></blockquote>\n<br>Certo, se per te non esistono spazi vettoriali diversi da $k^n$...</div>",
+    "date": "17/07/2018, 20:49",
+    "position": 104
+  },
+  {
+    "html": "<div class=\"content\">Un automorfismo è un isomorfismo che è anche un endomorfismo. Fine.</div>",
+    "date": "17/07/2018, 20:32",
+    "position": 105
+  },
+  {
+    "html": "<div class=\"content\">\\(W^\\perp\\) è il sottospazio di \\(V^*\\) delle forme il cui nucleo contiene \\(W\\).</div>",
+    "date": "17/07/2018, 12:18",
+    "position": 106
+  },
+  {
+    "html": "<div class=\"content\">$\\Sigma$ è un'ellisse, il suo bordo è l'intersezione del cilindro $S^1\\times RR = \\{(x,y,\\z) | x^2+y^2=1\\}$ con il piano $x+y+z+=1$, e il vettore con cui lo orienti fissa il verso (orario o antiorario, prendendo come punto di riferimento l'esterno della superficie) in cui questo bordo viene percorso.<br><br>Una volta parametrizzata l'ellisse, devi fare l'integrale di $F$ su $\\partial\\Sigma$ e confrontarlo con l'integrale di $\\nabla\\times F$ su $\\Sigma$.</div>",
+    "date": "17/07/2018, 11:41",
+    "position": 107
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote><div>\n<cite>cptpackage ha scritto:</cite>Ma non si può metterli in una struttura binomiale? Tipo  \\( \\begin{pmatrix} a \\\\ b \\end{pmatrix} = \\frac{a!}{b!(a-b)!} \\) $\\forall a \\in R, b \\in R-\\{ 0 \\} $ ? Sarebbe valida come risposta?</div></blockquote>\n<br>Cos'è $a!$ se $a\\in RR$? Perché rimuovi lo zero dal dominio di \"ciò che sta sotto il binomiale\"<sup class=\"note\"><a href=\"#fn83a6321a565da227f31884489c49d980\" id=\"fna83a6321a565da227f31884489c49d980\" title=\"Vedi nota 1\">1</a></sup>?<hr>\n<div class=\"footnotes\">\n<p class=\"footnotes-message\">Note</p>\n<ol><li id=\"fn83a6321a565da227f31884489c49d980\">hanno un nome? <span style=\"font-style: italic\">Binomiando</span> e <span style=\"font-style: italic\">binomiore</span>? <a href=\"#fna83a6321a565da227f31884489c49d980\" title=\"Torna all'articolo\">↑</a>\n</li></ol>\n</div>\n</div>",
+    "date": "17/07/2018, 10:44",
+    "position": 108
+  },
+  {
+    "html": "<div class=\"content\">Non c'è alcun bisogno di fare tutta questa fatica e (soprattutto) di scrivere indici.<br><br>Prop.: Se $V$ ha dimensione finita $n$, ogni suo sottospazio $W$ di dimensione $k\\le n$ è intersezione di $n-k$ iperpiani.<br><br>Dim.: Scegli una base di $W$ e completala a una base di $V$, diciamo \\(\\mathcal B = \\{w_1,...,w_k,v_{k+1},...,v_n\\}\\). Prendi la base duale \\(\\mathcal B^* = \\{w^1,...,w^k,v^{k+1},...,v^n\\}\\);<br>\\[<br>W = \\bigcap_{j=k+1}^{n} \\ker v^i = \\bigcap_{j=k+1}^n \\langle v_i\\rangle^\\perp<br>\\]<br>(ho messo l'ultima uguaglianza perché avete questa perniciosa abitudine di volere mettere la geometria nell'algebra).</div>",
+    "date": "17/07/2018, 10:41",
+    "position": 109
+  },
+  {
+    "html": "<div class=\"content\">Per il futuro, quando una forma differenziale ha dominio non connesso per archi, le sue \"primitive\" si trovano separatamente su ciascuna delle componenti connesse, perché la procedura con cui si trovano tali primitive, moralmente, consta del prendere un cammino $\\gamma$ e integrare la forma su quel cammino; è chiaro allora che ciò che accade in una componente connessa diversa da quella in cui $\\gamma$ cade (per continuità tale componente è unica) è irrilevante.</div>",
+    "date": "16/07/2018, 21:24",
+    "position": 110
+  },
+  {
+    "html": "<div class=\"content\">\n<div class=\"off-topic-switcher\"><span>Testo nascosto, perchè contrassegnato dall'autore come fuori tema. Fai click in quest'area per vederlo.</span></div>\n<div class=\"off-topic\">\n<blockquote class=\"uncited\"><div>perché accontentarsi dell’astratto quando si può avere sotto mano qualcosa di “concreto”?</div></blockquote>\n<br>L'illazione è questa: che il concreto prevalga sull'astratto, che non ci sia ragione di \"accontentarsi\" dell'astratto quando \"si può avere\" il concreto. Che questo sia il rapporto di forza tra astratto e concreto, tra concettualizzazione ed implementazione, è una tua opinione, ed è sbagliata. E il fatto che tu abbia torto non è una mia opinione, è -appunto- un fatto.</div>\n<br>Si riesce o no a trovare una biiezione \\(\\mathbb{R} \\to \\mathbb{R}\\setminus\\{0\\}\\) che sia anche un isomorfismo di gruppi (somma su $RR$, prodotto su $RR^\\times$)?</div>",
+    "date": "16/07/2018, 19:29",
+    "position": 111
+  },
+  {
+    "html": "<div class=\"content\">\n<div class=\"off-topic-switcher\"><span>Testo nascosto, perchè contrassegnato dall'autore come fuori tema. Fai click in quest'area per vederlo.</span></div>\n<div class=\"off-topic\">\n<blockquote class=\"uncited\"><div>l'unico che ne ha esibita una è stato gugo82</div></blockquote>\n<br><a href=\"https://tinyurl.com/y9e5p8ou\" class=\"postlink\">Questa dimostrazione</a> <span style=\"font-style: italic\">costruisce</span> (come ho già detto, non in senso tecnico, ma spero di non essere l'unico a non poter usare l'<span style=\"font-style: italic\">euristica</span>) una funzione che è biiettiva tra due insiemi tali che esista una iniezione in un verso e una nell'altro. Cosicché i numeri reali (o le successioni infinitesime: struttura ridondante a cogliere cosa è in gioco) non hanno niente di speciale, in questo enunciato.</div>\n</div>",
+    "date": "16/07/2018, 17:06",
+    "position": 112
+  },
+  {
+    "html": "<div class=\"content\">\n<div class=\"off-topic-switcher\"><span>Testo nascosto, perchè contrassegnato dall'autore come fuori tema. Fai click in quest'area per vederlo.</span></div>\n<div class=\"off-topic\">\n<blockquote class=\"uncited\"><div>\n<blockquote class=\"uncited\"><div>Immagino ciò provi che, a volte, il design sta stretto a chiunque... Anche ai designer.</div></blockquote>\n<br>\"è importante <span style=\"font-weight: bold\">allo stesso modo</span> sapere tante cose, saperle usare con cognizione, <span style=\"font-weight: bold\">e</span> come ultimo passo sapere come quelle conoscenze si strutturano a formare un insieme coerente\"</div></blockquote>\n<br>Forse l'età ti ha anche fatto scordare i connettivi logici, mi sembrava di essere stato abbastanza chiaro.<br><br>Se le tue sono battute, puoi stare certo che invece il mio enorme disprezzo per la mediocrità del tuo atteggiamento (=decidere che ho detto qualcosa, ignorando che ho detto anche qualcos'altro, e perciò distorcendo il messaggio) è genuino.</div>\n</div>",
+    "date": "16/07/2018, 13:47",
+    "position": 113
+  },
+  {
+    "html": "<div class=\"content\">\n<div class=\"off-topic-switcher\"><span>Testo nascosto, perchè contrassegnato dall'autore come fuori tema. Fai click in quest'area per vederlo.</span></div>\n<div class=\"off-topic\">Una teoria generale non è un ricettario che ordina asetticamente come in un dizionario tutti i teoremi costruibili, da dove al bisogno peschi ciecamente ciò che ti serve. Mi fa ridere tu lo creda.<br><br>E' più un manuale di design: invece di darti delle ricette, dà dei paradigmi di costruzione che ti permettono di capire \"perché\" il cioccolato e il tonno non vanno molto d'accordo. Senza farti perdere tempo a scoprirlo da te, tra l'altro.<br><br>Indovina qual è un'altra cosa che viene meglio quando la fai avendo in mente delle nozioni di design, piuttosto che un enorme bagaglio tecnico di fatti separati? La <span style=\"font-style: italic\">programmazione</span>, l'antitesi del vuoto pensiero speculativo.<br><br>Se non ti piace procedere così, ti piace dimostrare le cose, ma non ti piace capire cosa hai dimostrato davvero. I gusti sono gusti, ma è evidente che questo non sia un approccio che ci fa parlare da pari a pari.</div>\n</div>",
+    "date": "16/07/2018, 13:08",
+    "position": 114
+  },
+  {
+    "html": "<div class=\"content\">\n<div class=\"off-topic-switcher\"><span>Testo nascosto, perchè contrassegnato dall'autore come fuori tema. Fai click in quest'area per vederlo.</span></div>\n<div class=\"off-topic\">Uno dei due dice \"so usare i teoremi meglio di te\"; l'altro dice \"è importante allo stesso modo sapere tante cose, saperle usare con cognizione, e come ultimo passo sapere come quelle conoscenze si strutturano a formare un insieme coerente\". Capisci cosa intendo quando dico che i due approcci non sono sullo stesso piano di parità? <br><br>Saltare l'ultimo passo è fare ancora matematica, ma abbastanza mediocre.</div>\n</div>",
+    "date": "16/07/2018, 12:48",
+    "position": 115
+  },
+  {
+    "html": "<div class=\"content\">\n<div class=\"off-topic-switcher\"><span>Testo nascosto, perchè contrassegnato dall'autore come fuori tema. Fai click in quest'area per vederlo.</span></div>\n<div class=\"off-topic\">\n<blockquote class=\"uncited\"><div>Qual è il problema?</div></blockquote>\n<br>Ce ne sono due: la tua ignoranza del primo approccio ti fa pensare che i due siano antitetici, e su un piano di parità; non sono né antitetici, né della stessa dignità. Ho delle ragioni per preferire il primo.<br>Il secondo problema è la tua sottile insinuazione le mie siano parole che ci tengo a mantenere vuote di competenze tecniche. <br><br>So costruire un mobile meglio di te, perché penso di sapere cosa significa prendere in mano gli attrezzi.</div>\n</div>",
+    "date": "16/07/2018, 12:39",
+    "position": 116
+  },
+  {
+    "html": "<div class=\"content\">Mi sfugge quale sia il problema: forse ignoro un fatto fondamentale di teoria degli ordini?<br><br>Chiama \\(\\cal A\\) la proprietà che ogni catena di \\(P\\) è order-isomorfa a un sotto-poset di \\(\\mathbb Z\\); per mostrare che \\(\\cal A\\) implica che \\(P\\) sia localmente finito, prendi un intervallo \\(K\\) di \\(P\\) della forma \\([p,q]\\); vuoi mostrare che è finito.<br><br>Per ipotesi, però, esso è order-isomorfo, diciamo mediante una funzione monotona e biiettiva \\(\\varphi\\) a un sottoposet di \\(\\mathbb Z\\), precisamente a \\([\\varphi(p),\\varphi(q)]\\) (l'immagine di catene è catena), e quest'ultimo è finito perché \\(\\mathbb Z\\) è localmente finito. Quindi \\(K\\) è finito.<br><br>Al viceversa pensiamo se questo è giusto.</div>",
+    "date": "16/07/2018, 12:34",
+    "position": 117
+  },
+  {
+    "html": "<div class=\"content\">\n<div class=\"off-topic-switcher\"><span>Testo nascosto, perchè contrassegnato dall'autore come fuori tema. Fai click in quest'area per vederlo.</span></div>\n<div class=\"off-topic\">Cosa c'entra l'euristica con la teoria degli insiemi infiniti (e ancor più a largo raggio, con la matematica)?</div>\n</div>",
+    "date": "16/07/2018, 12:22",
+    "position": 118
+  },
+  {
+    "html": "<div class=\"content\">(Ah: <br><blockquote class=\"uncited\"><div>Una biiezione esiste, poiché i due insiemi hanno la stessa cardinalità.</div></blockquote>\n<br>Sono curioso, come si dimostra che hanno la stessa cardinalità preliminarmente al trovare una biiezione?)</div>",
+    "date": "16/07/2018, 02:33",
+    "position": 119
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote class=\"uncited\"><div>Chi, invece, fa hard mathematics direbbe che i risultati potenti vanno usati solo quando si vuole capire <span style=\"font-style: italic\">perché</span> un risultato è vero, e non solo dimostrare che è vero.</div></blockquote>\n<br>FTFY.<br><br>Giusto per rinfrescarti la memoria e portarti un pizzico di luce in fondo alla miniera, nella dimostrazione che cito io la biiezione viene costruita (sebbene non sia costruttiva in senso tecnico, dato che c'è di mezzo una scelta), quindi ne trova una per $RR$ ed \"$RR$ bucato\" (diversa dalla tua, faticosamente ottenuta) e non paga di questo, ne trova una per due generici insiemi che soddisfino le stesse ipotesi. E quindi ti dice <span style=\"font-style: italic\">il motivo</span> per cui il risultato vale.<br><br>Ora, se vogliamo paragonare una carriola senza una maniglia a uno shinkansen...</div>",
+    "date": "16/07/2018, 02:29",
+    "position": 120
+  },
+  {
+    "html": "<div class=\"content\">Questo è una limatura di uno degli esercizi più divertenti che compaiono <a href=\"http://www.math.muni.cz/~loregianf/2kan/_site/esercizi_fox.html\" class=\"postlink\">qui</a>.<br><br><ol style=\"list-style-type: decimal\">\n<li> Se \\(R\\) è un anello e \\(\\alpha : R\\to R\\) un suo automorfismo, definiamo l'<span style=\"font-style: italic\">anello dei polinomi non commutativi \\(\\alpha\\)-twistati</span> mediante la seguente proprietà universale: per ogni anello \\(T\\), ogni \\(y\\in T\\) e ogni morfismo di anelli \\(\\phi : R\\to T\\), tali che \\(y \\phi(r) = \\phi(\\alpha(r))y\\), esiste un'unica \\(\\bar\\phi : R[x;\\alpha]\\to T\\) che estende \\(\\phi\\) e manda \\(x\\) in \\(y\\):<br><br>   <div style=\"text-align: center;\"><img src=\"/forum/latexrender/pictures/0faf942eaf1fed04c826e3be4fbb747e.png\" title=\"\\xymatrix{\n    {R[x;\\alpha]} \\ar[drr]^{\\bar\\phi} &amp;  &amp;  \\\\ \n    R \\ar[u] \\ar[rr]_\\phi &amp;  &amp; T\n}\" alt=\"\\xymatrix{\n    {R[x;\\alpha]} \\ar[drr]^{\\bar\\phi} &amp;  &amp;  \\\\ \n    R \\ar[u] \\ar[rr]_\\phi &amp;  &amp; T\n}\" align=\"absmiddle\"></div>\n<br>   </li>\n<li> Dimostrare che l'anello \\(S\\) costruito come segue soddisfa la stessa proprietà universale di \\(R[x;\\alpha]\\) (ci è quindi isomorfo mediante un unico isomorfismo): come insieme, \\(S\\) raccoglie tutte le funzioni \\(f : \\mathbb N\\to R\\) tali che \\(f(n)=0\\) per tutti gli \\(n\\) tranne un numero finito; la somma \\(f+g\\) (identifichiamo gli elementi di \\(S\\) con le successioni \\((a_n), (b_n)\\)) è data dalla somma componente a componente in \\(R\\), e il prodotto \\((a_n)(b_n)\\) è dato dalla regola<br>   \\[ (ab)_k = \\sum_{i+j=k}a_i\\alpha^i(b_j) \\] Sicché colloquialmente possiamo rappresentare gli elementi di \\(S\\) come somme formali \\(\\sum_k a_kx^k\\), con l'accortezza di sapere che \\(rx\\neq xr\\), ma bensì \\(xr=\\alpha(r)x\\) per ogni \\(r\\in R\\).<br>   </li>\n<li> Se \\(R\\) è l'anello dei polinomi \\(k[y]\\) a coefficienti in un campo \\(k\\), e \\(q\\in k^\\times\\) è uno scalare, è evidente che \\(\\alpha_q(y)=qy\\) è un automorfismo. Dimostrare che \\(\\alpha\\) è completamente determinato dall'azione su \\(y\\), ed esplicitarne l'azione sul generico polinomio \\(p(y)\\).<br>   </li>\n<li> Dimostrare che ogni elemento di \\(k[y][x;\\alpha_q]\\) si scrive come una somma formale <br>   \\[ \\sum_{i,j} \\lambda_{ij}y^ix^y \\] </li>\n<li> Dimostrare che questo definisce un prodotto in \\(k[y][x;\\alpha_q]\\) mediante la regola<br>     \\[ \\left(\\sum_{i,j} \\lambda_{ij}y^ix^j\\right)\\left(\\sum_{s,t} \\mu_{st}y^sx^t\\right) = \\sum_k \\sum_{\\substack{i+s=\\ell \\\\ j+t = m}} \\lambda_{ij}\\mu_{st}q^{js}y^\\ell x^m \\]<br>   </li>\n<li> Questo anello si chiama \"piano quantistico di Manin\" e viene denotato con \\(\\mathcal O_q(2,k)\\). Dimostrare che esiste l'isomorfismo<br>   \\[ \\mathcal O_q(2,k) \\cong k\\{X,Y\\}/\\langle XY-qYX\\rangle \\] dove \\(k\\{X,\\}\\) denota l'anello dei polinomi non commutativi in due variabili. </li>\n<li> Dimostrare che esiste l'isomorfismo \\(\\mathcal O_q(2,k) \\cong k[x][y;\\beta]\\) dove \\(\\beta = \\alpha_1^{-1} : x\\mapsto q^{-1}x\\).<br>   </li>\n<li> Diciamo che \\(\\mathbf q\\) è una matrice \"\\(\\prod\\)-antisimmetrica\" se \\(q_{ij} = q_{ji}^{-1}\\); se \\(\\bf q\\) è una tale matrice definiamo \\(\\mathcal O_{\\bf q}(n,k)\\) come l'anello<br>   \\[ \\frac{k\\{X_1,\\dots, X_n\\}}{\\langle X_iX_j = q_{ij}X_jX_i\\mid 1\\le i,j\\le n\\rangle}\\] </li>\n<li> Dimostrare che \\(\\mathcal O_{\\bf q}(n,k)\\) è isomorfo a \\(k[x_1][x_2;\\alpha_2][x_3;\\alpha_3]\\dots [x_n;\\alpha_n]\\) per certi automorfismi di \\(k[x_1][x_2;\\alpha_2]\\dots[x_{i-1};\\alpha_{i-1}]\\).<br>   </li>\n<li> Sia \\(V = k^2\\); definiamo una struttura di algebra di Lie su \\(V\\) ponendo \\([e_1,e_2]=e_1\\). Dimostrare che esiste un automorfismo \\(\\alpha\\) di \\(k[y]\\) tale che \\(\\mathcal L \\cong k[y][x;\\alpha]\\). Data una generica algebra di Lie \\(\\mathcal L\\), è vero o no che esiste un anello di polinomi \\(\\alpha\\)-twistati tale che \\(R[x;\\alpha]\\cong \\mathcal L\\)?</li>\n</ol>\n<br>Per i puri di cuore: l'anello $S$ del punto 2. è della forma \\(k\\{X_i\\mid i\\in I\\}/\\mathfrak R\\)? Si può, cioè, sempre ottenere un anello sghembo come quoziente per un insieme \\(\\mathfrak R\\) di relazioni, a partire da un anello di polinomi non commutativi?</div>",
+    "date": "16/07/2018, 01:45",
+    "position": 121
+  },
+  {
+    "html": "<div class=\"content\">Apparentemente fa zero. Apri un po' quei prodotti usando questo <!-- m --><a class=\"postlink\" href=\"https://en.wikipedia.org/wiki/Triple_product#Vector_triple_product\">https://en.wikipedia.org/wiki/Triple_pr ... le_product</a><!-- m -->\n</div>",
+    "date": "15/07/2018, 21:25",
+    "position": 122
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote class=\"uncited\"><div>Allora per avere una biezione dobbiamo avere una funzione inversa di F (G)</div></blockquote>\n<br>Dove avrei detto che $f$ e $g$ sono una inversa dell'altra? Se esiste una funzione iniettiva $f : X\\to Y$, e una funzione iniettiva $g : Y\\to X$, ne esiste UNA TERZA biiettiva $X\\to Y$. <br><br>I risultati potenti ci sono, usàteli. <img src=\"./images/smilies/001.gif\" alt=\":-)\" title=\"Happy\">\n</div>",
+    "date": "15/07/2018, 20:42",
+    "position": 123
+  },
+  {
+    "html": "<div class=\"content\">La 1-forma che devi studiare è del tipo $\\omega = f(x,y)dx+g(x,y)dy$, dove sia $f$ che $g$ sono funzioni razionali (quozienti di polinomi). Una funzione razionale ha per dominio il complementare dell'insieme degli zeri del denominatore (perché dividere per zero fa piangere Gesù).</div>",
+    "date": "15/07/2018, 20:41",
+    "position": 124
+  },
+  {
+    "html": "<div class=\"content\">$k=0$.</div>",
+    "date": "15/07/2018, 14:07",
+    "position": 125
+  },
+  {
+    "html": "<div class=\"content\">Probabilmente non è un omeomorfismo con la sua immagine perché ogni intorno di $\\alpha(0)$ ha troppe componenti connesse per essere omeomorfo a un intorno di $0$ in \\(]-1,\\infty[\\).</div>",
+    "date": "15/07/2018, 11:57",
+    "position": 126
+  },
+  {
+    "html": "<div class=\"content\">Se $R$ indica l'insieme $RR$ dei numeri reali, affinché esista una biiezione tra $RR$ ed $RR\\setminus\\{0\\}$ è sufficiente trovare una funzione iniettiva \\(f : \\mathbb R\\setminus\\{0\\} \\to \\mathbb R\\) e una funzione iniettiva \\(g : \\mathbb R \\to \\mathbb R\\setminus \\{0\\}\\). E' chiaro che $f$ esiste (l'inclusione), ma è altrettanto chiaro che $g$ esiste ($t\\mapsto e^t$).</div>",
+    "date": "14/07/2018, 09:18",
+    "position": 127
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote class=\"uncited\"><div>che potrebbero dar man forte nel mantenere l'ordine (penso a per esempio a killing_buddha</div></blockquote>\n<br>Ho il vago sentore ci sia qualcuno che non concorda con il fatto che io mantengo l'ordine, ma cuore-reaction per il fatto che tu abbia pensato a me.</div>",
+    "date": "14/07/2018, 00:34",
+    "position": 128
+  },
+  {
+    "html": "<div class=\"content\">\"In generale\" devi risolvere l'equazione differenziale \\(F(\\varphi)=\\ddot \\varphi\\), cosa non facile; se però $E$ è piccolo abbastanza dovresti sapere che ci sono dei teoremi che garantiscono l'esistenza di una soluzione locale, se $F$ è almeno $C^0$... Certo ce ne saranno che non hanno soluzioni per quadrature: incidentalmente, per mostrare che esistono ODE che non si risolvono per quadrature, l'arma migliore è la teoria di Galois <img src=\"./images/smilies/001.gif\" alt=\":-)\" title=\"Happy\">\n</div>",
+    "date": "11/07/2018, 22:39",
+    "position": 129
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote class=\"uncited\"><div>io so.. Io so... Io so... </div></blockquote>\n<br><br>No, tu non sai <img src=\"./images/smilies/icon_smile.gif\" alt=\":)\" title=\"Smile\">\n</div>",
+    "date": "11/07/2018, 19:23",
+    "position": 130
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote class=\"uncited\"><div>Un differenziale è esatto se è la funzione è integrabile.<br>Una funzione è misurabile se e solo è integrabile.</div></blockquote>\n<br>Hai confuso due significati di \"integrabile\" che sono molto diversi. Una forma è integrabile quando ammette una primitiva (e in effetti non è uso chiamarla integrabile proprio per evitare ambiguità). Una funzione tra spazi di misura è integrabile se... Beh, te lo spiega un analista.<br><br>Nota che comunque la nozione di integrabilità imposta a una forma differenziale è vacuamente vera, perché le funzioni che definiscono le componenti di una forma sono sempre chieste con qualche regolarità decente (sono almeno differenziabili).<br><br>Questo è il genere di scocciature che accadono quando si vuole capire la matematica senza studiarla con metodo <img src=\"./images/smilies/icon_smile.gif\" alt=\":)\" title=\"Smile\">\n</div>",
+    "date": "11/07/2018, 17:33",
+    "position": 131
+  },
+  {
+    "html": "<div class=\"content\">No, non ha alcun senso</div>",
+    "date": "11/07/2018, 15:47",
+    "position": 132
+  },
+  {
+    "html": "<div class=\"content\">Un operatore unitario è in particolare una trasformazione lineare, una forma differenziale è un'altra cosa. Devi, perciò, essere più preciso.</div>",
+    "date": "11/07/2018, 10:43",
+    "position": 133
+  },
+  {
+    "html": "<div class=\"content\">Formalmente, la corrispondenza tra derivata totale (o \"derivata esterna\", nel gergo delle forme differenziali) e gradiente di una funzione è quello che esiste tra un vettore di $V$ e il corrispondente vettore nello spazio duale \\(V^\\lor\\) di $V$. Questo sottintende la presenza di una applicazione bilineare non degenere \\(g : V\\times V\\to k\\), a causa della corrispondenza che esiste tra lo spazio delle applicazioni bilineari non degeneri e lo spazio degli isomorfismi tra $V$ e \\(V^\\lor\\). Per la relazione tra gli operatori differenziali dell'analista, e le strutture della persona seria, vedi qui <!-- l --><a class=\"postlink-local\" href=\"https://www.matematicamente.it/forum/viewtopic.php?p=8350537#p8350537\">viewtopic.php?p=8350537#p8350537</a><!-- l -->\n</div>",
+    "date": "10/07/2018, 19:42",
+    "position": 134
+  },
+  {
+    "html": "<div class=\"content\"><span class=\"hidden-text hidden-text-active\" title=\"Testo visibile solo ai moderatori e all'autore del post, perchè estraneo all'argomento della discussione oppure inappropriato\"><img class=\"eye\" src=\"https://www.matematicamente.it/forum/styles/style-matheme_se/theme/images/no-eye.png\">Testo visibile solo ai moderatori e all'autore del post</span></div>",
+    "date": "09/07/2018, 21:10",
+    "position": 135
+  },
+  {
+    "html": "<div class=\"content\">La base duale $\\{v^i\\}$ di una base data $\\{v_i\\}$ è definita dalla regola $v^i (v_j)=\\delta_{ij}$. Con questa informazione, i conti tornano.<br><br>(Questo significa che $v^1(1,1,0)$ deve fare 1 e $v^1$ degli altri due vettori deve fare zero: questo si traduce in un sistema lineare nei coefficienti di $v^1$... che però è equivalente a trovare un vettore ortogonale a $v_1$! Che scoperta sensazionale! Sembra quasi che questo suggerisca una qualche correlazione tra la dualità di spazi vettoriali e la relazione di ortogonalità tra vettori... Dovremmo indagare più a fondo questa misteriosa e affascinante simmetria!)</div>",
+    "date": "09/07/2018, 17:03",
+    "position": 136
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote><div>\n<cite>ludovica_97 ha scritto:</cite>Ho studiato una proposizione secondo cui, $V$ e $V*$ sono in biiezione </div></blockquote>\n<br>Non sono in biiezione, sono proprio isomorfi (cioè la biiezione è anche $k$-lineare, se lo spazio $V$ è definito sul campo $k$)<br><blockquote class=\"uncited\"><div>avendo stessa dimensione n. Per dimostrarla prendo una base di $V$, questa base ha ovviamente dimensione n</div></blockquote>\n<br>Una base non ha \"dimensione\" ha un \"numero di elementi\".<br><blockquote class=\"uncited\"><div>Il mio problema e' quando passo alla pratica. Come faccio ad applicare questo procedimento di costruzione della base duale alla pratica? Esiste un altro procedimento, che deriva da questo per trovare una base duale a partire dalla base?</div></blockquote>\n<br>Qual è la \"pratica\" a cui vuoi passare? Fai questa costruzione in un caso particolare, è tutto lì; per esempio, su $k^3$ quando la base $B$ è fatta da $(1,1,0), (1,0,0), (2,0,1)$. Buon lavoro!</div>",
+    "date": "09/07/2018, 16:37",
+    "position": 137
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote class=\"uncited\"><div>Si vede proprio che non hai mai insegnato in un professionale.</div></blockquote>\n<br>Si vede proprio che hai visto poca matematica (ne hai mai fatta, per curiosità?).<br><br>L'idea che la competenza pratica confligga con la propria cultura personale (idea che per inciso è un'ennesima eredità gentiliana), quasi come se fossero due mentalità in conflitto, mi sembra la fallacia di cui questa conversazione è inquinata. <br><br>Nel mentre, ci vuole della geometria molto raffinata per imparare a progettare un mobile usando la <a href=\"https://en.wikipedia.org/wiki/Japanese_carpentry\" class=\"postlink\">carpenteria tradizionale giapponese</a>. <br><br>Ma chiaramente, chi se ne importa di questo: bisogna insegnare a uno studente a risolvere espressioni coi monomi! Mi stupisco che poi ai ragazzi la matematica faccia schifo, come è possibile?</div>",
+    "date": "09/07/2018, 01:10",
+    "position": 138
+  },
+  {
+    "html": "<div class=\"content\">Perché alludi a una serie senza averla mai nominata? Perché alludi a delle slide senza farle vedere pure a noi? Leggiamo forse nella tua mente? <img src=\"./images/smilies/001.gif\" alt=\":-)\" title=\"Happy\">\n</div>",
+    "date": "09/07/2018, 00:08",
+    "position": 139
+  },
+  {
+    "html": "<div class=\"content\">Se dopo aver letto su tutto internet non hai ancora capito, è possibile tu abbia lacune che questo forum non può risolvere. Il sistema che devi risolvere è così semplice che (avendo cognizione di cos'è e di come si risolve) dovresti poterlo fare a occhio nudo.<br>Se così non è, torna indietro: ti mancano i termini per capire la risposta che chiunque (carta o persona) potrebbe darti.</div>",
+    "date": "09/07/2018, 00:07",
+    "position": 140
+  },
+  {
+    "html": "<div class=\"content\">I calabresi sono bravi a fare topologia algebrica; penso c'entri qualcosa con la dieta che fanno. Li abitua al dolore fisico.</div>",
+    "date": "08/07/2018, 23:22",
+    "position": 141
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote class=\"uncited\"><div>sono sempre uno studente del secondo anno</div></blockquote>\n<br>Ma la schiena viene su dritta se li prendi da bambini.</div>",
+    "date": "08/07/2018, 14:34",
+    "position": 142
+  },
+  {
+    "html": "<div class=\"content\">L'hai messa tu in mezzo la teoria di Galois.. <img src=\"./images/smilies/icon_smile.gif\" alt=\":)\" title=\"Smile\">\n</div>",
+    "date": "08/07/2018, 11:02",
+    "position": 143
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote><div>\n<cite>GBX1 ha scritto:</cite>Domanda: perché la proiezione canonica di $ H $ è $ (HN)/N $ e non semplicemente $ H/N $?<br>Grazie</div></blockquote>\n<br>Chi ti assicura che H contenga N?</div>",
+    "date": "08/07/2018, 00:17",
+    "position": 144
+  },
+  {
+    "html": "<div class=\"content\">Sebbene credo altri te l'abbiano detto, ti dico anche io che questo approccio non porterà mai nulla di utile ai tuoi scopi (a meno che i tuoi scopi non siano \"sapere peggio possibile il più alto numero di cose possibili\").<br><br>Fatti queste domande: <br>- cos'è un gruppoide?<br>- cos'è l'azione di un gruppo su un insieme? <br>- di conseguenza, cos'è l'azione di un gruppoide su una categoria?<br>- qual è la definizione di \"action groupoid\"? (la definizione <span style=\"font-style: italic\">precisa</span> intendo). Non l'idea approssimativa che ne rischia di avere uno che si avvicina alla materia parlando di topos quando non sa cos'è un pullback <img src=\"./images/smilies/001.gif\" alt=\":-)\" title=\"Happy\"><br><br>dopo che hai capito cosa sono <span style=\"font-style: italic\">queste</span> cose, è probabile tu abbia meno bisogno di aiuto, ma anche laddove tu lo necessiti ancora, contrariamente a ciò che accade ora capirài le risposte che ti verranno date.</div>",
+    "date": "07/07/2018, 07:46",
+    "position": 145
+  },
+  {
+    "html": "<div class=\"content\">E' la versione discreta della \"retta con due origini\", che si usa per dimostrare che non tutti i quozienti di spazi di Hausdorff sono di Hausdorff <img src=\"./images/smilies/icon_biggrin.gif\" alt=\":D\" title=\"Very Happy\">\n</div>",
+    "date": "06/07/2018, 21:38",
+    "position": 146
+  },
+  {
+    "html": "<div class=\"content\">Il primo prodotto scalare è quello rispetto a cui $d$ e $\\delta$ sono aggiunti.</div>",
+    "date": "06/07/2018, 20:34",
+    "position": 147
+  },
+  {
+    "html": "<div class=\"content\">Un reticolo finito deve avere massimo e minimo, perché un reticolo, per definizione, ha tutti i meet e i join finiti; un esempio di reticolo infinito, non totalmente ordinato, che non ha massimo, è l'insieme dei sottoinsiemi finiti di $NN$, ordinato per inclusione.</div>",
+    "date": "06/07/2018, 20:05",
+    "position": 148
+  },
+  {
+    "html": "<div class=\"content\">E...<br><blockquote class=\"uncited\"><div>Non sono neanche una tua cellula al confronto. </div></blockquote>\n<br>no, sono come un niubbo qualunque, solo che ho letto Borges; la matematica che faccio è un sottoinsieme della sua letteratura.</div>",
+    "date": "06/07/2018, 19:54",
+    "position": 149
+  },
+  {
+    "html": "<div class=\"content\">Ho difficoltà a capire come siano collegati i due paragrafi della tua risposta.<br><br>\"Categorizzare cose che non si possono sapere\" è esattamente quello che provo a fare. La matematica è la mia maniera di evadere dai cardini del linguaggio, e giungere all'ineffabilità dei mistici. Usare le parole dei mistici (come i massoni, gli alchimisti o i santi Zen) è solo una maniera di attribuire alla matematica che scrivo il posto che vorrei per lei.</div>",
+    "date": "06/07/2018, 19:53",
+    "position": 150
+  },
+  {
+    "html": "<div class=\"content\">L'equazione di una superficie di rotazione ottenuta facendo ruotare una parametrizzazione \\(t\\mapsto f(t)\\) è \\((t,\\theta)\\mapsto (t, f(t)\\cos \\theta,f(t)\\sin\\theta)\\); questa soddisfa, ovviamente, l'equazione <br>\\[<br>Y^2+Z^2 = f(X)^2<br>\\] che, quando $f(t)$ parametrizza la retta che passa per (000) e (002), è quindi l'equazione del cono che stai cercando.</div>",
+    "date": "06/07/2018, 18:07",
+    "position": 151
+  },
+  {
+    "html": "<div class=\"content\">Non sarebbe meglio studiare prima la matematica che presuppone queste domande? Sai cosa sono un topos, uno stack, e un action groupoid? (E prima ancora un gruppoide e un'azione di un gruppoide?)</div>",
+    "date": "06/07/2018, 15:57",
+    "position": 152
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote class=\"uncited\"><div>Perchè uno studente del professionale non dovrebbe meritarsi la stessa matematica del liceo?</div></blockquote>\n<br>Perché \"non gli serve\"; perché lui deve fare i tubi/gli impianti elettrici.<br><br>Come se poi, il latino e Manzoni li insegnassimo perché \"servono\"; come se si dividesse in due la popolazione: ci sono quelli che devono fare i tubi, e guai a dar loro gli strumenti per elevarsi di spirito, o a cercare di far loro capire che elevarsi di spirito <span style=\"font-style: italic\">conviene</span>, e c'è un'altra parte, facoltosa e già più colta della media, che ha la fortuna di poter studiare latino perché non ha un fratello spacciatore in carcere. Capisci, ora, cosa intendo con \"classista\".<br><br>E sul \"non vogliono imparare\", spero si stia scherzando: irregimentiamo la vita dei minorenni su chissà quante cose (quando devono parlare, quando devono pisciare, quando devono alzarsi dal letto... per prepararli poi ad una vita che sarà fatta della stessa coazione a ripetere la frase \"Certo, padrone; con quanto zucchero, padrone?\"), e non li costringiamo a fare l'unica cosa che gli fa bene (istruirsi)?</div>",
+    "date": "05/07/2018, 20:50",
+    "position": 153
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote class=\"uncited\"><div>sono pessimo col Latex</div></blockquote>\n<br>Sì, è abbastanza illeggibile quel che hai scritto <img src=\"./images/smilies/001.gif\" alt=\":-)\" title=\"Happy\"> <br><br>La derivata della funzione che devi studiare, fuori da zero, è \\(x\\mapsto \\frac{e^{-x}\\left(\\text{sgn}(x+1)-2\\left|x+1\\right|\\right)}{2\\sqrt{\\left|x+1\\right|}}\\); questa è positiva quando il numeratore è positivo (perché il denominatore lo è sempre). Quindi, per quali $x\\in RR$ è maggiore di zero la quantità \\(e^{-x}\\left(\\text{sgn}(x+1)-2\\left|x+1\\right|\\right)\\)? Chiaramente per quegli $x\\in RR$ tali che \\(\\text{sgn}(x+1)-2\\left|x+1\\right|\\ge 0\\); questi sono gli $x\\in RR$ tali che...</div>",
+    "date": "05/07/2018, 20:45",
+    "position": 154
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote class=\"uncited\"><div>Volevo chiedervi perchè inanzitutto è necessario andare ad introdurre un prodotto scalare di quel tipo? E poi ha senso chiamare quella cosa spazio di Hilbert quando lui stesso dice che non è uno spazio di Hilbert soprattutto quando vai a considerare varietà pseudo riemanniane? Ti da problemi questa cosa o basta andare ad introdurre un prodotto scalare di questo tipo?</div></blockquote>\n<br>Non sono delle domande molto chiare: cosa vuoi sapere di preciso? A cosa serve introdurre il codifferenziale $\\delta$? A cosa serve rendere lo spazio delle forme uno spazio di Hilbert?</div>",
+    "date": "05/07/2018, 20:35",
+    "position": 155
+  },
+  {
+    "html": "<div class=\"content\">Ha l'aria e lo stile di un libro di fisica. Se non altro perché \"pseudo-Riemanniana\" senza specificare una segnatura non significa nulla, forse intende di segnatura (3,1) (=lorentziana)? Allora è semplicemente conseguenza del fatto che la segnatura è quella, credo.</div>",
+    "date": "05/07/2018, 18:17",
+    "position": 156
+  },
+  {
+    "html": "<div class=\"content\">...Forse perché la fisica teorica è un acrocoro di enunciati indimostrati (a volte indimostrabili) e metterli in ordine presuppone una conoscenza puntuale di decine di migliaia di pagine di letteratura sconnessa e disorganizzata? <br><br>Ciò che intendevo è che quello dei topos coesivi è un linguaggio naturale per parlare di geometria differenziale sintetica (sono nati per quello), ma -apparentemente- solo gli $\\infty$-topos coesivi catturano le caratteristiche geometriche/omotopiche delle teorie fisiche. Ciò perché \"dentro\" un topos coesivo non si può fare teoria dell'omotopia; si può fare teoria dell'omotopia \"del\" topos coesivo nel suo complesso, ed è una cosa interessante (ma nemmeno troppo: ho sentore che un topos coesivo sia omotopicamente banale, opposto a un $\\infty$-topos coesivo, che non lo è affatto).<br>Guarda invece come è <span style=\"font-style: italic\">semplice</span> definire la coomologia di de Rham di un oggetto in un $\\infty$-topos coesivo: viene fatto in §5.2.10 del pdf che hai linkato.</div>",
+    "date": "05/07/2018, 12:07",
+    "position": 157
+  },
+  {
+    "html": "<div class=\"content\">Ingegnere, ricordo bene? Tu sei quello che chiederebbe di Raymond Carver \"che cosa lo pagano a fare, che sta lì tutto il giorno, a bere brandy da solo in veranda?\".</div>",
+    "date": "05/07/2018, 11:41",
+    "position": 158
+  },
+  {
+    "html": "<div class=\"content\">Rispondere sarebbe un off topic e non ne vale la pena. <img src=\"./images/smilies/001.gif\" alt=\":-)\" title=\"Happy\"> io quando devo dare delle definizioni afferisco a fonti che cercano di scalzare l'eurocentrismo del pensiero e della nomenclatura; per esempio ho usato l'alfabeto georgiano, uso frequentemente l'hiragana, il cirillico, alcuni logogrammi della notazione alchemica medievale (l'operazione di amalgama, e la distillazione mediante alambicco), simboli religiosi di varia natura (prevalentemente cristiana, ma anche ebraica, scintoista e islamica), il <a href=\"https://en.wikipedia.org/wiki/Pigpen_cipher\" class=\"postlink\">cifrario massonico</a>, glifi relativi alla notazione scacchistica... Qui ne feci una lista, che in effetti ora dovrei aggiornare <!-- m --><a class=\"postlink\" href=\"https://math.stackexchange.com/questions/165368/have-there-been-efforts-to-introduce-non-greek-or-latin-alphabets-into-mathemati/2074095#2074095\">https://math.stackexchange.com/question ... 95#2074095</a><!-- m -->\n</div>",
+    "date": "05/07/2018, 01:00",
+    "position": 159
+  },
+  {
+    "html": "<div class=\"content\">Ero sobrio. E' che ultimamente sono piuttosto sensibile alla differenza tra la matematica che è fare ciecamente integrali o sudoku coi gruppi di Sylow, e quella, molto più entusiasmante, che è dare nomi agli oggetti. Questa seconda matematica viene indubbiamente meglio a chi ha delle nozioni di etimologia più vaste di un bravo ingegnere.</div>",
+    "date": "05/07/2018, 00:18",
+    "position": 160
+  },
+  {
+    "html": "<div class=\"content\">C'è un motivo per cui continui a traslare conversazioni <a href=\"https://www.facebook.com/groups/meccanicaquantistica.gs/\" class=\"postlink\">da un gruppo facebook a qui</a>?<br><br>Questo genere di argomenti trovano una certa semplicità a essere tradotti su $n$Lab per il motivo che la geometria differenziale sintetica, o la teoria degli spazi coesivi, è piuttosto semplice da interpretare nella semantica di un $\\infty$-topos. (La nozione di topos coesivo nacque circa per quello).</div>",
+    "date": "04/07/2018, 21:16",
+    "position": 161
+  },
+  {
+    "html": "<div class=\"content\">Quello che rifiuto, di questo modo di vedere, è la narrazione per cui le competenze (matematiche, ma il discorso come avrai notato ha ora un respiro più ampio, o sta prendendo rapidamente le dimensioni di ciò che la parola \"matematica\" ha per me) di un individuo siano funzionali a dargli un lavoro. <br><br>Quello che refuto, più alla larga, è la retorica del lavoro come nobilitante l'uomo e le sue sorti. Le \"indicazioni nazionali\" sono permeate di questa retorica malsana e materialista anche se poi si riempiono la bocca di frasi fatte come \"la centralità della persona\" e \"un nuovo umanesimo\". O per dirla meglio: quelle che si leggono <a href=\"http://www.indicazioninazionali.it/documenti_Indicazioni_nazionali/Indicazioni_Annali_Definitivo.pdf\" class=\"postlink\">lì</a> sono parole molto belle, ma poi come le vorremmo implementare? Insegnando agli elettricisti i diagrammi di Gantt, o comunicando <span style=\"font-style: italic\">anche agli elettricisti</span> la tremebonda balbuzie che il viandante sul mare di nebbia ha di fronte all'unico Dio senza volto che tiene i fili degli altri dèi, che usualmente veneriamo?<br><br><blockquote class=\"uncited\"><div>Credi che sia più utile ad un elettricista (sto facendo gli esami di stato agli elettricisti) conoscere la teoria di Galois o saper costruire un Gantt del proprio progetto?</div></blockquote>\n<br>Credo sia più necessario a un elettricista spaziare attraverso il corpo vertiginoso di conoscenze che dai babilonesi a Elon Musk permea la cultura umana e ne ha cambiato momento dopo momento le sorti. Avere contezza del potere del linguaggio di creare la realtà, avere la libertà di suggestionarsi di fronte al fatto che non sappiamo nulla a proposito di nulla, ma che quel poco che sappiamo ispira un'unità, una sincronia; svelare questa sincronia è il vero grande progetto a cui le vite del singolo dovrebbero afferire, non la crescita del proprio PIL a sfavore di quello dei vicini. <br><br>Supporre che \"a un elettricista interessi altro da questo\", supporre che il suo sia un \"ingegno minuto\", è il vero atteggiamento segretamente classista nascosto nella scuola borghese e gentiliana che (a cui) hai l'onore di servire.<br><br>Questo significa che la mia idea di educazione ha base ideologica, e che prima di qualsiasi nozione il docente dovrebbe emanare un'ideologia? Certo: non vedo perché dovrebbe essere altrimenti; la produzione di cultura è ideologizzata, perché fingere di (o costringere i suoi sacerdoti a) edulcorare dall'ideologia la <span style=\"font-style: italic\">comunicazione</span> della cultura?</div>",
+    "date": "04/07/2018, 20:42",
+    "position": 162
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote class=\"uncited\"><div>fondamentalmente alla maggioranza interessa bere,drogarsi (soprattutto interazioni con il cellulare che creano dipendenza; ma non solo) e scopare (ma il sesso è bello no?).</div></blockquote>\n<br>Perché, a me no? Il punto è questo, c'è una narrazione sbagliata che suggerisce uno iato tra \"vita reale\" e storiografia/cultura/arte. Il compito della scuola dovrebbe essere proporre senza filtri questa visione ai giovani.<br>La storia del sapere è una storia che è fatta di allucinazione, stati mentali alterati, visioni mistiche, furori artistici, riti propiziatori, esibizione di potenza sessuale. Ce n'è praticamente per tutti, si può rendre interessante a tutti, la materia si vende da sola: se non ne sai comunicare il potenziale sessuale sei un ciellino.</div>",
+    "date": "04/07/2018, 15:36",
+    "position": 163
+  },
+  {
+    "html": "<div class=\"content\">Guarda che il primo $3$ va benissimo, $9$ non divide $3$ <img src=\"./images/smilies/001.gif\" alt=\":-)\" title=\"Happy\"><br>(leggi <a href=\"https://en.wikipedia.org/wiki/Eisenstein%27s_criterion\" class=\"postlink\">l'enunciato di Eisenstein</a> su wikipedia)</div>",
+    "date": "04/07/2018, 15:17",
+    "position": 164
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote><div>\n<cite>Giusi Inchiappa ha scritto:</cite>PS. Amo l'algebra, ma non molto la geometria.  <img src=\"./images/smilies/icon_rolleyes.gif\" alt=\":roll:\" title=\"Rolling Eyes\"> Questo è un problema se decidessi di iscrivermi in matematica?</div></blockquote>\n<br>Se farai matematica, scoprirai che quello che ami è l'immagine di ciò che odi, passata <a href=\"https://en.wikipedia.org/wiki/Through_the_Looking-Glass\" class=\"postlink\">attraverso uno specchio</a>.</div>",
+    "date": "04/07/2018, 15:15",
+    "position": 165
+  },
+  {
+    "html": "<div class=\"content\">Non fare filosofia a nessun costo: non impareresti niente che già non sai, saresti fagocitata nelle chiacchiere senza fondamento di una manica di cialtroni senza speranza di redenzione, e saresti completamente priva dei prerequisiti a imparare le altre due cose che ami. Sarebbe uno spreco di tempo, della tua intelligenza, e del tuo amore per il sapere.<br><br>Se hai sensibilità per il dibattito filosofico, non esiste niente a cui lo studio di una scienza ti renda immune; puoi studiare da sola con agio (e con la rimarchevole abilità di sgamare i filosofi sciatti e incompetenti che parlano di cose che non conoscono -tutti quanti i filosofi che non abbiano studiato, prima di dedicarsi alla filosofia, le basi della matematica).<br><br>Fai bene a salire al nord: evita in ogni modo che ti è possibile di restare in Sicilia, o di studiare nel Sud Italia: tra il tipo di preparazione che una università del nord (Italia: ma se ti puoi muovere davvero emigra dall'Italia) e una del sud ti possono dare esiste un abisso di qualità semplicemente incolmabile. <br><br><blockquote class=\"uncited\"><div>La facoltà di matematica mi è sempre stata descritta come una impossibile da affrontare per una studentessa uscente da un liceo non scientifico.</div></blockquote>\n<br>Scemenze: la matematica è una disciplina letteraria, a chi ha studiato greco viene più facile. Forse chi ti ha detto questa cosa pensava a ingegneria o a bassezze del genere.</div>",
+    "date": "04/07/2018, 15:13",
+    "position": 166
+  },
+  {
+    "html": "<div class=\"content\">Avevo sonno ieri. <br>Mi sono ricordato che questa conversazione un po' risponde alla tua domanda. <!-- l --><a class=\"postlink-local\" href=\"https://www.matematicamente.it/forum/viewtopic.php?p=888279#p888279\">viewtopic.php?p=888279#p888279</a><!-- l --><br><br>Quello che ti interessa è la \"teoria di Galois differenziale\": la stessa cosa della teoria di Galois, ma con gruppi di Galois di equazioni differenziali e non di polinomi (la se $D$ è una derivazione in un anello, non c'è poi una differenza enorme tra gli operatori differenziali che sono elementi di \\(k[D] = \\{\\sum a_i D^i \\mid a_i \\in k\\}\\) e polinomi, no?).</div>",
+    "date": "04/07/2018, 15:05",
+    "position": 167
+  },
+  {
+    "html": "<div class=\"content\">( Scherzo ovviamente: qualcun altro di voi sa certamente rispondere <img src=\"./images/smilies/002.gif\" alt=\";-)\" title=\"\"> )</div>",
+    "date": "03/07/2018, 21:36",
+    "position": 168
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote class=\"uncited\"><div>termina intorno alla fine del 1700 con la teoria di Galois, in cui si ha la comprensione \"definitiva\" dei polinomi in una variabile</div></blockquote>\n<br>Siano $k\\le n$ due interi positivi, e $t_1,...,t_s$ degli altri interi la cui somma è $n$. Qual è il coefficiente di $X^k$ nel polinomio <br>\\[<br>\\prod_{\\ell=1}^s (1+X^{t_\\ell})<br>\\]<br>Ops, non si sa: è un problema aperto che generalizza il trovare una forma chiusa per la funzione di partizione di un intero. E allora questa \"comprensione definitiva\" in cosa consiste? <img src=\"./images/smilies/001.gif\" alt=\":-)\" title=\"Happy\"><br><br>E' una storia molto lunga quella che chiedi. Ti rispondo io (voialtri state zitti, ché non sapete rispondere), ma lo faccio appena ho tempo sufficiente a organizzare un discorso completo (=qualche ora).</div>",
+    "date": "03/07/2018, 21:32",
+    "position": 169
+  },
+  {
+    "html": "<div class=\"content\">\n<img src=\"./images/smilies/001.gif\" alt=\":-)\" title=\"Happy\"> \"un matematico troppo stanco per ragionare nel modo giusto\" è un'ottima definizione operativa di \"fisico\".</div>",
+    "date": "03/07/2018, 21:27",
+    "position": 170
+  },
+  {
+    "html": "<div class=\"content\">Sì, volevo dire \"gruppo topologico\". Poi questo forum è stato giù per qualche ora (solo per me?) e non ho potuto correggere.</div>",
+    "date": "03/07/2018, 21:25",
+    "position": 171
+  },
+  {
+    "html": "<div class=\"content\">Sei un fisico, vero? E' prerogativa dei fisici credere che le lettere dell'alfabeto possiedano significato intrinseco e immutabile e che gli esercizi si risolvano senza definire gli oggetti in uso.<br><br>Cosa è $\\hat p$? cosa è $\\hat x$? Stai componendo mappe lineari in quale spazio? La parentesi di Lie è definita nell'ovvio modo valido in ogni anello (cioè $[x,y]=xy-yx$), o in altra maniera? cosa è $T^+$ se $T$ è una mappa lineare?<br><br>P.S.: hai dimostrato che \\(([\\hat{p}^2\\hat{x},\\hat{x}])^+= [\\hat x^+, (\\hat p^2 \\hat x)^+]\\). Ora che potresti fare?</div>",
+    "date": "03/07/2018, 12:07",
+    "position": 172
+  },
+  {
+    "html": "<div class=\"content\">Credo che la domanda fosse diversa; è chiaro che ogni gruppo si può vedere come un gruppo di Lie. Quello che sta chiedendo l'OP (e più in generale la discussione su FB) è se esista un sistema interessante in QFT e condensed matter il cui gruppo di gauge sia discreto, e non continuo.<br><br>PS: io sono l'utente 4 <img src=\"./images/smilies/001.gif\" alt=\":-)\" title=\"Happy\">\n</div>",
+    "date": "03/07/2018, 12:00",
+    "position": 173
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote class=\"uncited\"><div>li sposta e li organizza meglio</div></blockquote>\n<br>E' la definizione di \"persona evoluta che fa dimostrazioni evolute\", sì. I teoremi strutturali, poi, non sono fonte di emmerdement: sono stati inventati per evitarlo.</div>",
+    "date": "02/07/2018, 11:22",
+    "position": 174
+  },
+  {
+    "html": "<div class=\"content\">Non sono coefficienti, sono vettori; sono esattamente i vettori che, al variare delle tuple \\(I=\\{i_1&lt;i_2&lt;\\dots&lt;i_r\\}\\) generano lo spazio \\(\\bigwedge^r V\\) delle forme $r$-lineari alternanti su uno spazio vettoriale $V$.<br><br>Se ne vuoi una rappresentazione \"geometrica\", \\(e_{i_1}\\land\\dots\\land e_{i_r}\\) è l'applicazione $r$-lineare che prende $r$ vettori (confusi con una matrice rettangolare $d\\times r$), e restituisce il determinante della matrice quadrata $r\\times r$ ottenuta prendendo solo le righe $i_1,...,i_r$ degli $r$ vettori.</div>",
+    "date": "02/07/2018, 11:18",
+    "position": 175
+  },
+  {
+    "html": "<div class=\"content\">Una 0-forma differenziale su una varietà è semplicemente una funzione $C^\\infty$ sulla varietà stessa.<br><br>E' sufficiente considerare multiindici totalmente ordinati e crescenti perché due tuple \\(e_{i_1}\\land \\dots\\land e_{i_k}\\) e \\(e_{i_{\\sigma 1}}\\land\\dots\\land e_{i_{\\sigma k}}\\) che differiscono per un riordinamento di indici sono linearmente dipendenti</div>",
+    "date": "01/07/2018, 23:51",
+    "position": 176
+  },
+  {
+    "html": "<div class=\"content\">La maggiorazione che hai fatto non è giusta, hai scordato di girare la disuguaglianza passando agli opposti. La convergenza della serie, comunque, si determina comodamente con questo  <!-- m --><a class=\"postlink\" href=\"https://en.wikipedia.org/wiki/Cauchy_condensation_test\">https://en.wikipedia.org/wiki/Cauchy_condensation_test</a><!-- m -->\n</div>",
+    "date": "01/07/2018, 16:27",
+    "position": 177
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote><div>\n<cite>Roxy98 ha scritto:</cite>ahah ma come comunque non so come ma equivale a $(-1+sqrt(3i))/2$</div></blockquote>\n<br>No, è sbagliato: se sottrai questo numero da quello all'inizio ti viene una cosa diversa da zero.<br>Una maniera intelligente di operare è <br><br>1. Scrivere $\\sqrt{i}=a+ib$<br>2. Scrivere, quindi, il tuo numero come \\(\\frac{1+\\sqrt{3}(a+ib)}{1-\\sqrt{3}(a+ib)}\\)<br>3. Ricordare che \\(w^{-1}=\\frac{\\bar w}{|w|^2}\\), per ogni numero complesso $w$.<br><br>Da qui andare avanti, come ti suggerisce la fantasia.</div>",
+    "date": "01/07/2018, 00:10",
+    "position": 178
+  },
+  {
+    "html": "<div class=\"content\">Hai notato una cosa falsa. <img src=\"./images/smilies/001.gif\" alt=\":-)\" title=\"Happy\">\n</div>",
+    "date": "30/06/2018, 23:57",
+    "position": 179
+  },
+  {
+    "html": "<div class=\"content\">Stai mescolando relazioni su insiemi di numeri e relazioni su insiemi di insiemi senza capire, e senza che si capisca niente.<br>Chiarisciti le idee.</div>",
+    "date": "30/06/2018, 23:02",
+    "position": 180
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote><div>\n<cite>Nekra49 ha scritto:</cite><blockquote><div>\n<cite>killing_buddha ha scritto:</cite>Beh, no, la classe di equivalenza di \\(\\{n\\}\\) è fatta da tutti gli insiemi della forma \\(\\{n\\}\\sqcup K\\) dove $K\\subseteq \\mathbb N_{&gt;n} = \\{n+1,n+2,...\\}$.</div></blockquote>\n<br>Uhm.. non riesco a capire il motivo per cui la classe di equivalenza è composta da tutti i numeri maggiori di \\(\\displaystyle {n} \\)...</div></blockquote>\n<br>Infatti quello che hai detto non ha senso. La relazione è sui sottoinsiemi di $NN$, non su $NN$.</div>",
+    "date": "30/06/2018, 20:55",
+    "position": 181
+  },
+  {
+    "html": "<div class=\"content\">Scrivi il numero $z$ nella forma $re^{i\\alpha}$ per certi $r\\in [0,\\infty)$ e $\\alpha\\in [0,2\\pi)$. Dopo, $z^{10} = r^{10}e^{10\\alpha i } = r^10(\\cos(10\\alpha)+\\sin(10\\alpha))$.</div>",
+    "date": "30/06/2018, 20:54",
+    "position": 182
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote><div>\n<cite>saretta:) ha scritto:</cite>riscrivendola $y'+y^2=1$ sarebbe della forma $y'+a(t)y=g(t)$</div></blockquote>\n<br>No, non lo è.</div>",
+    "date": "30/06/2018, 11:12",
+    "position": 183
+  },
+  {
+    "html": "<div class=\"content\">Beh, no, la classe di equivalenza di \\(\\{n\\}\\) è fatta da tutti gli insiemi della forma \\(\\{n\\}\\sqcup K\\) dove $K\\subseteq \\mathbb N_{&gt;n} = \\{n+1,n+2,...\\}$.</div>",
+    "date": "28/06/2018, 10:36",
+    "position": 184
+  },
+  {
+    "html": "<div class=\"content\">Effettivamente 'sta roba non sembra chiusa. Forse hai sbagliato a scrivere il testo?</div>",
+    "date": "27/06/2018, 13:30",
+    "position": 185
+  },
+  {
+    "html": "<div class=\"content\">L'operazione in $G$ è la giustapposizione di parole $a^sb^{2t}b^\\alpha$ e $a^mb^{2t}b^\\beta$; la relazione che hai dimostrato implica che questa operazione è chiusa su $G$. Poi dovrai mostrare che è associativa, trovare un elemento neutro (facile: $m=n=\\epsilon=0$) trovare l'inverso di un elemento.</div>",
+    "date": "27/06/2018, 10:02",
+    "position": 186
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote><div>\n<cite>alextimes ha scritto:</cite>Perché la dimensione dello spazio vettoriale formato dalle forme n-lineari è proprio quella?</div></blockquote>\n<br>E' più facile vedere la dimostrazione trovando una base per lo spazio duale \\(\\mathcal A_k(V)^*\\) delle \\(k\\)-lineari alternanti: la dimensione è poi la stessa, ovviamente.<br><br>Fissa una base di \\(V\\), spazio vettoriale su \\(\\mathbb K\\) di dimensione \\(n\\) (e prendi la caratteristica del campo zero, o comunque diversa da due, altrimenti Gesù piange). Chiama questa base \\(\\{e_1,...,e_n\\}\\) e definisci il covettore<br>\\[<br>e_I := e_{i_1}\\land _{i_2}\\land\\dots\\land e_{i_k} : \\mathcal A_k(V)\\to \\mathbb K : f \\mapsto f(e_{i_1},...,e_{i_k})<br>\\] se \\(I\\) è una \\(k\\)-upla totalmente ordinata di elementi \\(1\\le i_1\\le i_2\\le\\dots\\le i_k\\le n\\). Dico che l'insieme dei covettori \\(e_{i_1}\\land _{i_2}\\land\\dots\\land e_{i_k}\\) genera lo spazio delle applicazioni \\(k\\)-lineari alternanti. Noto questo, è ovvio che allora la dimensione di tale spazio è \\(\\binom{n}{k}=\\frac{n!}{k!(n-k)!}\\), e la tesi segue. <br><br>Tale fatto si dimostra come si dimostrano tutti i fatti simili: questi elementi sono generatori e indipendenti.</div>",
+    "date": "26/06/2018, 18:30",
+    "position": 187
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote class=\"uncited\"><div>Il libro dice che è immediato capire che oltre ad essere chiusa è anche esatta, ma come?</div></blockquote>\n<br>Semplicemente perché è evidente qual è una primitiva di quella funzione! Qual è il differenziale totale di $(x,y,z)mapsto \\sin z \\log(x^2+y^4)$?</div>",
+    "date": "26/06/2018, 18:20",
+    "position": 188
+  },
+  {
+    "html": "<div class=\"content\">Vabbè te la dico lo stesso: lo spazio delle forme $n$-lineari alternanti su $k^n$ ha dimensione \\(\\binom{n}{n}=1\\), quindi ogni altra applicazione $n$-lineare alternante  non costantemente nulla è un multiplo scalare non nullo di $\\det$.<br><br>Ora, $B\\mapsto \\det(AB)$ è una tale applicazione $n$-lineare alternante, quindi $\\det(AB)=\\lambda\\det(B)$; è ora facile dimostrare che $\\lambda=\\det(A)$.</div>",
+    "date": "26/06/2018, 13:13",
+    "position": 189
+  },
+  {
+    "html": "<div class=\"content\">Esistono un sacco di forme differenziali esatte definite su domini semplicemente connessi, non vedo il problema.</div>",
+    "date": "26/06/2018, 13:10",
+    "position": 190
+  },
+  {
+    "html": "<div class=\"content\">Quindi tu vuoi sapere a che condizioni esiste un insieme \\(A\\) e una inclusione \\(G\\hookrightarrow S(A)\\)? <br><br>Si può fare qualcosa di simile, ricordando che il teorema di Cayley è solamente il lemma di Yoneda per gruppi, e l'iniettività dell'inclusione \\(G \\to S(G)\\) discende dalla piena fedeltà dell'immersione di Yoneda (gli omomorfismi di monoidi sono tutti e soli i funtori tra categorie con un solo oggetto -cioè esattamente tra monoidi- e un tale funtore è pienamente fedele se e solo se tale omomorfismo è iniettivo).<br><br>Ora, la proprietà universale di questa costruzione è la seguente: \\(PG = [G^\\text{op},Set]\\), ossia la categoria degli insiemi con una azione destra di \\(G\\), è la categoria dove tutti i colimiti sono stati liberamente aggiunti a \\(G\\), il <span style=\"font-style: italic\">cocompletamento libero</span> di \\(G\\). Esiste una mappa canonica \\(y_G : G\\to PG\\) che manda \\(G\\) in sé stesso guardato come $G$-insieme tautologico, con l'azione di moltiplicazione a destra, e questa mappa ha la proprietà per cui ogni funtore \\(X : G\\to \\cal C\\), dove \\(\\cal C\\) è una categoria cocompleta, si estende ad una aggiunzione \\(\\bar X : PG \\leftrightarrows \\cal C\\) (ti invito a trovare a cosa corrisponde il funtore \\(\\bar X : PG\\to \\cal C\\) considerando che \\(X\\) ammonta a un oggetto di \\(\\cal C\\) con un'azione sinistra di \\(G\\)).<br><br>Il fatto, ora, che la trasformazione pseudonaturale \\(1\\to [\\,\\_\\,^\\text{op},Set]\\) sia pienamente fedele componente per componente, però, non è una proprietà caratteristica del cocompletamento rispetto a tutti i colimiti: è condivisa da tutti i \\(\\mathbb D\\)-Ind-completamenti rispetto a una prescritta classe di diagrammi \\(\\mathbb D\\subseteq \\bf Cat\\) i cui colimiti aggiungi formalmente in una nuova categoria \\(\\mathbb{D}\\text{-Ind}(G)\\) che contiene una copia di \\(G\\): formalmente, hai un diagramma pseudo-commutativo<br><br><div style=\"text-align: center;\"><img src=\"/forum/latexrender/pictures/f5e2a561cbed80464d088f203852e926.png\" title=\"\\xymatrix{\n&amp;G\\ar[dr]^{y_G}\\ar[dl]_{y_G^\\mathbb{D}}&amp; \\\\\n\\mathbb{D}\\text{-Ind}(G)\\ar[rr]_\\iota &amp;&amp; PG\n}\" alt=\"\\xymatrix{\n&amp;G\\ar[dr]^{y_G}\\ar[dl]_{y_G^\\mathbb{D}}&amp; \\\\\n\\mathbb{D}\\text{-Ind}(G)\\ar[rr]_\\iota &amp;&amp; PG\n}\" align=\"absmiddle\"></div>\n<br>dove tutte le frecce sono pienamente fedeli. Nota che l'Ind-completamento libero rispetto a diagrammi di forma \\(\\mathbb D\\) ha una simile proprietà universale: se \\(\\cal C\\) è una categoria \\(\\mathbb D\\)-cocompleta, ogni funtore \\(G\\to \\cal C\\) si estende a un funtore \\(\\mathbb{D}\\text{-Ind}(G)\\to \\cal C\\).</div>",
+    "date": "26/06/2018, 13:05",
+    "position": 191
+  },
+  {
+    "html": "<div class=\"content\">No, non esiste nessuna caratterizzazione del genere, qualsiasi insieme ammette un'azione per qualsiasi gruppo.</div>",
+    "date": "26/06/2018, 11:45",
+    "position": 192
+  },
+  {
+    "html": "<div class=\"content\">\"Bundle\" significa letteralmente \"fascio\": la radice sanscrita <span style=\"font-style: italic\">phad-</span> è la stessa che dà, in italiano, le parole \"benda\" e \"banda\", che sono tutte connesse al concetto di legare insieme una quantità disparata di entità simili ma distinte.<br><br><span style=\"font-style: italic\">Fiber bundle</span> andrebbe perciò tradotto, volendo essere rigorosi, come <span style=\"font-style: italic\">fascio fibrato</span> o <span style=\"font-style: italic\">fascio[-spazio] di fibre</span>. Purtroppo però pochi matematici ammettono candidamente di dilettarsi di etimologia, e la traduzione che sarebbe più fedele al significato non ha preso piede.<br><br>La ragione di questo nome è che storicamente i fasci venivano confusi con gli spazi associati: nei vecchi(ssimi) libri di topologia algebrica, specie di teoria dei rivestimenti, un \"fascio\" è una mappa suriettiva e continua $p : E\\to X$ che sia un omeomorfismo locale. Con fatica, nei decenni successivi, si è propagata la definizione, molto più naturale, di un fascio come corrispondenza che associa ad aperti $U$ di $X$ certi spazi di funzioni $F(U)$ in maniera da avere restrizioni coerenti $F(U)\\to F(V)$ ogni volta che $V\\subseteq U$. Lo spazio associato a un fascio, allora, risulta dall'unione di tutti i \"germi\" $s\\in F_x$ (le \"spighe\" del fascio, definite come \\(\\varinjlim_{U\\ni x}FU\\)).</div>",
+    "date": "25/06/2018, 23:54",
+    "position": 193
+  },
+  {
+    "html": "<div class=\"content\">E' davvero necessario dimostrarlo con le sommatorie e tutto o accetti una dimostrazione da persona evoluta?</div>",
+    "date": "25/06/2018, 20:05",
+    "position": 194
+  },
+  {
+    "html": "<div class=\"content\">L'ideale generato dall'identità moltiplicativa in un anello è l'anello stesso. Tu volevi dire un'altra cosa, ma hai scritto $\\langle 1\\rangle$ (sì, io ti boccio se lo fai).</div>",
+    "date": "25/06/2018, 19:53",
+    "position": 195
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote><div>\n<cite>anto_zoolander ha scritto:</cite>è semplicemente $&lt; I_2 &gt;$ comunque ho dato algebra <img src=\"./images/smilies/003.gif\" alt=\":-D\" title=\"\">\n</div></blockquote>\n<br>Ti auguro di averlo passato, ma allo stesso tempo ti auguro di non aver detto questa cosa durante l'esame.</div>",
+    "date": "25/06/2018, 19:37",
+    "position": 196
+  },
+  {
+    "html": "<div class=\"content\">La caratteristica dell'anello delle matrici a coefficienti in $R$ è la stessa dell'anello $R$.</div>",
+    "date": "24/06/2018, 17:23",
+    "position": 197
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote class=\"uncited\"><div>Non mi viene in mente il perchè degli ideali debbano essere unitari.</div></blockquote>\n<br>Non gli ideali, gli <span style=\"font-style: italic\">anelli</span>. Non ci sono ideali unitari che non siano tutto l'anello.<br><br><blockquote class=\"uncited\"><div>\n<span style=\"font-weight: bold\">prima</span><br>$G$ è un gruppo e $H$ sottogruppo di $G$ e $N$ normale in $G$<br>se $N subseteqH$ allora $N$ è normale in $H$</div></blockquote>\n<br>$N$ è fissato dal coniugio per tutti gli elementi di $G$; a fortiori, è fissato dal coniugio per tutti gli elementi di $H$.<br><br><blockquote class=\"uncited\"><div>\n<span style=\"font-weight: bold\">seconda</span><br>$R$ anello e $S$ sottoanello di $R$ e $I$ ideale di $R$<br>se $IsubseteqS$ allora $I$ è ideale di $S$<br>\n</div></blockquote>\n<br>Stessa idea di sopra.<br><blockquote class=\"uncited\"><div>\n<span style=\"font-weight: bold\">terza</span><br>$R$ anello e $A,I$ ideale allora sono anche ideali di $A+I$ e se $I subseteqA$ allora $A+I=A$ in particolare $(A+I)/I=A/I$(banalmente)<br>\n</div></blockquote>\n<br>Sì.</div>",
+    "date": "22/06/2018, 16:49",
+    "position": 198
+  },
+  {
+    "html": "<div class=\"content\">Una applicazione lineare è univocamente determinata da cosa fa a una base.</div>",
+    "date": "22/06/2018, 10:56",
+    "position": 199
+  },
+  {
+    "html": "<div class=\"content\">Complimenti, hai appena enunciato <a href=\"https://math.stackexchange.com/questions/1701/yoneda-lemma-as-generalization-of-cayleys-theorem\" class=\"postlink\">il teorema di Cayley come corollario del lemma di Yoneda</a>.</div>",
+    "date": "22/06/2018, 10:53",
+    "position": 200
+  },
+  {
+    "html": "<div class=\"content\">In un campo di caratteristica zero, puoi sempre ridurti al caso in cui ciascuna componente irriducibile di un polinomio $f(X)$ sia <span style=\"font-style: italic\">separabile</span>, ossia non ha radici ripetute nel campo di spezzamento.</div>",
+    "date": "22/06/2018, 10:51",
+    "position": 201
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote><div>\n<cite>Martino ha scritto:</cite>dice \"omeomorfo\"</div></blockquote>\n<br>Ah, giusto. Allora un altro motivo per cui non sono omeomorfi è che un omeomorfismo tra le chiusure di due spazi dovrebbe determinare un omeomorfismo tra gli spazi (una funzione continua tra spazi T2 è determinata su un denso); questo è assurdo.<br>Equivalentemente, un omeomorfismo tra $\\overline X$ e $Y$ induce un omeomorfismo tra l'interno di $\\overline X$, che è $X$, e l'interno di $Y$. Ma $X$ è connesso, l'interno di $Y$ no.</div>",
+    "date": "22/06/2018, 01:34",
+    "position": 202
+  },
+  {
+    "html": "<div class=\"content\">Per (2): chiaramente \\(X\\) non è denso in \\(Y\\) (non lo contiene nemmeno), quindi non può esserne la chiusura.<br>Per (1): dovrebbe essere possibile trovare un omeomorfismo esplicitamente: \\(X\\) è chiaramente omeomorfo a un semipiano mediante una rotazione, e questo semipiano è omeomorfo a tutto \\(\\mathbb R^2\\) (ti basta trovare un omeomorfismo tra \\(\\mathbb R^2\\) e \\(]0,+\\infty[\\).</div>",
+    "date": "22/06/2018, 00:46",
+    "position": 203
+  },
+  {
+    "html": "<div class=\"content\">A parte un paio di refusi, il claim è giusto (se gli anelli sono unitari, altrimenti è falso) ma non si dimostra così.<br><br>1. L'immagine di un ideale del prodotto mediante un epimorfismo di anelli è un ideale del fattore.<br>2. La proiezione canonica su R quindi manda A in un ideale di R, e la proiezione canonica di S manda A in un ideale di S. Chiama questi ideali, rispettivamente, I e J.<br>3. Dimostra che ora A contiene I J (l'altro contenimento è ovvio).</div>",
+    "date": "20/06/2018, 17:22",
+    "position": 204
+  },
+  {
+    "html": "<div class=\"content\">Vedi cosa succede? Se non ci fossero così tanti sbarbati che chiedono cose di analisi potrebbe quasi sembrare che la so.</div>",
+    "date": "20/06/2018, 17:00",
+    "position": 205
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote><div>\n<cite>giovx24 ha scritto:</cite>penso proprio di aver detto una sciocchezza</div></blockquote>\n<br>Mi hai letto nel pensiero, incredibile!</div>",
+    "date": "20/06/2018, 15:18",
+    "position": 206
+  },
+  {
+    "html": "<div class=\"content\">No, non dovrebbe.</div>",
+    "date": "20/06/2018, 10:19",
+    "position": 207
+  },
+  {
+    "html": "<div class=\"content\">La funzione che stai integrando non è definita in $0$, l'unico senso in cui può esistere l'integrale è che sia finito il limite<br>\\[<br>\\lim_{\\epsilon \\to 0^+} \\int_{\\epsilon}^1 \\frac{\\sqrt{x+1}}{x}dx<br>\\]Ora, puoi osservare che l'integranda è asintotica a \\(x^{-1/2}\\) e che quindi <a href=\"http://www.sosmath.com/calculus/improper/convdiv/convdiv.html\" class=\"postlink\">l'integrale converge</a>.</div>",
+    "date": "19/06/2018, 21:22",
+    "position": 208
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote class=\"uncited\"><div>Sul dove utilizzare questo teorema ho qualche dubbio.</div></blockquote>\n<br>Tipo \"ovunque tu abbia un gruppo e ti interessi stabilire quali sono, o semplicemente contare, i sottogruppi di un suo quoziente\"?<br><br>Tipo \"generalizzando questa cosa ad altre strutture (i gruppi non hanno niente di speciale), e usando questo fatto ovunque in teoria degli anelli, dove gli ideali di \\(R/I\\) corrispondono biiettivamente agli ideali di $R$ contenenti $I$\"?</div>",
+    "date": "19/06/2018, 13:41",
+    "position": 209
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote><div>\n<cite>Silvia panera ha scritto:</cite>si calcoli $f^(-1) ((0, +infinito))$</div></blockquote>\n<br>Io sono una persona buona, e sebbene sia difficile da credere, non mi altero facilmente a meno che non mi facciano un torto molto grave. Però.<br><br>Tu hai già scritto poco meno di un centinaio di messaggi su un forum che parla di matematica, dove l'utenza è caldamente invitata a usufruire della possibilità di scrivere notazione matematica utilizzando un linguaggio di markup che persino diverse generazioni di studenti di ingegneria sono riuscite a padroneggiare in maniera decente. <br><br>Questo forum ha la bellezza di 1103658 (un milione centotrémila e fischia!) messaggi, aprendo il codice di ciascuno dei quali puoi imparare direttamente e rapidamente come si scrive il codice che genera della matematica comprensibile ad occhio umano.<br><br>Una volta postato un messaggio che contiene della matematica, puoi vedere qual è l'effetto della avvenuta compilazione del codice TeX, per controllare che non ci siano errori di battitura, piccole imprecisione e sbavature, e altro. Ma anche solo per controllare se l'idea di testo che avevi in mente corrisponde a quella che esce dopo che hai premuto \"Invia\", ché non si sa mai. <br><br>Hai un'età che probabilmente varia tra i 15 e i 19 anni, poco più, poco meno. Questo mi fa dare per scontato tu sia capace di capire il linguaggio di una conversazione adulta, sebbene inesperta. <br><br>Nonostante tutto ciò, \"$f^(-1) ((0, +infinito))$\" è, per te, una scrittura comprensibile ad un utente che passa di qua. <br><br>Questo è molto fastidioso, mi fa dubitare delle tue capacità cognitive, della tua cura per esprimerti correttamente, del rispetto per il tempo altrui, o di tutte queste cose insieme. E a sottolineare il pressapochismo che dimostri <a href=\"https://www.matematicamente.it/forum/viewtopic.php?f=36&amp;t=189289&amp;p=8356226#p8356226\" class=\"postlink\">finisce che sono gli altri a essere dei bulletti</a>.<br><br>Poi però, chiaro, è sufficiente lasciare lì questo acrocoro incomprensibile di segnacci affinché qualcuno passi di qua e risponda. Ma capirai la risposta, una volta che ti verrà data?</div>",
+    "date": "19/06/2018, 13:38",
+    "position": 210
+  },
+  {
+    "html": "<div class=\"content\">$(n+1)! = (n+1)n! &lt; (n+1)n^n \\le (n+1)^n(n+1) = (n+1)^{n+1}$ perché $n^n \\le (n+1)^n = n^n + \\text{altra roba positiva}$.</div>",
+    "date": "18/06/2018, 17:54",
+    "position": 211
+  },
+  {
+    "html": "<div class=\"content\">Intorno a zero quell'integrale va come \\(x^{-5/2}\\), che problema ti causa? <img src=\"./images/smilies/001.gif\" alt=\":-)\" title=\"Happy\">\n</div>",
+    "date": "18/06/2018, 14:37",
+    "position": 212
+  },
+  {
+    "html": "<div class=\"content\">$A=]0,+\\infty[$. <!-- m --><a class=\"postlink\" href=\"https://en.wikipedia.org/wiki/List_of_trigonometric_identities#Inverse_trigonometric_functions\">https://en.wikipedia.org/wiki/List_of_t ... _functions</a><!-- m -->\n</div>",
+    "date": "17/06/2018, 14:33",
+    "position": 213
+  },
+  {
+    "html": "<div class=\"content\">Sì, apparentemente è giusto.</div>",
+    "date": "17/06/2018, 13:56",
+    "position": 214
+  },
+  {
+    "html": "<div class=\"content\">La negazione scambia unione e intersezione. Questo è sufficiente a fare tutti i conti.</div>",
+    "date": "17/06/2018, 13:53",
+    "position": 215
+  },
+  {
+    "html": "<div class=\"content\">Se $G,H$ sono gruppi finiti e $H\\le G$, la cardinalità di \\(G/H\\) è il quoziente di $|G|$ e di $|H|$...</div>",
+    "date": "16/06/2018, 15:12",
+    "position": 216
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote><div>\n<cite>dissonance ha scritto:</cite>Aggiungo inoltre che il linguaggio di KB, basato sulle forme differenziali, non può essere usato per dimostrare rigorosamente la relazione <br>\\[\\tag{1}<br>\\iiint f\\, dxdydz = \\iiint f\\, r^2dr d\\theta d\\phi.\\]<br>È come calcolare \\(\\lim \\sin x /x\\) con la regola di l'Hôpital: per costruire il linguaggio delle forme differenziali, bisogna prima avere stabilito che gli integrali si trasformano secondo (1). E questa è una cosa analitica che va fatta \"the hard way\", non c'è altro modo.  <br>\n</div></blockquote>\n<br>Ma va, cosa dici? <img src=\"./images/smilies/001.gif\" alt=\":-)\" title=\"Happy\"> Lo sai, spero, che un \"integrale\" non è nient'altro che un pairing tra gruppi di coomologia. Dietro questa proprietà dell'integrale c'è tutto sommato solo la definizione di varietà e il modo in cui delle carte cambiano al variare delle coordinate di riferimento. Quello che ti vedi e chiami \"integrale\" e che credi legato all'analisi è sostanzialmente solo l'incarnazione di un oggetto astratto (il complesso di de Rham della varietà dove vivono le tue forme); prova ne sia il fatto che puoi istanziare una dualità di Poincaré per (quasi) tutte le varie nature che la varietà si trovi ad esibire (ad esempio un toro è allo stesso tempo uno spazio topologico, una varietà, un gruppo di Lie, una varietà algebrica... e ha, di volta in volta, associata una coomologia singolare, una di de Rham, una in quanto gruppo, una legata alla sua algebra di Lie, una coomologia dei fasci, e ciascuna di queste coomologie esibisce proprietà che solitamente vengono studiate grazie alle proprietà analitiche dello spazio, ma che sono, segretamente, sola conseguenza della sua natura di \"spazio astratto\". Ciascuna di queste coomologie infatti possiede un equivalente della dualità di Poincaré, della possibilità di \"integrare su una sottovarietà\" (ossia accoppiare ad un dato simplesso $\\Delta^n\\to M$ una \"forma\" (ossia un elemento degli $n$-cocicli).<br><br>Se ricordo bene (ora non posso controllare con dovizia di dettaglio) esiste una spiegazione abbastanza chiara di questa unicità di linguaggio, che descrive volta per volta le strutture che si associano all<span style=\"font-weight: bold\">e</span> coomologi<span style=\"font-weight: bold\">e</span> che si possono affibiare a uno spazio nell'introduzione del libro<br><br><blockquote class=\"uncited\"><div>From Quantum Cohomology to Integrable Systems,</div></blockquote>\n<br>che trovi <a href=\"http://www.f.waseda.jp/martin/preprints/qcis-preprint.pdf\" class=\"postlink\">qui</a>.<br><br>Tu sei legato ad una descrizione analitica perché sei più padrone del linguaggio dell'analisi, ma la tua descrizione non è intrinseca nello stesso senso in cui non lo è la descrizione di una varietà laddove tu abbia scelto delle coordinate.</div>",
+    "date": "16/06/2018, 13:35",
+    "position": 217
+  },
+  {
+    "html": "<div class=\"content\">Vabbè, le costanti non servono a niente</div>",
+    "date": "16/06/2018, 09:57",
+    "position": 218
+  },
+  {
+    "html": "<div class=\"content\">Nessuno, apparentemente.</div>",
+    "date": "16/06/2018, 09:39",
+    "position": 219
+  },
+  {
+    "html": "<div class=\"content\">Lo spazio delle mappe di spazi puntati<br>\\[<br>\\text{Map}_*(K(\\mathbb Z/p,n),K(\\mathbb Z/q,m))<br>\\] è contraibile, se $K(G,n)$ è lo <a href=\"https://tinyurl.com/yc46z5fn\" class=\"postlink\">spazio di Eilenberg-Mac Lane</a> di $G$ di grado $n$ (hint: fatelo quando $n=m=1$).</div>",
+    "date": "16/06/2018, 00:29",
+    "position": 220
+  },
+  {
+    "html": "<div class=\"content\">Aspetta, non è chiaro cosa vuoi fare: vuoi sapere a cosa è isomorfo $I(G)$? E' un gruppo di ordine $p^2$, <a href=\"https://groupprops.subwiki.org/wiki/Classification_of_groups_of_prime-square_order\" class=\"postlink\">ci sono solo due possibilità</a>.</div>",
+    "date": "15/06/2018, 23:35",
+    "position": 221
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote><div>\n<cite>sgrisolo ha scritto:</cite><blockquote><div>\n<cite>killing_buddha ha scritto:</cite><blockquote class=\"uncited\"><div>le applicazioni lineari portano sempre da uno spazio in dimensione n ad uno spazio di dimensione n o minore (mai maggiore), dimostrabile.</div></blockquote>\n<br>Cosa volevi dire con questa cosa falsissima?!</div></blockquote>\n<br>Ti spiego cosa volevo dire, sperando tu o gli altri, abbiate voglia di correggermi perché ora so di sbagliare ma non so dove <img src=\"./images/smilies/icon_biggrin.gif\" alt=\":D\" title=\"Very Happy\">.</div></blockquote>\n<br>Scherzavo, avevo capito cosa vuoi dire: che una funzione lineare $f : V\\to W$ tra spazi vettoriali non può avere immagine di dimensione maggiore della dimensione del dominio; è la formula delle dimensioni.<br><br>Stai ripetendo un errore piuttosto comune nella matematica dei primi anni del '900, e cioè stai confondendo la nozione di immagine di un omomorfismo con la nozione di codominio di un omomorfismo. L'immagine del morfismo $RR\\to RR^2$ che manda $1$ in $e_1 = (1,0)$ è un sottospazio di dimensione $1$. L'immagine del morfismo $RR \\to RR^{6\\cdot 10^{23}}$ che manda allo stesso modo $1$ in $e_1 = (1,0,...,0)$ è allo stesso modo $1$, ma i codomini sono diversi.<br><br>Il punto (quello che abbiamo capito con Noether, e in generale con gli algebristi della prima metà del 1900, e ciò che poi la teoria delle categorie ha reso evidente) è che codominio e immagine sono nozioni da tenere distinte.</div>",
+    "date": "15/06/2018, 23:05",
+    "position": 222
+  },
+  {
+    "html": "<div class=\"content\">I campi vettoriali sono mappe lisce $M \\to TM$ che sono sezioni della proiezione canonica $TM\\to M$, vanno da una varietà al suo fibrato co/tangente; se la dimensione di $M$ è $n$, la dimensione di $TM$ è $2n &gt; n$.</div>",
+    "date": "15/06/2018, 21:21",
+    "position": 223
+  },
+  {
+    "html": "<div class=\"content\">Non è banale? Se definisci \\(a\\le b\\iff a\\vee b = b\\iff a\\land b = a\\), allora \\(p,q\\le p\\vee q \\) e \\(p\\land q \\le p,q\\)...</div>",
+    "date": "15/06/2018, 20:26",
+    "position": 224
+  },
+  {
+    "html": "<div class=\"content\">\\(\\sin x + \\cos x = {\\color{red} \\sqrt{2}}\\cos(x-\\pi/4)\\), da qui è banale.</div>",
+    "date": "15/06/2018, 20:16",
+    "position": 225
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote class=\"uncited\"><div>le applicazioni lineari portano sempre da uno spazio in dimensione n ad uno spazio di dimensione n o minore (mai maggiore), dimostrabile.</div></blockquote>\n<br>Cosa volevi dire con questa cosa falsissima?!</div>",
+    "date": "15/06/2018, 20:11",
+    "position": 226
+  },
+  {
+    "html": "<div class=\"content\">Può non esserlo, no. Riesci a trovare un controesempio (prova a cercare una funzione $f : ]0,1[ to RR$ che va a infinito molto in fretta se fai il limite a $0^+$ e il limite a $1^-$)?</div>",
+    "date": "15/06/2018, 12:20",
+    "position": 227
+  },
+  {
+    "html": "<div class=\"content\">Un sottocampo di un campo è un sottoanello del campo che è a sua volta un campo, quindi basta definire un sottoanello. <img src=\"./images/smilies/001.gif\" alt=\":-)\" title=\"Happy\">\n</div>",
+    "date": "15/06/2018, 11:58",
+    "position": 228
+  },
+  {
+    "html": "<div class=\"content\">Il termine generale non è infinitesimo: $x$ non può essere zero, se è positivo la serie diverge a \\(+\\infty\\), se è negativo a \\(-\\infty\\).</div>",
+    "date": "15/06/2018, 09:32",
+    "position": 229
+  },
+  {
+    "html": "<div class=\"content\">Se $P$ è una matrice invertible, è facile calcolare che \\(e^{P^{-1}AP} = P^{-1}e^AP\\), cosicché se diagonalizzi $A$ il suo esponenziale è quel che ottieni facendo gli esponenziali degli autovalori e cambiando poi base con $P$. Più in particolare, se $v$ è un autovettore di autovalore $\\alpha$ per $A$, cioè se $Av=\\alpha v$, allora $e^Av=e^\\alpha v$, come si evince dalla pseudo-computazione<br>\\[<br>e^A v = \\sum_{n=0}^\\infty \\frac{A^nv}{n!} = \\sum_{n=0}^\\infty \\frac{\\alpha^n}{n!}v=e^\\alpha v<br>\\]</div>",
+    "date": "14/06/2018, 23:17",
+    "position": 230
+  },
+  {
+    "html": "<div class=\"content\">Mi sembra giusto. La stessa dimostrazione funziona per un polinomio $f\\in R[X]$ dove $R$ è un UFD.</div>",
+    "date": "13/06/2018, 09:14",
+    "position": 231
+  },
+  {
+    "html": "<div class=\"content\">...zzatemi?</div>",
+    "date": "12/06/2018, 14:11",
+    "position": 232
+  },
+  {
+    "html": "<div class=\"content\">Per non parlare di cosa succede a <br><br>$ lim_{n \\to 17} ((n+3^(n+1)+n^5+1)n!)/((3^n+2^n)+(n+1)!)$<br>cose pazzesche!</div>",
+    "date": "12/06/2018, 12:19",
+    "position": 233
+  },
+  {
+    "html": "<div class=\"content\">L'insieme dei minimali è $5 ZZ$, basta usare la definizione di minimale. Similmente si trova quello dei massimali. Nessun minimale è confrontabile con nessun altro minimale, quindi non c'è minimo. Idem per i massimali.</div>",
+    "date": "11/06/2018, 21:04",
+    "position": 234
+  },
+  {
+    "html": "<div class=\"content\">Cosa è $\\sigma$?</div>",
+    "date": "11/06/2018, 20:57",
+    "position": 235
+  },
+  {
+    "html": "<div class=\"content\">La regola della catena e la regola per derivare un prodotto valgono anche per funzioni multivariate: se $f(x,y,g(x,y))=0$, allora \\(f'(x,y,g(x,y))g'(x,y)=0\\) (dove $f'$ e $g'$ sono opportune matrici jacobiane di cui stai facendo il prodotto), e derivando ancora una volta...</div>",
+    "date": "11/06/2018, 20:56",
+    "position": 236
+  },
+  {
+    "html": "<div class=\"content\">Sì, è giusto.</div>",
+    "date": "11/06/2018, 20:42",
+    "position": 237
+  },
+  {
+    "html": "<div class=\"content\">Con $|G|$ ntendi la cardinalità di $G$? Se sì, è <a href=\"https://proofwiki.org/wiki/Cardinality_of_Cartesian_Product\" class=\"postlink\">ovvio</a>: il supporto del prodotto di due gruppi è l'insieme che risulta dal prodotto cartesiano dei due gruppi, quello che devi definire è solo l'operazione.</div>",
+    "date": "11/06/2018, 20:33",
+    "position": 238
+  },
+  {
+    "html": "<div class=\"content\">Più che discontinua non è una varietà in nessun intorno di $0$ (se togli un punto a un aperto di $RR^2$ non lo sconnetti; se togli la singolarità all'introrno dell'origine nel cono, invece sì); tuttavia ogni falda è una varietà topologica $C^0$.</div>",
+    "date": "11/06/2018, 19:40",
+    "position": 239
+  },
+  {
+    "html": "<div class=\"content\">Anche scrivere la matematica in TeX è tra le cose fortemente consigliate: <br><blockquote class=\"uncited\"><div>3.7 È fortemente consigliato scrivere le formule usando il linguaggio MathML o TeX, per facilitare la lettura dei partecipanti e di coloro che si accostano al forum per imparare. Dopo 30 messaggi inseriti, segno di apprezzabile presenza nella community, l'uso di tale linguaggio per la scrittura delle formule è obbligatorio.</div></blockquote>\n</div>",
+    "date": "10/06/2018, 15:50",
+    "position": 240
+  },
+  {
+    "html": "<div class=\"content\">Il <a href=\"https://en.wikipedia.org/wiki/Exterior_derivative\" class=\"postlink\">differenziale esterno</a> commuta col <a href=\"https://en.wikipedia.org/wiki/Exterior_derivative#Naturality\" class=\"postlink\">pullback</a> di forme differenziali: allora, se $(x,y,z)=(r \\sin\\theta \\cos\\varphi , r \\sin\\theta \\sin\\varphi , r \\cos\\theta )$ è il cambo di coordinate da cartesiane a <a href=\"https://en.wikipedia.org/wiki/Spherical_coordinate_system\" class=\"postlink\">sferiche</a>, facendo il <a href=\"https://en.wikipedia.org/wiki/Total_derivative\" class=\"postlink\">differenziale totale</a> di ciascuna coordinata ti viene<br>\\[<br>\\begin{cases}<br>dx &amp;= \\sin\\theta \\cos\\varphi dr + r \\cos\\theta \\cos\\varphi d\\theta - r \\sin\\theta \\sin\\varphi d\\varphi\\\\ <br>dy &amp;= \\sin\\theta \\sin\\varphi dr + r \\cos\\theta \\sin\\varphi d\\theta + r \\sin\\theta \\cos\\varphi d\\varphi\\\\<br>dz &amp;= \\cos\\theta dr - r \\sin\\theta d\\theta <br>\\end{cases}<br>\\] E quindi $dxdydz = dx^^ dy ^^ dz$ (l'<a href=\"https://en.wikipedia.org/wiki/Volume_element#Volume_element_of_manifolds\" class=\"postlink\">elemento di volume</a> corrispondente al generatore di $\\Lambda^3(RR^3)\\cong RR$) viene dal prodotto esterno $\\det J(x,y,z) drd\\thetad\\varphi$ (essenzialmente perché, come è immediato dimostrare, \\(Fv\\land Fu \\land Fw = \\det F \\cdot (v\\land u\\land w)\\)).</div>",
+    "date": "10/06/2018, 14:37",
+    "position": 241
+  },
+  {
+    "html": "<div class=\"content\">Cosa significa che \\(\\varphi\\) è lineare? Qual è la proprietà che definisce \\(\\ker \\varphi\\)? Ci voleva più tempo a scrivere \\(\\varphi\\) o a copincollare la lettera φ dal giusto punto dello spazio Unicode?</div>",
+    "date": "10/06/2018, 10:55",
+    "position": 242
+  },
+  {
+    "html": "<div class=\"content\">Comincia facendo il disegno di cosa fa $f$ al variare di $\\alpha$ (e poi se \\(|x|=\\sqrt{x_1^2+x_2^2}\\) sarebbe meglio dirlo). Appena $x\\ge 1$ e $\\alpha &gt; 0$... Mentre invece se $0&lt;\\alpha &lt; 1$...</div>",
+    "date": "09/06/2018, 23:18",
+    "position": 243
+  },
+  {
+    "html": "<div class=\"content\">Ad esempio dividi $t^4$ per $1+t^2$. Ti viene $t^2-1+\\frac{1}{1+t^2}$, ciascuno dei quali addendi ammette una evidente primitiva.</div>",
+    "date": "09/06/2018, 23:14",
+    "position": 244
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote><div>\n<cite>Vulplasir ha scritto:</cite>E' un teorema famoso come il Cristo</div></blockquote>\n<br>Come chi?</div>",
+    "date": "09/06/2018, 22:14",
+    "position": 245
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote class=\"uncited\"><div>magari si intende come isomorfismo di gruppi additivi, no?</div></blockquote>\n<br><blockquote><div>\n<cite>Clipsony ha scritto:</cite>Vi trovate col fatto che $ Z_3 \\cdot Z_3 $ è isomorfo a $ F_9 $ ? Con $F_9$ indico il campo finito di 9 elementi.</div></blockquote>\n<br>Non è quello che chiedeva l'OP. <img src=\"./images/smilies/001.gif\" alt=\":-)\" title=\"Happy\">\n</div>",
+    "date": "09/06/2018, 01:52",
+    "position": 246
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote><div>\n<cite>anto_zoolander ha scritto:</cite>$prod_(j=1)^(n)(ZZ)/(pZZ) cong$ \\( \\mathbb{F}_{p^n} \\) con $n=2$ e concludi no?</div></blockquote>\n<br>Mi dimostri questa cosa, per favore?</div>",
+    "date": "08/06/2018, 21:13",
+    "position": 247
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote><div>\n<cite>cri98 ha scritto:</cite>f(primo)=$  2/(1-x^2)$ <br>dove è l'errore?<br>\n</div></blockquote>\n<br>Qui.</div>",
+    "date": "08/06/2018, 17:18",
+    "position": 248
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote class=\"uncited\"><div>Tolgo il logaritmo</div></blockquote>\n<br>\"Tolgo il logaritmo\" is for boys,<br>\"la funzione \\(t\\mapsto \\log t\\) è strettamente monotona\" is for men.</div>",
+    "date": "07/06/2018, 12:59",
+    "position": 249
+  },
+  {
+    "html": "<div class=\"content\">Quali sono i numeri reali $a$ tali che $|a|&lt; 1$? E' tutto qui.</div>",
+    "date": "07/06/2018, 10:20",
+    "position": 250
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote><div>\n<cite>anto_zoolander ha scritto:</cite>$exists k in I: existsx_0 in Xexistsr&gt;0(A_ksubsetB(x_0,r)) =&gt; bigcap_(i in I)A_i$ è limitato</div></blockquote>\n<br>Mancano (o sono sbagliati) dei quantificatori, altrimenti scritta così sta roba non significa niente...</div>",
+    "date": "07/06/2018, 08:09",
+    "position": 251
+  },
+  {
+    "html": "<div class=\"content\">Beh, hai \"testato le tue risposte sull'esempio\"? Meglio ancora, prendi come $U,W$ due piani generati dalla base canonica, per esempio $X=0$ e $Z=0$; in quel caso la riflessione rispetto al piano $YZ$ e la riflessione rispetto al piano $XY$ che rotazione formano composte in un senso? E nell'altro? E commutano (nota che puoi scrivere matrici molto esplicite per queste riflessioni...)?</div>",
+    "date": "07/06/2018, 00:16",
+    "position": 252
+  },
+  {
+    "html": "<div class=\"content\">Se ne parlava qui <!-- l --><a class=\"postlink-local\" href=\"https://www.matematicamente.it/forum/viewtopic.php?p=8350537#p8350537\">viewtopic.php?p=8350537#p8350537</a><!-- l -->\n</div>",
+    "date": "07/06/2018, 00:13",
+    "position": 253
+  },
+  {
+    "html": "<div class=\"content\">Ma questa domanda non era già apparsa? E' sufficiente disegnare l'insieme, perché dovresti fare un limite? (la successione di cui questo insieme è il supporto oscilla, sono diversi il suo massimo e minimo limite e quindi non può convergere). Disegna qualche suo punto e cerca di capire verso dove accumulano i punti di $X$ (e... alcune delle opzioni sono palesemente false: vai per esclusione).</div>",
+    "date": "07/06/2018, 00:11",
+    "position": 254
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote><div>\n<cite>killing_buddha ha scritto:</cite>Una serie geometrica \\(\\sum_n q^n\\) converge quando la sua ragione $q$ ha modulo minore di 1. Ti è sufficiente trovare quegli $x$ tali che \\(\\left|\\frac{\\log_3(x-2)}{\\log_3(x-1)}\\right|&lt;1\\) (per la prima serie) <br>\n</div></blockquote>\n<br>Si tratta di trovare gli $x$ tali che \\(-1 &lt; \\frac{\\log_3(x-2)}{\\log_3(x-1)} &lt; 1\\), ovvero gli $x$ tali che \\(-\\log_3(x-1) &lt; \\log_3(x-2) &lt; \\log_3(x-1) \\), ovvero (dacché \\(t\\mapsto \\log t\\) è una funzione monotona crescente) gli $x$ tali che \\(\\frac{1}{x-1} &lt; x-2 &lt; x-1\\); per questo, devi risolvere due disuguaglianze.<br><blockquote class=\"uncited\"><div> \\(\\big|\\log_{\\frac{1}{2}}(x+1)\\big| &lt;1\\) (per la seconda).</div></blockquote>\n<br>Qui basta trovare quegli $x$ per cui \\(-1&lt;\\log_{\\frac{1}{2}}(x+1)&lt;1\\), e si tratta analogamente di un conto abbastanza facile (\\(-1 = \\log_{\\frac{1}{2}}2\\), e \\(1=\\log_{\\frac{1}{2}}\\frac{1}{2}\\); usa ancora la monotonìa di \\(\\log\\)).</div>",
+    "date": "07/06/2018, 00:06",
+    "position": 255
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote><div>\n<cite>Delirium ha scritto:</cite>Ma ti serve per forza che la mappa preservi la struttura?</div></blockquote>\n<br>E' una freccia in una categoria diversa da \\(\\bf Hilb\\).</div>",
+    "date": "06/06/2018, 20:28",
+    "position": 256
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote><div>\n<cite>Delirium ha scritto:</cite><blockquote><div>\n<cite>killing_buddha ha scritto:</cite>La linearità è implicita nel nome \"operatore\", no?</div></blockquote>\n<br>Non credo, vari autori usano il termine <span style=\"font-style: italic\">operator</span> per indicare una qualsiasi mappa \\(X \\to Y\\), con \\(X, Y\\) spazi di Banach.</div></blockquote>\n<br>Beh, ma gli spazi di Banach sono spazi vettoriali (topologici), che altra mappa che preserva la struttura potresti prendere, se non una mappa lineare (e continua)?</div>",
+    "date": "06/06/2018, 20:13",
+    "position": 257
+  },
+  {
+    "html": "<div class=\"content\">Prova qui <!-- m --><a class=\"postlink\" href=\"https://link.springer.com/journal/10231\">https://link.springer.com/journal/10231</a><!-- m --> buona fortuna!</div>",
+    "date": "06/06/2018, 20:10",
+    "position": 258
+  },
+  {
+    "html": "<div class=\"content\">La linearità è implicita nel nome \"operatore\", no?</div>",
+    "date": "06/06/2018, 20:07",
+    "position": 259
+  },
+  {
+    "html": "<div class=\"content\">Cosa significa \"in Italia\"?</div>",
+    "date": "06/06/2018, 17:41",
+    "position": 260
+  },
+  {
+    "html": "<div class=\"content\">Non c'è nessun motivo per cui un lavoro dilettantistico debba essere revisionato; se vuoi che lo sia, rendilo compliante alle caratteristiche che un lavoro professionale deve avere.</div>",
+    "date": "06/06/2018, 16:34",
+    "position": 261
+  },
+  {
+    "html": "<div class=\"content\">E' evidente che tutto si riduce a calcolare il limite di \\(x\\mapsto x \\sin(\\pi-2\\arctan x)\\) per \\(x\\to \\infty\\), e <a href=\"https://math.stackexchange.com/questions/982838/asymptotic-approximation-of-the-arctangent\" class=\"postlink\">tenendo a mente che \\(\\arctan x \\underset{x\\to\\infty}\\asymp \\frac{\\pi}{2}-\\frac{1}{x}\\)</a> diventa un limite piuttosto facile.</div>",
+    "date": "06/06/2018, 12:49",
+    "position": 262
+  },
+  {
+    "html": "<div class=\"content\">Il \"prodotto cross\" nel piano è una operazione unaria: si tratta della mappa $k^2 \\to k^2$ che manda $(a,b)$ in \\((-b,a)\\). Chiaramente questo ultimo vettore determina una direzione ortogonale a quella di $(a,b)$ (vedi 1.13.2 <a href=\"http://www.math.unipd.it/~maurizio/m2m/AGLQ910pp.pdf#page=185\" class=\"postlink\">qui</a>).</div>",
+    "date": "06/06/2018, 12:15",
+    "position": 263
+  },
+  {
+    "html": "<div class=\"content\">Ma allora vedi che era un problema difficile!</div>",
+    "date": "06/06/2018, 12:10",
+    "position": 264
+  },
+  {
+    "html": "<div class=\"content\">Devi dimostrare che una prospettività è invertibile; una prospettività del resto è una applicazione tra rette proiettive \\(f :r\\to s\\) tale che esista un punto \\(P\\) per cui \\(f(X)=(X\\lor P)\\cap s\\):<br><br><div style=\"text-align: center;\"><img src=\"/forum/latexrender/pictures/cb76c92a206f2aff5dcf33a80e098e36.png\" title=\"\\xymatrix@M=0mm{\n&amp;&amp;\\bullet \\ar@{-}[ddr]^(1){fX}\\ar@{-}[dll]_(1){X}&amp; \\\\\n\\bullet \\ar@{-}[drrr]|\\circ_P &amp;&amp;&amp;\\\\\n&amp;&amp;&amp;\\bullet\n}\" alt=\"\\xymatrix@M=0mm{\n&amp;&amp;\\bullet \\ar@{-}[ddr]^(1){fX}\\ar@{-}[dll]_(1){X}&amp; \\\\\n\\bullet \\ar@{-}[drrr]|\\circ_P &amp;&amp;&amp;\\\\\n&amp;&amp;&amp;\\bullet\n}\" align=\"absmiddle\"></div>\n<br><br>Devi solo trovare l'inversa di questa mappa (puoi ragionare graficamente -è <span style=\"font-style: italic\">veramente</span> molto facile trovare l'inversa graficamente-, oppure metterti in un riferimento proiettivo comodo e trovare che matrice ha la soprastante a una prospettività).<br><br>Per mostrare che \\(f\\) è una prospettività se e solo se fissa \\(R=r\\cap s\\), un verso è ovvio: se \\(f\\) è una prospettività, \\((R\\lor P)\\cap s=R\\) perché $R$ stava su $s$. Viceversa, basta prendere due punti diversi da \\(R\\) e intersecare la retta \\(X\\lor fX\\) e la retta \\(Y\\lor fY\\); l'intersezione \\(P\\) di queste due rette è il punto di proiezione.</div>",
+    "date": "05/06/2018, 20:07",
+    "position": 265
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote class=\"uncited\"><div>sto chiedendo solo se è corretto scriverlo anche in quel modo con cui lo ha scritto, ed eventualmente il perché.</div></blockquote>\n<br>Sì, è perfettamente corretto senza aggiungere altro: l'azione del gruppo delle traslazioni del piano è fedele, quindi se $T_v=T_w$ allora $v=w$.<br><blockquote class=\"uncited\"><div>È l'insieme delle traslazioni o è l insieme ${T_v}$ costituito da un solo elemento?</div></blockquote>\n<br>Questi due insiemi si parsano in modo diverso, non esiste modo di confonderli se ti attieni alla notazione convenzionale.<br><blockquote class=\"uncited\"><div>È corretto dire che è un sottogruppo? </div></blockquote>\n<br>Certo; è isomorfo al gruppo \\((\\mathbb R^2, +)\\).</div>",
+    "date": "04/06/2018, 12:39",
+    "position": 266
+  },
+  {
+    "html": "<div class=\"content\">Devi dare una condizione su $q$ in modo che \\( \\sum_{n=1}^\\infty \\frac{q^n}{2n+1}\\) sia convergente, e poi imporre quella condizione a $q=\\sqrt{2x}-3$ per ottenerne una su $x$.</div>",
+    "date": "04/06/2018, 12:16",
+    "position": 267
+  },
+  {
+    "html": "<div class=\"content\">L'hai già detto tu: sono gli $x$ tali che $e^x&lt;1$.</div>",
+    "date": "03/06/2018, 22:50",
+    "position": 268
+  },
+  {
+    "html": "<div class=\"content\">Ma no, sarà semplicemente \"i singoletti\" e $A$ è l'insieme \\(\\{\\frac{1}{n}\\mid n\\ge 1\\}\\)...</div>",
+    "date": "03/06/2018, 19:37",
+    "position": 269
+  },
+  {
+    "html": "<div class=\"content\">No, molto più probabilmente $x$ è reale (considerandolo complesso è pieno di altri numeri per cui \\(-1\\le e^z\\le 1\\): non ce n'è nessuno per cui $e^z=0$, ma è pieno di altri per cui è negativo). In ambo i casi comunque la faccenda non cambia molto, la condizione di convergenza è quella.</div>",
+    "date": "03/06/2018, 19:16",
+    "position": 270
+  },
+  {
+    "html": "<div class=\"content\">Un sottoinsieme limitato di $RR$ è PJ-misurabile se e solo se la sua funzione caratteristica è Riemann-integrabile, se e solo se esso è Riemann-misurabile.<br><br>Ora, <a href=\"https://math.stackexchange.com/questions/337080/riemann-integral-of-fx-1-if-x-frac1n-where-n-in-n-or-0-otherwise\" class=\"postlink\">c'è una dimostrazione molto semplice</a> che l'insieme in questione è Riemann-misurabile, (di misura $0$), dato che \\(\\int_{[0,1]} f = \\int_{[0,\\alpha]}f&lt; 2\\alpha\\) per ogni $\\alpha &gt; 0$).</div>",
+    "date": "03/06/2018, 19:10",
+    "position": 271
+  },
+  {
+    "html": "<div class=\"content\">Ho l'impressione che l'unico problema in questo thread sia che quando tu leggi \"una traslazione\" pensi che sia \"una sola\". Non è così: alla rappresentazione intensiva di un insieme nella forma \\(\\{x\\mid \\lambda(x) \\}\\), dove $\\lambda$ è una proprietà, va preposta una quantificazione universale: stai considerando TUTTI gli x tali che $\\lambda(x) $.</div>",
+    "date": "02/06/2018, 07:54",
+    "position": 272
+  },
+  {
+    "html": "<div class=\"content\">Basta fare un disegno di quali punti stanno nel secondo insieme...</div>",
+    "date": "01/06/2018, 17:21",
+    "position": 273
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote><div>\n<cite>gugo82 ha scritto:</cite>Credevo che, oltre ad un po' d'Algebra, sapessi anche leggere... <img src=\"./images/smilies/icon_lol.gif\" alt=\":lol:\" title=\"Laughing\">\n</div></blockquote>\n<br>No, ho disimparato tempo fa. Oppure rispondevo da appena sveglio, ora non ricordo.<br><blockquote class=\"uncited\"><div>Esatto, serve proprio a questo.</div></blockquote>\n<br>Ah, ottimo, evviva! <img src=\"./images/smilies/icon_biggrin.gif\" alt=\":D\" title=\"Very Happy\">\n</div>",
+    "date": "01/06/2018, 16:09",
+    "position": 274
+  },
+  {
+    "html": "<div class=\"content\">Il polinomio caratteristico di \\(T|_U\\) (T ristretta a un sottospazio $T$-invariante) è semplicemente il fattore del polinomio caratteristico di $T$ che contiene gli autovettori che generano $U$.</div>",
+    "date": "01/06/2018, 14:23",
+    "position": 275
+  },
+  {
+    "html": "<div class=\"content\">Il più piccolo insieme che contiene {a} è esattamente {a}, se non specifichi altre condizioni.<br><br>Piuttosto, sembra che sia il sottomagma generato da a; a cosa serve, però, oltre che a rendersi conto che è l'insieme $\\mathbb N a$?</div>",
+    "date": "01/06/2018, 08:41",
+    "position": 276
+  },
+  {
+    "html": "<div class=\"content\">Prova a fare entrambe le cose (prima di usare il criterio della radice, dividi il polinomio $n^3+1$ per $2n^2-1$; il risultato è asintotico a \\((n\\tan(1/2n))^{n/2}\\), che è trattabile quando devi prenderne la radice $n$-esima)</div>",
+    "date": "31/05/2018, 22:36",
+    "position": 277
+  },
+  {
+    "html": "<div class=\"content\">Intendo che quella è la partizione indotta dalla relazione $R$ (che quindi è $\\Delta$ (la diagonale) unito $(1,2),(2,1),(1,3),(3,1),(2,3)$); questa mi sembra un'equivalenza.</div>",
+    "date": "31/05/2018, 21:03",
+    "position": 278
+  },
+  {
+    "html": "<div class=\"content\">\n<!-- m --><a class=\"postlink\" href=\"https://www.amazon.com/Abstract-Algebra-Graduate-Texts-Mathematics/dp/0387715673\">https://www.amazon.com/Abstract-Algebra ... 0387715673</a><!-- m --> <br><br>pronti. Ci voleva tanto? <img src=\"./images/smilies/icon_smile.gif\" alt=\":)\" title=\"Smile\">\n</div>",
+    "date": "31/05/2018, 20:05",
+    "position": 279
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote><div>\n<cite>marco.ve ha scritto:</cite>se $a \\in \\mathbb{Z}$ allora la sua parte stabile è $\\{na : n \\in \\mathbb{N}^{\\ne}\\}$.</div></blockquote>\n<br>No, quasi. Che è un modo educato di dire \"assolutamente no\" <img src=\"./images/smilies/001.gif\" alt=\":-)\" title=\"Happy\"><br><br><blockquote class=\"uncited\"><div>perchè anche $a-a$ sta nella parte stabile?</div></blockquote>\n<br>Perché fa 0, che sta in tutte le sotto-strutture che contengono un insieme $S$.<br><br>Per il futuro: non c'è ragione di usare tutta la potenza linguistica dell'algebra universale per strutture semplici come gruppi, gruppi abeliani, anelli e moduli; in ciascuno di questi casi esistono infatti caratterizzazioni equivalenti della sotto-struttura generata da un insieme, che sono molto più maneggevoli della definizione generale di \\(\\langle S\\rangle\\) (la sotto-struttura generata da $S$, e le parentesi uncinate sono il modo in cui i cristiani indicano le sotto-strutture generate) come intersezione sulla famiglia di tutte le sotto-strutture che sono sovrainsiemi di $S$.<br><br>\\(\\langle S\\rangle\\) si caratterizza come (per esempio, per i moduli) l'insieme delle somme finite \\(\\sum a_i s_i \\) al variare di $a_i\\in A$ (l'anello dei coefficienti) e di $s_i\\in S$; siccome un gruppo abeliano è niente più, niente meno, che un modulo sull'anello $ZZ$ degli interi, ne viene che \\(\\langle a \\rangle\\) è l'insieme \\(\\{na\\mid n\\in\\mathbb Z\\}\\). Il quale (che sorpresa!) è un gruppo abeliano isomorfo a $ZZ$ non appena \\(a\\ne 0\\).<br><br>PS: la smettiamo di chiamare \"parte stabile\" una sotto-struttura? Certe cose non si sentono dai tempi dei salotti della restaurazione! <br>Poi lamentiamoci che la matematica italiana è ferma all'Ottocento.</div>",
+    "date": "31/05/2018, 19:44",
+    "position": 280
+  }
+]
