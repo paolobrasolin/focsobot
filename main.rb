@@ -1,13 +1,13 @@
 # github_spider.rb
 require 'kimurai'
 
+USER_ID = 12354
+
 class GithubSpider < Kimurai::Base
   @name = "matematicamente_spider"
   @engine = :mechanize
   @start_urls = [
-    "https://www.matematicamente.it/forum/search.php?author_id=12354&sr=posts"
-    # "https://www.matematicamente.it/forum/search.php?st=0&sk=t&sd=d&sr=posts&author_id=12354&start=2750"
-    # "https://www.matematicamente.it/forum/ucp.php?mode=login"
+    "https://www.matematicamente.it/forum/search.php?author_id=#{USER_ID}&sr=posts"
   ]
   @config = {
     user_agent: "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36",
