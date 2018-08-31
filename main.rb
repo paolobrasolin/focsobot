@@ -1,37 +1,49 @@
-# github_spider.rb
 require 'kimurai'
 
 class GithubSpider < Kimurai::Base
+  USER_AGENTS = ["Chrome", "Firefox", "Safari", "Opera"]
+
   @name = "matematicamente_spider"
   @engine = :mechanize
   @start_urls = [
     "https://www.matematicamente.it/forum/search.php?author_id=12354&sr=posts"
-    # "https://www.matematicamente.it/forum/search.php?st=0&sk=t&sd=d&sr=posts&author_id=12354&start=2750"
-    # "https://www.matematicamente.it/forum/ucp.php?mode=login"
   ]
   @config = {
-    user_agent: "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36",
+    user_agent: -> { USER_AGENTS.sample },
     browser: {
-      before_request: { delay: 6..8 }
+      before_request: {
+        change_user_agent: true
+      }
     }
   }
 
   def parse(response, url:, data: {})
-    response.xpath("//ul[@class='searchresults']//a").each do |a|
-      request_to :parse_thread_page, url: absolute_url(a[:href], base: url)
-    end
+    if response.at_xpath("//form[@id='jumpbox']")
+      response.xpath("//ul[@class='searchresults']//a").each do |a|
+        request_to :parse_thread_page, url: absolute_url(a[:href], base: url)
+      end
 
-    if next_page = response.at_xpath("//fieldset[@class='display-options']//a[@class='right-box right']")
-      request_to :parse, url: absolute_url(next_page[:href], base: url)
+      if next_page = response.at_xpath("//fieldset[@class='display-options']//a[@class='right-box right']")
+        request_to :parse, url: absolute_url(next_page[:href], base: url)
+      end
+    else
+      puts "Got kicked out. Retrying in 15s..."
+      sleep 15
+      request_to :parse, url: url
     end
   end
 
   def parse_thread_page(response, url:, data: {})
-    id = url.split("%23").last
-    content = response.at_xpath("//div[@id='#{id}']//div[@class='content']")
-    date = response.at_xpath("//div[@id='#{id}']//p[@class='author']").
-                  text.split("»").last.strip
-    save_to "results.json", { html: content.to_s, date: date }, format: :pretty_json
+    if response.at_xpath("//form[@id='jumpbox']")
+      id = url.split("%23").last
+      content = response.at_xpath("//div[@id='#{id}']//div[@class='content']")
+      date = response.at_xpath("//div[@id='#{id}']//p[@class='author']").text.split("»").last.strip
+      save_to "killing_buddha.json", { html: content.to_s, date: date }, format: :pretty_json
+    else
+      puts "Got kicked out. Retrying in 15s..."
+      sleep 15
+      request_to :parse, url: url
+    end
   end
 end
 
