@@ -1,0 +1,77 @@
+[
+  {
+    "html": "<div class=\"content\">\\(\\subsetneq\\) è meglio di \\(\\subsetneqq\\), non trovi?</div>",
+    "date": "25/08/2018, 13:04",
+    "position": 1
+  },
+  {
+    "html": "<div class=\"content\">Leggi qui <!-- m --><a class=\"postlink\" href=\"https://en.wikipedia.org/wiki/Rank_of_an_abelian_group\">https://en.wikipedia.org/wiki/Rank_of_an_abelian_group</a><!-- m --><br><br>la nozione di rango si usa solitamente per gruppi abeliani finitamente generati, tuttavia con un po' di fantasia la si  può adattare a gruppi non f.g. (per esempio, a $QQ$)</div>",
+    "date": "23/08/2018, 08:22",
+    "position": 2
+  },
+  {
+    "html": "<div class=\"content\">Beh, (ii) è detto in modo molto confuso, non si capisce cosa hai trovato alla fine.</div>",
+    "date": "19/08/2018, 14:51",
+    "position": 3
+  },
+  {
+    "html": "<div class=\"content\">E' una ricorrenza lineare molto semplice: <a href=\"http://nms.lu.lv/wp-content/uploads/2016/04/21-linear-recurrences.pdf\" class=\"postlink\">qui</a> c'è spiegata una procedura per risolverla; devi sostanzialmente trovare le radici di<br>\\[<br>\\lambda^3 -2\\lambda^2 -9\\lambda+18<br>\\] (è facile, questo polinomio si fattorizza come \\((\\lambda-2)(\\lambda-3)(\\lambda+3)\\)) e imporre che una combinazione lineare delle successioni \\(n\\mapsto 2^n, n\\mapsto 3^n, n\\mapsto (-3)^n\\) soddisfi alle condizioni iniziali che ti sono state date.<br> Con questa soluzione, verifichi se le disuguaglianze che ti propongono sono vere o false.</div>",
+    "date": "19/08/2018, 14:29",
+    "position": 4
+  },
+  {
+    "html": "<div class=\"content\">Non ce ne sono.<br><dl class=\"codebox\">\n<dt>Codice:</dt>\n<dd><code>u = set(filter(lambda x: (30 * x)  % 900 == 0, range(900)))<br>v = set(filter(lambda x: (x ** 30) % 900 == 1, range(900)))<br>u.intersection(v)<br>&gt;&gt;&gt; set([])<br></code></dd>\n</dl>\n</div>",
+    "date": "19/08/2018, 14:11",
+    "position": 5
+  },
+  {
+    "html": "<div class=\"content\">Se \\(f : V \\to W\\) è una funzione tra \\(K\\)-spazi vettoriali, essa si dice omogenea di grado \\(d\\) se per ogni \\(\\lambda \\in K\\) si ha \\(f(\\lambda v) = \\lambda^d f(v)\\), per un intero \\(d\\in \\mathbb N\\) che si dice \"grado\" della funzione omogenea.<br><br>Puoi divertirti a dimostrare che se \\(V=W=K[X_0,\\dots, X_n]\\) è un anello di polinomi nelle \\(n+1\\) indeterminate \\(X_0,\\dots, X_n\\) allora l'insieme \\(K[\\underline X]_\\text{h}\\) delle funzioni polinomiali omogenee \\(V \\to K\\) si identifica all'insieme dei polinomi omogenei, ossia di quei polinomi ogni monomio dei quali ha grado esattamente \\(d\\), al variare di \\(d\\in \\mathbb N\\).<br><br>Mostra anche che esiste una coppia di funzioni<br><br>- affineizzazione: \\({\\bf a}: K[\\underline X]_\\text{h} \\to K[T_1,\\dots,T_n]\\) che manda \\(p\\) in \\(p(1,T_1, \\dots, T_n)\\)<br>- omogeneizzazione: \\({\\bf h}:K[T_1,\\dots, T_n]\\to K[\\underline X]_\\text{h}\\) che manda \\(q\\) in \\(X_0^{\\deg q} q\\big(\\frac{X_1}{X_0},\\dots, \\frac{X_n}{X_0}\\big)\\).</div>",
+    "date": "19/08/2018, 13:59",
+    "position": 6
+  },
+  {
+    "html": "<div class=\"content\">E' molto più sensato ed istruttivo che tu posti un esempio di serie che devi studiare, poi si ragiona su quella.</div>",
+    "date": "17/08/2018, 17:19",
+    "position": 7
+  },
+  {
+    "html": "<div class=\"content\">Sì, certo; ora lo preciso.</div>",
+    "date": "17/08/2018, 09:28",
+    "position": 8
+  },
+  {
+    "html": "<div class=\"content\">Siccome c'è un certo interesse a fare esercizi sugli spazi metrici...<br><br>Mostrate che se $(X,d)$ è uno spazio metrico separabile, allora ogni catena<br>\\[<br>U_0 \\subseteq U_1 \\subseteq\\cdots \\subseteq U_\\alpha\\subseteq \\cdots<br>\\] di aperti non vuoti (ossia ogni funzione monotòna $\\gamma \\to Op(X)$, dove $\\gamma$ è un ordinale e $Op(X)$ il poset degli aperti di $X$) ha immagine al più numerabile.</div>",
+    "date": "17/08/2018, 00:31",
+    "position": 9
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote><div>\n<cite>Lèo ha scritto:</cite>Come ci sei arrivato?</div></blockquote>\n<br>Ha chiesto al fantasma di Lebesgue.<br><br>Come vuoi che ci sia arrivato? Hai dei dati, devi far tornare un conto, dài dei calci al problema finché non risponde. <img src=\"./images/smilies/003.gif\" alt=\":-D\" title=\"\"><br><br>Più seriamente: forse una isometria tra $[0,1]$ e $[a,b]$ induce \"in qualche modo\" una isometria tra \\(C([0,1])\\) e \\(C([a,b])\\).</div>",
+    "date": "14/08/2018, 19:55",
+    "position": 10
+  },
+  {
+    "html": "<div class=\"content\">Tu sei il fisico, no? <br><br>Fai tutto fino a IX, lascia perdere la teoria di Galois e la teoria dei campi (non è la stessa teoria dei campi dei fisici, come avrai notato). Anelli e moduli sono molto importanti (è esattamente il tipo d'algebra che vi serve, e che si ostinano a non insegnarvi), ma per impararla c'è tempo.<br><br>Non azzardarti nemmeno per sogno a evitare di imparare la differenza tra la rappresentazione di un gruppo e la _sede_ di quella rappresentazione. Se fai fisica e salti il capitolo sulle azioni, e me ne accorgo, vengo a cercarti a casa e ti metto personalmente le mani in faccia. <img src=\"./images/smilies/icon_syda.gif\" alt=\":heart:\" title=\"Heart\">\n</div>",
+    "date": "14/08/2018, 19:54",
+    "position": 11
+  },
+  {
+    "html": "<div class=\"content\">E' una buona idea familiarizzare con i quozienti, oppure non capirai la nozione di completamento. <br><br>Il completamento metrico di uno spazio metrico \\((X,d)\\) si ottiene da un quoziente dello spazio delle sue successioni di Cauchy su $X$, $Cauchy(X)$. Il quoziente che devi fare è rispetto alla relazione di equivalenza che dice che due successioni \\({\\bf x}, {\\bf y}\\) sono simili, \\({\\bf x} \\approx {\\bf y}\\), se e solo se la successione \\(\\{d(x_n, y_n)\\mid n\\in \\mathbb N\\}\\) è infinitesima.<br><br>$Zero(X)$ è la relazione che ho appena descritto. (chi è, ad esempio, quando $X$ è lo spazio metrico dei razionali?)<br><br>Qui ci sono delle informazioni in più: <!-- m --><a class=\"postlink\" href=\"https://proofwiki.org/wiki/Completion_Theorem_(Metric_Space\">https://proofwiki.org/wiki/Completion_T ... tric_Space</a><!-- m -->)<br><br>In particolare, nota che il completamento di $X$ ha la seguente proprietà universale: ogni volta che $f : X \\to Y$ è una mappa di spazi metrici e $Y$ è completo, esiste un'unica estensione di $f$ ad una mappa di spazi metrici $\\bar f : \\overline X \\to Y$.</div>",
+    "date": "14/08/2018, 19:50",
+    "position": 12
+  },
+  {
+    "html": "<div class=\"content\">Il completamento di $X$ è il quoziente \\(Cauchy(X)/Zero(X)\\); ora, se $X$ è discreto...</div>",
+    "date": "14/08/2018, 15:41",
+    "position": 13
+  },
+  {
+    "html": "<div class=\"content\">\n<blockquote><div>\n<cite>Lèo ha scritto:</cite>Ottimo. Mi ero convinto però che nell'ipotesi \\(\\displaystyle x_n, y_n \\) di Cauchy si possa dimostrare che \\(\\displaystyle a_n \\) sia convergente. E' una cosa vera o me la sto sognando?</div></blockquote>\n<br>Beh, \\(a_n\\) converge a \\(d(x,y)\\) quando \\(x_n\\to x, y_n\\to y\\), e le convergenti sono di Cauchy; ma le Cauchy non sono convergenti (devi supporre di stare in uno spazio completo). Quindi può benissimo essere che (ad esempio) \\(x_n, y_n\\) non convergano in \\(X\\), e siano di Cauchy; allora \\(a_n\\) è di Cauchy ma non converge nell'insieme di valori assunti dalla metrica.<br>Penso che il massimo che puoi dire è che <span style=\"font-style: italic\">nel completamento</span> la metrica estesa \\(\\overline d : \\overline{X}\\times\\overline{X}\\to [0,\\infty)\\) è tale che \\(a_n \\xrightarrow{n\\to \\infty} \\overline d(x,y)\\) dove \\(x,y\\) sono i limiti di \\(x_n, y_n\\) che hai aggiunto in \\(\\overline X\\).</div>",
+    "date": "14/08/2018, 13:46",
+    "position": 14
+  },
+  {
+    "html": "<div class=\"content\">Inizia scrivendo a cosa corrisponde \\(W^\\perp\\) e come puoi rappresentarlo equazionalmente. Magari è una buona idea capire chi è questo sottospazio quando $V$ sono le matrici $2\\times 2$, e non $3\\times 3$: forse funziona in maniera simile in ogni dimensione <img src=\"./images/smilies/001.gif\" alt=\":-)\" title=\"Happy\">\n</div>",
+    "date": "14/08/2018, 13:36",
+    "position": 15
+  }
+]

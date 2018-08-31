@@ -1,12 +1,15 @@
 require 'kimurai'
 
+USER_ID = 12354
+OUTPUT_FILE = "killing_buddha.json"
+
 class GithubSpider < Kimurai::Base
   USER_AGENTS = ["Chrome", "Firefox", "Safari", "Opera"]
 
   @name = "matematicamente_spider"
   @engine = :mechanize
   @start_urls = [
-    "https://www.matematicamente.it/forum/search.php?author_id=12354&sr=posts"
+    "https://www.matematicamente.it/forum/search.php?author_id=#{USER_ID}&sr=posts"
   ]
   @config = {
     user_agent: -> { USER_AGENTS.sample },
@@ -38,7 +41,7 @@ class GithubSpider < Kimurai::Base
       id = url.split("%23").last
       content = response.at_xpath("//div[@id='#{id}']//div[@class='content']")
       date = response.at_xpath("//div[@id='#{id}']//p[@class='author']").text.split("»").last.strip
-      save_to "killing_buddha.json", { html: content.to_s, date: date }, format: :pretty_json
+      save_to OUTPUT_FILE, { html: content.to_s, date: date }, format: :pretty_json
     else
       puts "Got kicked out. Retrying in 15s..."
       sleep 15
